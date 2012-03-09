@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: rails | My Octopress Blog]]></title>
+  <title><![CDATA[Category: rails | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-03-09T17:36:14-06:00</updated>
+  <updated>2012-03-09T17:44:12-06:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[ryland]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
