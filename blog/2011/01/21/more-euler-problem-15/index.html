@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>More Euler: Problem 15 - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="So I came upon problem 15 last night, after finishing up 12, 13, and 14. Though I was done for the night, and an obvious solution wasn&#8217;t &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://ryalnd.github.com/blog/2011/01/21/more-euler-problem-15">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:ryalnd.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">More Euler: Problem 15</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-21T11:49:36-06:00" pubdate data-updated="true">Jan 21<span>st</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>So I came upon problem 15 last night, after finishing up 12, 13, and 14.  Though I was done for the night, and an obvious solution wasn&#8217;t immediately apparent, I knew one thing: buried in my mind somewhere is the answer to this problem.  I knew I had done math like this before, I just had to figure out to what class this problem belonged.</p>
+
+<p>That, though, turned out to be pretty frustrating.  I turned off my monitor and tried to sleep, but couldn&#8217;t help thinking about the problem.  At first I tried to think of the grid as a graph (which was obviously easy), with intersections being nodes and lines edges, under the assumption that perhaps this was some type of network flow problem.  I soon realized that this was a much simpler problem than that, which made me consider it even more (instead of sleeping, mind).</p>
+
+<p>The arrows in the diagram apparently threw me at first; this was not a network problem.  I started thinking along the right lines as soon as I dozed off: I knew it wasn&#8217;t &#8216;wrong&#8217; to think of the grid as a graph, with limited paths, and that a choice was being made at each node (whether to go down or right).  The rest came just right now.</p>
+
+<p>I hadn&#8217;t consciously thought of it until my mind came back to it just now.  The breakthrough came when I realized that each possible path was of the same length (W + L or 2L, same here) and consisted of an equal number (here, L) of &#8216;down&#8217; and &#8216;right&#8217; moves.</p>
+
+<p>It sometimes helps when I write things out visually, so to represent this to myself I wrote out the example 2x2 grid paths as binary: 0011, 0101, 0110, 1001, 1010, 1100.</p>
+
+<p>Only then did I FINALLY, embarrassingly realize what this problem was: really basic combinatorics.  Here&#8217;s how I broke down the problem: given an nxn grid, what it&#8217;s really asking is how many ways you can arrange n/2 1s and n/2 0s along a string of length n.  Since, however, these 0s and 1s are indistinguishable, the answer ends up being &#8216;n choose n/2&#8217;, or:</p>
+
+<pre><code>  n!
+------
+2(n/2)!
+</code></pre>
+
+<p>The only real programming I did for this one was calculating those factorials, which in python (or any language) is pretty trivial.  Problem 15 down.</p>
+
+<p>I biked downtown today.  It was cold.  Like, -13° windchill cold.  I needed some exercise, though, to work off this cold I&#8217;ve had.  It was worth it just to see her smile.</p>
+
+<p>I realized earlier that I&#8217;d never chronicled my experience with Dropquest 2011.  For right now I&#8217;ll just say it was incredibly fun and rewarding; I live for that kind of thing.  Maybe I&#8217;ll expound a bit more later.  Until then.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-21T11:49:36-06:00" pubdate data-updated="true">Jan 21<span>st</span>, 2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/math/'>math</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ryalnd.github.com/blog/2011/01/21/more-euler-problem-15/" data-via="" data-counturl="http://ryalnd.github.com/blog/2011/01/21/more-euler-problem-15/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2011/01/20/euler-oilier/" title="Previous Post: Euler, Oilier.">&laquo; Euler, Oilier.</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2011/01/26/im-bored/" title="Next Post: I'm Bored">I'm Bored &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/08/05/life-upgraded/">Life: Upgraded.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/01/work-vs-not-work/">Work vs. Not-Work</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/06/12/busyness-business/">Busyness, Business</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/05/28/quickie/">Quickie</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/05/25/much-more-excitinger/">Much More Exciting(er)</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

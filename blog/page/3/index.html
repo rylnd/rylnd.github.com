@@ -1,0 +1,539 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="Well. I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out HERE.  A few notes &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://ryalnd.github.com/blog/page/3">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:ryalnd.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/13/something-useful/">Something Useful</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-13T17:01:23-06:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Well.</p>
+
+<p>I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out <a href="http://ry-land.com/dev/cl.html">HERE</a>.  A few notes about it:</p>
+
+<ul>
+<li>I did not go and learn the correct way to program in Ruby, as I claimed I would before finishing this.  Although I did learn some basic Ruby syntax in the work I&#8217;ve done on this so far, I mostly grew impatient and decided to hack out a solution tonight.</li>
+<li>No really, this is a hack.  I decided I wanted sorting so I quickly found a javascript table sorter and based my output around that code (which is most noticeable with the * before January postings [yay alphabetic sorting!]).
+
+<ul>
+<li>The date was particularly problematic, considering that the page I was parsing gave dates in a <code>%a %b %d</code> format (i.e. &#8216;Thu Jan 10&#8217;).  This meant I could either write my own code to figure out the year (which would still be a hack, and vary depending on the current date) or just hack it like I did (albeit temporarily)</li>
+</ul>
+</li>
+<li>Relating to that last point, I was considering storing this data in a database. This would make sorting a simple matter of changing the query, but that kind of stuff is easy and wouldn&#8217;t really help me or the page in any significant way; that&#8217;s probably not going to happen.</li>
+<li>The script as it stands is just writing an HTML file from its data.  While I could have had it do this in-place, I&#8217;m actually storing the jobs individually as objects in an array, and then later writing them out.  This is obviously wasteful but again, at this scale who cares (as long as I&#8217;m aware of it, right?).</li>
+<li>I set up the script to run every half-hour during normal business hours.  I thought that was cool.</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/11/scraping-the-day-away/">Scraping the Day Away</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-11T19:14:13-06:00" pubdate data-updated="true">Jan 11<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So I&#8217;ve been tinkering with Ruby/Rails, using Mechanize to try and whip up a quick scraper for craigslist to aid me in my job search.</p>
+
+<p>I know it&#8217;s not a novel or particularly interesting idea, but practice is practice, right?  I feel like I&#8217;m learning <em>something</em> and I&#8217;m definitely not comfortable with the language, so that&#8217;s good, right?</p>
+
+<p>I mentioned earlier how I was impressed with how easily I was able to retrieve an array of link objects from a given page (seriously, 2 lines).  That still stands.  It seems that craigslist is particularly difficult for this kind of task, or at least this particular tool (in how I&#8217;ve come to know it in these past few hours).  The problem is that craigslist&#8217;s DOM &#8216;tree&#8217; has lots of leaves.  These leaves are the data that I want.  So instead of using Mechanize&#8217;s neat features, I&#8217;m stuck basically just iterating through these leaves finding what I want.</p>
+
+<p>That probably doesn&#8217;t make sense.  The point is, I need to learn more about all this before I actually try to write something.  In two hours I managed to write what&#8217;s basically just a compilation of several craigslist pages, and it works, but I know that this was a very, very naive approach.  I wrote a similar tool in Java over the summer for a job interview, and as it stands I&#8217;m not really using anything novel in the Ruby version (yet!).</p>
+
+<p>The page is up on my site, but I&#8217;m not going to provide a link right now.  If you really cared (which you shouldn&#8217;t) you could probably find it.</p>
+
+<p>This blog seems to have taken a somewhat negative turn as of the past few posts, so I wanted to say something about that:</p>
+
+<blockquote><p>The point of this blog is to chronicle my technical projects, my personal life, and my job search.  What may be thought of as negative is generally the more interesting topic, for me at least.  I was discussing the shortcomings of this Ruby project not because I dislike Ruby but because I find it to be more helpful/thought-provoking than writing about some small success in said project.</p></blockquote>
+
+<p>I think I&#8217;m done for the night.  Tomorrow&#8217;s goal: learn Ruby!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/08/i-told-you/">I Told You!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-08T18:32:06-06:00" pubdate data-updated="true">Jan 8<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Wow.</p>
+
+<p>After posting earlier tonight I modified a WP theme so that the blog fits better with the main site.</p>
+
+<p>I also spent some time installing Ruby, Rails, and the gem Mechanize.</p>
+
+<p>My friend said that using Ruby for scraping would be easy, but &#8230; wow.  I wasn&#8217;t expecting this much power.  With 3 lines of code I&#8217;m halfway done with what I originally wanted.</p>
+
+<p>I&#8217;m definitely going to be working on this tomorrow.  I&#8217;ll let you know when I&#8217;ve got a working version together.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/08/oh-right-2011/">Oh Right. 2011.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-08T16:08:24-06:00" pubdate data-updated="true">Jan 8<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Second Saturday of the new year and I&#8217;m feeling just as lazy as 2010.  The difference?  Uhh &#8230; I&#8217;m writing this post!</p>
+
+<p>Haven&#8217;t written in a couple weeks.  I went home for the holidays, which was nice.  Got to see lots of friends and family that I&#8217;ve not in a long time.  I also got a bike stand for easier home repairs, and most excitingly a Kindle.  I&#8217;ve had a lot of technical/educational documents on my computer for a while now, mostly in pdf, and I&#8217;m excited to finally have more opportunities to read them.</p>
+
+<p>Made a little progress on Euler since we last talked, but I certainly haven&#8217;t hit my previous &#8216;one a day&#8217; goal.  Did a few easy ones (16, 20) before I even went home for the holidays, and not much since.</p>
+
+<p>It&#8217;s definitely fun to write these in an unfamiliar language (Python) and I might try a few other languages as well.</p>
+
+<p>I&#8217;ve had a few ideas for little projects I want to work on.  One&#8217;s writing my own WP theme.  I think it&#8217;d be good practice, and would definitely help the feel of the blog vs. the main site, and I could add/remove functionality and links depending on what I am/am not using.  I mentioned before also wanting bypass any blog software completely and just write my own, but both of those are things I&#8217;m not in any rush to do.</p>
+
+<p>The other and more pertinent idea is writing a craigslist scraper to do my daily craigslist perusals for me.  It certainly won&#8217;t be hard or really something I haven&#8217;t done before, so I was thinking about writing it in another language (I was thinking Ruby).</p>
+
+<p>Thinking about that a little further, though, I failed to come up with any solid reason to do so, and found the same was true for any short-term project in a new language, for someone in my position.</p>
+
+<p>My original motivation behind these little projects was threefold:  in writing them, I would be getting:</p>
+
+<ul>
+<li>practice</li>
+<li>with a new concept (say, web scraping)</li>
+<li>in a new language (say, Ruby)</li>
+</ul>
+
+
+<p>Then I asked myself: would any employer <em>really</em> care that I took a day to write a web scraper in Ruby?  Sure, it shows motivation and enthusiasm, but couldn&#8217;t one say that about a college degree as well (at least, one in a hard science)?</p>
+
+<p>Another point I was trying to prove, my ability to learn new languages, upon closer inspection also seems something that should be self-evident.  My college career was spent solving problems in languages A, B, and C.  My student job had me solving problems in languages D and E.  Should I really have to prove that I can solve problems in your language X, before being hired to do so?</p>
+
+<p>I feel like that last point is the most frustrating part of my whole job search, and a serious shortcoming in regards to hiring practices for programmers.  The problem comes from these listings for &#8216;Junior/Entry-Level&#8217; positions requiring anywhere from 2 to 7 years&#8217; experience with a language.</p>
+
+<p>Now, I know that I do not have 7 years&#8217; experience with any language.   I feel uncomfortable saying I have 2 years&#8217; experience with the languages I used in college (over 4 years&#8217; time).  In reality, I have no professional experience with <em>any</em> language.</p>
+
+<p>My problem has become: If I need this experience for an entry-level position &#8230; where do I enter?</p>
+
+<p>Getting back to the original discussion, one day-long project in a new language is not going to qualify me for any job that I wasn&#8217;t already qualified for.</p>
+
+<p>In fact, I don&#8217;t believe that any amount of programming would make me more qualified for a job than I am now.  That&#8217;s not to say that it wouldn&#8217;t make me a more productive worker at the beginning of hire, during what would be that training/learning period.  But how long would that period <em>really</em> be if you&#8217;re hiring the intelligent, competent worker you expect?</p>
+
+<p>I guess it all comes down to those concepts of intelligence and competence.  Employers need indications of such, and look for it mainly in documented experience.  My problem lies with the fact that the college degree is no longer seen as such, for reasons I won&#8217;t get into here.</p>
+
+<p>Don&#8217;t get me wrong, I&#8217;m still doing these projects.  I just no longer believe they&#8217;ll help me get a job.</p>
+
+<p>Anyone have any ideas to help me get my foot in the door?</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/12/20/i-love-math-also-programming/">I Love Math. Also Programming.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-12-20T04:00:24-06:00" pubdate data-updated="true">Dec 20<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Dropped the lady off at work this morning, and have been reading HN since I got home.</p>
+
+<p>If you frequent HN you probably saw this post but I wanted to share because it&#8217;s beautiful:</p>
+
+<p><a href="http://www.reddit.com/r/math/comments/eo4e1/respectful_question_you_guys_actually_like_this/c19lh2k">Why I love math</a></p>
+
+<p>The elegance of that description is just amazing.  I read it and immediately identified with the author.  I&#8217;m sure I&#8217;m nowhere near his level of understanding, but that expression of math as a language, and the idea of transcending the minutia of it to see its beauty really struck a chord in me.</p>
+
+<p>That&#8217;s it for now.  I did problem 11 a few days ago.  I managed to get it on the second try only because of a typo on my first compilation; I was taking one of the neighbors twice in a product, so got a larger max than possible.</p>
+
+<p>That one took me more than a few minutes (mostly because of I/O[mostly I]) and I was disappointed to learn that there wasn&#8217;t a more elegant solution than just brute-forcing it.  That&#8217;s what I had done, and my solution was on the order of ~2ms, but I had hoped to be amazed by greater minds.  Maybe tomorrow.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/12/15/car-talk/">Car Talk</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-12-15T14:50:57-06:00" pubdate data-updated="true">Dec 15<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Well, it&#8217;s been a while but something finally broke again on the car.  Repairs on mine and my brother&#8217;s Buick are a bit like &#8216;hot potato:&#8217; it seems whoever&#8217;s in possession of the vehicle at the time is responsible for payment.</p>
+
+<p>This time it ended up being a (what I imagine to be) tiny hole in the rear brake line, resulting in a quick and simple fix, for a hefty fee.  Most of the local shops were all backed up so that was unfortunate, but a chain brake shop was able to fix it in only a few hours.</p>
+
+<p>Heading out to Manitowoc tomorrow to see Amanda&#8217;s brand-spanking-new nephew; that should be fun and horrifying all at once.  Meeting new faces is usually like that for me, though.  Hopefully we&#8217;ll have time to go to the casino so I can blow some more money.</p>
+
+<p>I think my work on fourcafe.com is finally done; I should be getting paid soon for that, thankfully.</p>
+
+<p>Finished problems 8,9, and 10 on Project Euler just now.</p>
+
+<p>Ok, gotta run, Jared&#8217;s here.  We&#8217;re going to the Comedy Club.</p>
+
+<p>Peace.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/12/13/project-euler/">Project Euler</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-12-13T20:33:43-06:00" pubdate data-updated="true">Dec 13<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>OK.  I&#8217;ve decided to try and finish one problem from Project Euler per day.  I&#8217;m sure that will get more and more unreasonable as I finish up the easier ones, but I figure it&#8217;ll give me some practice at something.</p>
+
+<p>I&#8217;ll try and track progress here, along with posting whatever code I used to come to the answer.</p>
+
+<p>UPDATE(3:30AM):</p>
+
+<p>Finished problems 4 and 6.  I’ve got the first 7 done now.  Will post some code tomorrow (maybe).</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/11/05/first/">First!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-11-05T01:34:03-05:00" pubdate data-updated="true">Nov 5<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So, uh. Yeah.  This is pretty much just a placeholder.  I&#8217;ll add something interesting later.  I&#8217;m going to write a word generator for the main site first.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/2/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/08/05/life-upgraded/">Life: Upgraded.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/01/work-vs-not-work/">Work vs. Not-Work</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/06/12/busyness-business/">Busyness, Business</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/05/28/quickie/">Quickie</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/05/25/much-more-excitinger/">Much More Exciting(er)</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

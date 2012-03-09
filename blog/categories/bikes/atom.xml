@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: bikes | My Octopress Blog]]></title>
+  <link href="http://ryalnd.github.com/blog/categories/bikes/atom.xml" rel="self"/>
+  <link href="http://ryalnd.github.com/"/>
+  <updated>2012-03-09T17:36:14-06:00</updated>
+  <id>http://ryalnd.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Busyness, Business]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/06/12/busyness-business/"/>
+    <updated>2011-06-12T14:57:23-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/06/12/busyness-business</id>
+    <content type="html"><![CDATA[<p>It's been a while since I wrote anything, but I've been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
+
+<p>I was approached by Steve at Spreenkler about two weeks ago.  He asked if I'd be interested in working as a developer for one of the teams in their summer <a href="http://spreenklertalentlabs.org/startup/?page_id=4">Incubator Program</a>.  My old job was incredibly understanding about the opportunity, and after a few meetings and a trip to Milwaukee I was part of Jungol, Inc.  Expect a more detailed post about the team and what I'm doing (hint: I'm <em>the</em> developer) in the near future, when I have some more time.</p>
+
+<p>Started doing some <a href="http://4clojure.com">4Clojure</a> problems.  I thought "Hey, I'm getting it!" until I enabled Golf Mode and saw how my problems (at least length-wise) compared to others' on the site.  Rest assured that I'm working on it; I've got the first 25 problems done so far.</p>
+
+<p>I added a header to the site.  Not sure if I really like it, but it adds color and I didn't cringe upon seeing it the next day (stepping away from it for a while is always a good choice), so it's here to stay.  I'll be making small changes here and there, dependent on time and interest.</p>
+
+<p>Frisbee is going good; we're 2-1 and we finally got our sweet jerseys.
+It's been quite an ordeal trying to find an organize a team (yes, even for a 'sport' like Ultimate Frisbee), but I'm pretty damn happy with the results.  I've been trying to organize everything on Google (Mail, Documents, Calendar) and while I created the tools for my team to use, I certainly can't force their utilization.  Oh, well.  At least people are showing up to games (and winning them).</p>
+
+<p>Amanda and I went to the <a href="http://www.clipsoffaith.com/">Clips of Faith</a> Tour at Olin Park on Friday, and that was a blast.  Highlights:</p>
+
+<ul>
+<li>Really good beer, relatively cheap</li>
+<li>Free handlebars upon entry</li>
+<li>Entry to win the New Belgium cruiser</li>
+<li>Delicious vegan nachos</li>
+<li>Really cool short films</li>
+</ul>
+
+
+<p>Lastly, I've finally taken the leap and bought a MacBook Pro.  While I've supported OS X in previous jobs I've never actually owned or used it.  I'm mostly using the terminal for development anyways, so work-wise it's not that big of a jump from linux.</p>
+
+<p>However, I'm also <strong>moving from Emacs to vim</strong>, which is a more considerable jump.  I'd used vim previously in college, but have done most of my serious programming with Emacs in the last year or two.  That's going much better than I would have expected, though.  I don't think I'm ready for any significant plugins right now but I'm going to be using vim from now on and see how it goes.</p>
+
+<p>The reason for vim?  Why, my third and final paradigm shift:  I'm using Ruby on Rails as the framework for this startup project.  I spent last week learning as much as I could while getting my new workstation set up, and spent Saturday at Bendyworks for the Ruby Hack Day Meetup.  Everyone was super nice and helpful as usual; the only thing keeping me from learning more was my reluctance to speak up and ask for help.  I got a basic rails project up, and will be getting some actual guts in there this week.  The only thing I'm missing is a testing framework (I'm going to be using rspec, if any, but it's not in there yet).  I'm currently debating whether unit testing would be reasonable at this point, given the already steep learning curve I'm facing.  I'm probably going to hold off for the first few basic features, and maybe reassess the situation in a few weeks.</p>
+
+<p>The Ruby/Rails hurdle is going to be a huge one, as I'm quickly learning, but I'm really excited to have this opportunity.  As a consequence I've been doing more hacking than sleeping, and it's really starting to catch up with me.  It's an absolute blast, and in my mind it's not work at all, but my body is beginning to disagree with me.</p>
+
+<p>On that note, I think it's time I rest my weary head a bit.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An Intimate Look]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/01/13/an-intimate-look/"/>
+    <updated>2011-01-13T17:13:34-06:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/01/13/an-intimate-look</id>
+    <content type="html"><![CDATA[<p>I know I just wrote that last post about the Ruby scraper, but I wanted to take a quick second to talk quickly about what else I've been doing with my time.</p>
+
+<p>Mostly, I've been reading.  This summer I discovered/fell in love with David Foster Wallace, and have read 5 of his books since then.  I'd been checking them out from the library, but asked for 'A Supposedly Fun Thing . . .' for Christmas and will probably finish that tonight.</p>
+
+<p>Since I returned from Kenosha I've been riding my bike anywhere within reason when I need transportation.  I had gotten lazy in December and started driving everywhere, but I'm back on the saddle and feel much better doing so.</p>
+
+<p>I've got several things on my Kindle that I've been slowly getting through.  The details aren't important, but topics include Ruby, Lisp, regex, Clojure, and a bunch of other things I'm really interested (but severely lacking) in.</p>
+]]></content>
+  </entry>
+  
+</feed>

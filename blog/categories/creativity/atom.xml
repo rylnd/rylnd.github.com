@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: creativity | My Octopress Blog]]></title>
+  <link href="http://ryalnd.github.com/blog/categories/creativity/atom.xml" rel="self"/>
+  <link href="http://ryalnd.github.com/"/>
+  <updated>2012-03-09T17:36:14-06:00</updated>
+  <id>http://ryalnd.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Instant Morale Boost]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/04/27/instant-morale-boost/"/>
+    <updated>2011-04-27T02:26:26-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/04/27/instant-morale-boost</id>
+    <content type="html"><![CDATA[<p>I know I've mentioned the frustration I've been feeling with my work, and maybe I've even hinted that, in the back of my mind, I knew I just had to persevere.   But to hear someone as well-known and respected as Ira Glass say that these feelings, this 'gap' (see below) is commonplace and almost expected in one's career, was exactly what this post's title suggests.</p>
+
+<p>Am I still frustrated with the quality of my work?  Absolutely.  But whereas before I only had my own intuition to keep me going, I now have Ira Glass telling me it's alright:</p>
+
+<blockquote><p>Nobody tells this to people who are beginners, I wish someone told me. All of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it's just not that good. It's trying to be good, it has potential, but it's not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you. A lot of people never get past this phase, they quit.</p></blockquote>
+
+<p><a href="http://kottke.org/11/04/your-taste-is-why-your-own-work-disappoints-you">Here's the page</a> where I found the interview, and the <a href="http://www.youtube.com/watch?v=BI23U7U2aUY">embedded video</a> of part of it.</p>
+
+<p>It's 8:23am, and the future is bright.</p>
+]]></content>
+  </entry>
+  
+</feed>

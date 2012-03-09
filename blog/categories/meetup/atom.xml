@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: meetup | My Octopress Blog]]></title>
+  <link href="http://ryalnd.github.com/blog/categories/meetup/atom.xml" rel="self"/>
+  <link href="http://ryalnd.github.com/"/>
+  <updated>2012-03-09T17:36:14-06:00</updated>
+  <id>http://ryalnd.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Quick Post]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/05/25/quick-post/"/>
+    <updated>2011-05-25T17:23:36-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/05/25/quick-post</id>
+    <content type="html"><![CDATA[<p>First: I started this post on Monday, but never got around to finishing it.</p>
+
+<p>Went to the Mad Railers meetup Monday, despite my body requesting otherwise.  I figure if I don't have the time to sit down and learn Ruby right myself right now, I should at least take advantage of these local groups.</p>
+
+<p>The topic was testing, and while that might not be where most people would start when learning a new language (myself included), I have no doubts that it will help me in the long run.  There were a few great talks and I learned quite a bit.  I'm slowly putting the framework together in my mind, piece by piece.</p>
+
+<p>My general approach to learning practical programming has been 'abstraction is a treat that must be deserved.'  While higher-level languages are amazing and I absolutely cannot wait to use them professionally, at the same time I feel like I need to program a little 'lower' for a while to appreciate and understand things to a reasonable degree.  Subsequently a good deal of what I do has holes and certainly isn't as comprehensive as if I'd put the same amount of work on top of a template.  But finding and plugging those holes is a great learning experience.</p>
+
+<p>Running my own VPS and web server has probably been the best project, education-wise.  There are certainly plenty of holes and configurations that go into system administration stuff, along with being great practice with bash.  I didn't really get that when I was a student, but I'm sure glad I'm doing it now.</p>
+
+<p>Knowledge is power.</p>
+]]></content>
+  </entry>
+  
+</feed>

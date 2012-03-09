@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: facebook | My Octopress Blog]]></title>
+  <link href="http://ryalnd.github.com/blog/categories/facebook/atom.xml" rel="self"/>
+  <link href="http://ryalnd.github.com/"/>
+  <updated>2012-03-09T17:36:14-06:00</updated>
+  <id>http://ryalnd.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[New Site, New Job]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/03/15/new-site-new-job/"/>
+    <updated>2011-03-15T07:48:21-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/03/15/new-site-new-job</id>
+    <content type="html"><![CDATA[<p>It's been a few weeks since I last posted.  Quite a bit's happened in that time.</p>
+
+<p>To begin, I finally found a job.  Starting Wednesday I'll be working a regular 9-to-5, doing primarily technical support for pharmacy software.  While it's only a temporary position and doesn't involve much development, I'm still really looking forward to some structure and a more 'normal' circadian rhythm.  I consider myself one of those people that loves to work, and get genuine satisfaction from doing a job well.  Also, it's well-paying and I'm dead broke; that certainly doesn't hamper my anticipation.</p>
+
+<p>I haven't done any Project Euler since I reached Level 2.  I felt it was a good stopping point for the time being, but I've definitely learned a lot from it and plan on doing a problem or two when the urge strikes; perhaps in a new language.  It's been really good for learning syntax and structure basics for Python, and at this point I feel confident that I could pretty easily solve most problems with it.  If you're looking to learn a new language, applications (in the literal sense) to math problems are in my opinion a great way to start.</p>
+
+<p>Still working on a couple of web development contracts, both for starting businesses.  They're going well, although the biggest problem I'm having is with the level of detail to which I'm giving these sites.  I'm trying to keep things quick and simple, but jQuery and PHP make doing all these awesome things so simple that I end up spending wayyy too much time experimenting with features the client neither asked for nor particularly needs.  Giving them more than they asked for up-front isn't really a problem in itself (deleting is pretty simple), but it's becoming one given that these need to get finished post-haste since time will be sparse come tomorrow.</p>
+
+<p>Finally, I launched a site last week called (tentatively): <a href="http://lucy-dog.com">Lucy In Hats</a>.  It started out as a joking comment about my girlfriend's dog, and within a few hours I had bought a domain name and had something up and running.  I've been making tweaks and adding features since then, but the concept's been the same since the start: people vote on pictures of an adorable mini-pug in silly hats.</p>
+
+<p>I ended up going through with the idea because I wanted to see how much traffic I could generate to the site, under the general knowledge that people can't get enough of cute animals.  That and learning the underlying technologies needed for a relatively simple site like this were my main goals for the project. The fact I only had to spend $10 on a domain name got things off the ground right away.</p>
+
+<p>I've done some 'advertising' on Facebook, both on my account and on the lady's; beyond that I've been relying on word-of-mouth and people's attraction to cuteness.  I'd say he site is a success even at this point, at least as compared to ry-land.com and this blog.</p>
+
+<p>As of right now I've had around 10x as many unique visitors to the site as to ry-land.com, and about 35x as many page views.  Granted, I haven't advertised ry-land.com on Facebook, nor is there dynamic content to drive all those page views, but I'm still pretty impressed by its popularity in the first week.</p>
+
+<p>I'm really cranking out the jQuery and PHP and doing new stuff with them every day.  I'm enjoying it, learning a bunch, and tomorrow I should even start making some money again.  Not bad.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Math in the Cold]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
+    <updated>2011-02-10T18:07:51-06:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold</id>
+    <content type="html"><![CDATA[<p>I wasn't feeling very well today, and it was super cold out, so I decided to be as productive as I possibly could at home.  This involved:</p>
+
+<ul>
+<li><p>Updating profiles/resumes on various job sites</p></li>
+<li><p>Searching and applying for jobs on same</p></li>
+<li><p>Doing some stalking of Milwaukee-area businesses</p></li>
+<li><p>Finally setting up, lurking IRC</p></li>
+<li><p>Several PE problems as a reward</p></li>
+</ul>
+
+
+<p>Most of those are self-explanatory.  I finally updated the pdf version of my resume to reflect the changes made to my html version, and then updated any references to the old one.  I can't believe that Monster only accepts resumes in .rtf, .doc, and .txt.  I've mostly ignored Monster for the simple fact that I have a horribly-formatted .rtf on there and refuse to change it out of principle.  If an employer isn't going to hire me because I only provide html and pdf versions of my resume, so be it.</p>
+
+<p>I'm starting to compile a list of possible Milwaukee-area businesses I would like to work for, so that I can start spamming them my resume :).  I finally got irssi set up on this box, as I haven't been on IRC in a looooong while.  I've been lurking #python while doing Project Euler, and actually gave my first piece of help to someone on the channel as well.  It had almost nothing to do with python, as it was a pretty basic regex question about character classes, but I helped nonetheless.</p>
+
+<p>Did problems <a href="http://projecteuler.net/index.php?section=problems&amp;id=26">26</a>, <a href="http://projecteuler.net/index.php?section=problems&amp;id=40">40</a>, <a href="http://projecteuler.net/index.php?section=problems&amp;id=42">42</a>, <a href="http://projecteuler.net/index.php?section=problems&amp;id=45">45</a>, and <a href="http://projecteuler.net/index.php?section=problems&amp;id=52">52</a> tonight. Not bad progress for a few hours.  I also wrote a solution to problem <a href="http://projecteuler.net/index.php?section=problems&amp;id=27">27</a>, but it's still running as I write this.  I think I'm going to let it run overnight and see if it actually finishes (totally against the rules, I know).  It deals with quadratics though and I couldn't immediately see any way to narrow down the list of possible coefficients, so I just tried brute-force.  I'll let it stew in my head for a while and see if I come up with anything.</p>
+
+<p>Not much of note for these, they were pretty straightforward.  I did write a function that performed long-division for problem 26, which I thought was pretty hilarious.  It was the easiest way to determine whether the decimal had a repeating sequence, the length of said sequence.  I got the idea from <a href="http://en.wikipedia.org/wiki/Repeating_decimal#Decimal_expansion_and_recurrence_sequence">Wikipedia</a>, if you care to see.  There was some more I/O, which was nice to have as practice, and I'm using dicts and sets, maps and lambdas all over the place now.  Slow and steady, right?</p>
+
+<p>I know I keep promising to post my code, and as I've been saving it the only real thing keeping me from doing so is my shyness at others seeing that code.  I might select the simplest, most elegant examples, but if you'd like to see how I came to a particular solution I'd be more than willing to share.  I'm going to try to use IRC for help with refactoring some code.  My biggest concern is that I'm not doing everything in true 'pythonic' manner, so I think getting help there will reduce the shyness.</p>
+
+<p>On the income front, I have two potential web-design contracts coming in, from friends of friends.  It'll be good practice and that's really what I need right now, more than income (although more of that would be nice, too).  All temp/contract web/IT work I've tried to attain has fallen through the cracks.  It's frustrating but what can you do.  I'm trying to stay positive and not starve to death.  So far so good.</p>
+
+<p>It's still real cold here (0°), but it's looking to get in the 40s by Sunday, which is awesome.  I think we're going to try and go sledding tomorrow!  Fun and exercise; I could use both.</p>
+
+<p>I also wanted to mention that I hilariously added a 'Like' button to each post on the blog.  I don't think anyone is even reading these, let alone considering 'liking' them, but I figure if and when they do that'll definitely help to get some traffic.  At this point the only traffic I could really hope for are those doing Project Euler, which is minimal at best, but we'll see.</p>
+]]></content>
+  </entry>
+  
+</feed>

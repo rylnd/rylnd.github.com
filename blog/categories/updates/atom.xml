@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: updates | My Octopress Blog]]></title>
+  <link href="http://ryalnd.github.com/blog/categories/updates/atom.xml" rel="self"/>
+  <link href="http://ryalnd.github.com/"/>
+  <updated>2012-03-09T17:36:14-06:00</updated>
+  <id>http://ryalnd.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Life: Upgraded.]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/08/05/life-upgraded/"/>
+    <updated>2011-08-05T19:18:59-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/08/05/life-upgraded</id>
+    <content type="html"><![CDATA[<p>Hoo boy.  A lot has changed in the past few weeks.  After spending about a month looking for jobs and apartments in Milwaukee, we finally found both.  We found the perfect apartment, and I accepted a job offer for an awesome Django startup in Spreenkler's Accelerator program.  The day after I said yes to the job, I was approached with an offer here in Madison.  While both were amazing jobs, I ended up taking the job here in Madison as I felt it had more to offer, experientially.  Starting at the end of August, I'll be an official <a href="http://bendyworks.com/">Bendyworker</a>.</p>
+
+<p>Of course, this means that the time Amanda and I spent planning for Milwaukee was basically for naught.  I've got an amazing job, but we're back to square one apartment-wise.  I've moved every year since 2005; I'm ready to buy a house out of sheer laziness.</p>
+
+<p>Speaking of laziness, I've been working day and night on our startup, <a href="http://jungolhq.com">Jungol</a>.  We just launched our alpha tonight, after much internal tinkering.  I've read time and again that the best thing you can do is just put your project out there, so it's something of a relief to finally have done so.  Check it out at <a href="http://jng.li/qJ338J">http://jng.li/qJ338J</a>.</p>
+
+<p>There's a lot of smaller things that still need to be done, but most everything's there right now.  We've got our proof of concept; the rest is up to the public (who told us they wanted this, we swear).  It's an exciting time and I'm proud to be a part of the whole thing.  Having written the entire site save for design, it's becoming like a child to me, but I'm trying my best not to become too emotionally attached.</p>
+
+<p>Our final frisbee game is next Tuesday.   Our <em>championship</em> frisbee game, that is.  This last week was playoffs, and we won both games.  I'm pretty proud of the team; we had a lot of beginners, some who'd never even played a team sport before, but we've come together and are playing amazingly well.  Playing with the same team every year is comforting, I'm sure, but there's something to be said for this amazing transition from 'group of people' to 'team' over the course of a season.  Remind me to let you know if we won or not.</p>
+
+<p>So I've got a great job and a great girlfriend.  Let me know if you see any great apartments for rent around town.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Work vs. Not-Work]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/07/01/work-vs-not-work/"/>
+    <updated>2011-07-01T18:58:40-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/07/01/work-vs-not-work</id>
+    <content type="html"><![CDATA[<p>Oh, hey there!  It's been so long I almost didn't recognize you!  Yeah, I've been good.  Real busy with work, if you can call it 'work.'  Busy regardless, though.</p>
+
+<p>The Jungol project has been going great.   I don't think I can overemphasize how refreshing it is.  The team, the framework, the project itself, and the freedom that I'm given are amazing.  Don't think I'm not grateful.</p>
+
+<p>We had a bit of an uphill climb at first, make no mistake.  We needed to take the original idea, gather a whole lot of customer feedback, and decide what was most likely to succeed given those inputs.  This brings to mind an excellent quote I saw on Twitter the other day:</p>
+
+<blockquote><p>"Entrepreneurship is like jumping off a cliff and assembling your airplane on the way down"
+-- Reid Hoffman</p></blockquote>
+
+<p>I've got the plane's body and most of its engine done.  Now we get to start her up and start adding paint and decals.  I can't wait.</p>
+
+<p>Ditching the metaphor and returning to reality, the lady and I will be heading to Milwaukee tomorrow to look at apartments.  It's going to be a welcome break from all the time spent staring at a terminal screen, but the overachiever in me is constantly nagging to 'get back to work.'  We might stay and go to Summerfest on Sunday, depending on how my Ego feels.</p>
+
+<p>We attended our first Concert on the Square on Wednesday, which was graciously hosted by the folks at The Firm.  They have a balcony overlooking the capitol, and were even nice enough to fill their office with food, beer, developers, entrepreneurs, and investors!  It was a fun time, to say the least.</p>
+
+<p>Frisbee has had its ups and downs; some games we dominate, others we barely avoid a forfeit due to lack of players.  We're not the best in the league, but we're certainly not the worst.  Win or lose, though, we still get two free pitchers after every game. :)</p>
+
+<p>I don't really know what else to say right now.  Things are up in the air, and the future is uncertain, but I'm having a blast and learning every day.   I am happy.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Busyness, Business]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/06/12/busyness-business/"/>
+    <updated>2011-06-12T14:57:23-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/06/12/busyness-business</id>
+    <content type="html"><![CDATA[<p>It's been a while since I wrote anything, but I've been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
+
+<p>I was approached by Steve at Spreenkler about two weeks ago.  He asked if I'd be interested in working as a developer for one of the teams in their summer <a href="http://spreenklertalentlabs.org/startup/?page_id=4">Incubator Program</a>.  My old job was incredibly understanding about the opportunity, and after a few meetings and a trip to Milwaukee I was part of Jungol, Inc.  Expect a more detailed post about the team and what I'm doing (hint: I'm <em>the</em> developer) in the near future, when I have some more time.</p>
+
+<p>Started doing some <a href="http://4clojure.com">4Clojure</a> problems.  I thought "Hey, I'm getting it!" until I enabled Golf Mode and saw how my problems (at least length-wise) compared to others' on the site.  Rest assured that I'm working on it; I've got the first 25 problems done so far.</p>
+
+<p>I added a header to the site.  Not sure if I really like it, but it adds color and I didn't cringe upon seeing it the next day (stepping away from it for a while is always a good choice), so it's here to stay.  I'll be making small changes here and there, dependent on time and interest.</p>
+
+<p>Frisbee is going good; we're 2-1 and we finally got our sweet jerseys.
+It's been quite an ordeal trying to find an organize a team (yes, even for a 'sport' like Ultimate Frisbee), but I'm pretty damn happy with the results.  I've been trying to organize everything on Google (Mail, Documents, Calendar) and while I created the tools for my team to use, I certainly can't force their utilization.  Oh, well.  At least people are showing up to games (and winning them).</p>
+
+<p>Amanda and I went to the <a href="http://www.clipsoffaith.com/">Clips of Faith</a> Tour at Olin Park on Friday, and that was a blast.  Highlights:</p>
+
+<ul>
+<li>Really good beer, relatively cheap</li>
+<li>Free handlebars upon entry</li>
+<li>Entry to win the New Belgium cruiser</li>
+<li>Delicious vegan nachos</li>
+<li>Really cool short films</li>
+</ul>
+
+
+<p>Lastly, I've finally taken the leap and bought a MacBook Pro.  While I've supported OS X in previous jobs I've never actually owned or used it.  I'm mostly using the terminal for development anyways, so work-wise it's not that big of a jump from linux.</p>
+
+<p>However, I'm also <strong>moving from Emacs to vim</strong>, which is a more considerable jump.  I'd used vim previously in college, but have done most of my serious programming with Emacs in the last year or two.  That's going much better than I would have expected, though.  I don't think I'm ready for any significant plugins right now but I'm going to be using vim from now on and see how it goes.</p>
+
+<p>The reason for vim?  Why, my third and final paradigm shift:  I'm using Ruby on Rails as the framework for this startup project.  I spent last week learning as much as I could while getting my new workstation set up, and spent Saturday at Bendyworks for the Ruby Hack Day Meetup.  Everyone was super nice and helpful as usual; the only thing keeping me from learning more was my reluctance to speak up and ask for help.  I got a basic rails project up, and will be getting some actual guts in there this week.  The only thing I'm missing is a testing framework (I'm going to be using rspec, if any, but it's not in there yet).  I'm currently debating whether unit testing would be reasonable at this point, given the already steep learning curve I'm facing.  I'm probably going to hold off for the first few basic features, and maybe reassess the situation in a few weeks.</p>
+
+<p>The Ruby/Rails hurdle is going to be a huge one, as I'm quickly learning, but I'm really excited to have this opportunity.  As a consequence I've been doing more hacking than sleeping, and it's really starting to catch up with me.  It's an absolute blast, and in my mind it's not work at all, but my body is beginning to disagree with me.</p>
+
+<p>On that note, I think it's time I rest my weary head a bit.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Much More Exciting(er)]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/05/25/much-more-excitinger/"/>
+    <updated>2011-05-25T17:49:12-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/05/25/much-more-excitinger</id>
+    <content type="html"><![CDATA[<p>Oh snap.  Lots of exciting stuff happening lately.  Most publicly, I finally got some old code up on <a href="https://github.com/ryalnd">GitHub</a> a week or so ago.  'Social Coding' is such an amazingly cool concept, I deeply regret not participating sooner.  I literally get giddy when I load my dashboard.  It's probably love.  Follow me or just lurk; I'll be posting some more projects in the near future, and probably talking about it here.</p>
+
+<p>In an exciting new development, Spreenkler has apparently changed their minds about the whole Zappos Gift Certificate thing (thanks to a rogue email by Devin, of which I swear I had no knowledge).  We've yet to receive the goods, but Steve @ <a href="http://www.spreenkler.com/">Spreenkler</a> apparently talked to the guys at Blurbs and they agreed that we could have the award.  I was dumbfounded by the kindness exhibited in that gesture; if Steve and co. are representative of the Milwaukee community, I cannot wait.</p>
+
+<p>Going along with that, I may have been offered an amazing opportunity for the summer that could really help kick-start things for me.  I'll give more details when things are more definite, but in the meantime I hope you're as excited as I am.</p>
+
+<p>In other news, I finally checked my site out in IE today and it was HORRIBLE.  I'm more generally of the stance 'F*** IE users' but the overwhelming numbers and my inability to ignore a problem once it's noticed led me to fix things up.</p>
+
+<p>I have so much stuff I want to read, code, and watch.  There aren't enough hours in the day. 'night for now.</p>
+]]></content>
+  </entry>
+  
+</feed>

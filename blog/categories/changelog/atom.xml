@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: changelog | My Octopress Blog]]></title>
+  <link href="http://ryalnd.github.com/blog/categories/changelog/atom.xml" rel="self"/>
+  <link href="http://ryalnd.github.com/"/>
+  <updated>2012-03-09T17:36:14-06:00</updated>
+  <id>http://ryalnd.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Busyness, Business]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/06/12/busyness-business/"/>
+    <updated>2011-06-12T14:57:23-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/06/12/busyness-business</id>
+    <content type="html"><![CDATA[<p>It's been a while since I wrote anything, but I've been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
+
+<p>I was approached by Steve at Spreenkler about two weeks ago.  He asked if I'd be interested in working as a developer for one of the teams in their summer <a href="http://spreenklertalentlabs.org/startup/?page_id=4">Incubator Program</a>.  My old job was incredibly understanding about the opportunity, and after a few meetings and a trip to Milwaukee I was part of Jungol, Inc.  Expect a more detailed post about the team and what I'm doing (hint: I'm <em>the</em> developer) in the near future, when I have some more time.</p>
+
+<p>Started doing some <a href="http://4clojure.com">4Clojure</a> problems.  I thought "Hey, I'm getting it!" until I enabled Golf Mode and saw how my problems (at least length-wise) compared to others' on the site.  Rest assured that I'm working on it; I've got the first 25 problems done so far.</p>
+
+<p>I added a header to the site.  Not sure if I really like it, but it adds color and I didn't cringe upon seeing it the next day (stepping away from it for a while is always a good choice), so it's here to stay.  I'll be making small changes here and there, dependent on time and interest.</p>
+
+<p>Frisbee is going good; we're 2-1 and we finally got our sweet jerseys.
+It's been quite an ordeal trying to find an organize a team (yes, even for a 'sport' like Ultimate Frisbee), but I'm pretty damn happy with the results.  I've been trying to organize everything on Google (Mail, Documents, Calendar) and while I created the tools for my team to use, I certainly can't force their utilization.  Oh, well.  At least people are showing up to games (and winning them).</p>
+
+<p>Amanda and I went to the <a href="http://www.clipsoffaith.com/">Clips of Faith</a> Tour at Olin Park on Friday, and that was a blast.  Highlights:</p>
+
+<ul>
+<li>Really good beer, relatively cheap</li>
+<li>Free handlebars upon entry</li>
+<li>Entry to win the New Belgium cruiser</li>
+<li>Delicious vegan nachos</li>
+<li>Really cool short films</li>
+</ul>
+
+
+<p>Lastly, I've finally taken the leap and bought a MacBook Pro.  While I've supported OS X in previous jobs I've never actually owned or used it.  I'm mostly using the terminal for development anyways, so work-wise it's not that big of a jump from linux.</p>
+
+<p>However, I'm also <strong>moving from Emacs to vim</strong>, which is a more considerable jump.  I'd used vim previously in college, but have done most of my serious programming with Emacs in the last year or two.  That's going much better than I would have expected, though.  I don't think I'm ready for any significant plugins right now but I'm going to be using vim from now on and see how it goes.</p>
+
+<p>The reason for vim?  Why, my third and final paradigm shift:  I'm using Ruby on Rails as the framework for this startup project.  I spent last week learning as much as I could while getting my new workstation set up, and spent Saturday at Bendyworks for the Ruby Hack Day Meetup.  Everyone was super nice and helpful as usual; the only thing keeping me from learning more was my reluctance to speak up and ask for help.  I got a basic rails project up, and will be getting some actual guts in there this week.  The only thing I'm missing is a testing framework (I'm going to be using rspec, if any, but it's not in there yet).  I'm currently debating whether unit testing would be reasonable at this point, given the already steep learning curve I'm facing.  I'm probably going to hold off for the first few basic features, and maybe reassess the situation in a few weeks.</p>
+
+<p>The Ruby/Rails hurdle is going to be a huge one, as I'm quickly learning, but I'm really excited to have this opportunity.  As a consequence I've been doing more hacking than sleeping, and it's really starting to catch up with me.  It's an absolute blast, and in my mind it's not work at all, but my body is beginning to disagree with me.</p>
+
+<p>On that note, I think it's time I rest my weary head a bit.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Quickie]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/05/28/quickie/"/>
+    <updated>2011-05-28T18:59:57-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/05/28/quickie</id>
+    <content type="html"><![CDATA[<p>Okay, I'm really tired but I wanted to make note of a few updates.  While I'm not naive enough to think that the built-in comment system is the reason the blog doesn't have any comments, I realize that that could conceivably be an issue if the site actually had readers.  With that in mind, I present the new comment system, powered by <a href="http://disqus.com">Disqus</a>!</p>
+
+<p>I finally got around to updating Wordpress this week as well.  I don't have FTP on my server for several reasons (mainly security), so Wordpress' handy dandy auto-install isn't an option for me (I suppose I could temporarily use it, but that's almost as much work as just doing it manually).  It's pretty painless since most of the files they update aren't ones I've customized, but I always delay it because I fear change (and they update so damn often).</p>
+
+<p>Made some minor style tweaks as well, probably nothing you'll notice.  $1 to anyone that does.</p>
+
+<p>Next week should be pretty exciting (or at least blogworthy), so stay tuned for that.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I should probably write about something.]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
+    <updated>2011-04-11T06:29:26-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
+    <content type="html"><![CDATA[<p>So it's been a bit since I've posted anything.  I've been pretty busy.</p>
+
+<p>Between my new 9-5, an amazing girlfriend, the weather improving, several web projects and a few novels, my plate's been plenty full.</p>
+
+<p>I've not gotten any new projects lately, but I've been doing a lot of small(ish) changes/fixes to those I've already got going.  I've been considering having some kind of changelog for all my stuff in general, mostly to keep track of what I'm doing on a day-to-day basis.  I've started documenting such work but have yet to figure out a good place to share that with the rest of the world (or if that's even necessary).  I mean,<em> I</em> know I'm doing the work, I just think it would be nice to let others know as well.</p>
+
+<p>On that note, here's some general stuff I've been working on since we last talked:</p>
+
+<ul>
+<li><p>Added some stuff to lucy-dog.com, mostly aesthetic:</p>
+
+<ul>
+<li><p>Changed title(s), metadata</p></li>
+<li><p>Added a few new pictures</p></li>
+<li><p>Fixed some formatting, paging issues with 'show all'</p></li>
+</ul>
+</li>
+<li><p>Broken Spoke Updates:</p>
+
+<ul>
+<li><p>Migrated existing site to new host</p></li>
+<li><p>Added Events functionality to DB, front-end, admin panel</p></li>
+<li><p>Added, tweaked some .js libraries for picking dates and times (related to Events)</p></li>
+</ul>
+</li>
+</ul>
+
+
+<p>That's all I can think of off the top of my head. I'll let you know when I get an actual changelog documented.</p>
+
+<p>I've been reminded this last week that GoDaddy is a real pain if you don't want to use their GUIs for everything.  Allowing SSH access took around 2 days to finally get implemented, after the DNS settings were populated.  I have yet to figure out how to use mysql from a shell; no combination of usernames and passwords allows me access, although those same credentials work everywhere else.  I'm sure PHPMyAdmin is a fine tool if you like that sort of thing, but I really just want access to a mysql prompt.  Is that so much to ask, GoDaddy?</p>
+
+<p>On a related rant I have yet to find a good emacs script for multi-mode editing (PHP, javascript, html, css in this example). I tried a few but they weren't really what I was looking for.  From what I remember (this was a few weeks back) one was very close, but its PHP-mode was all kinds of broken, to the point of unusability.  If anyone has a suggestion let me know.</p>
+
+<p>Almost done with the bike site, with the notable exception of graphics.  I am <em>absolutely</em> not a graphic designer, much as it pains me to admit.  I've taken on a few projects now where they've handed me a logo designed by someone for use as a sticker or on a t-shirt.  That's great, but my Adobe fu isn't such that I can easily make that into a pretty, well-laid-out header graphic.  Consequently graphics are what need the most improvement on these sites.  I'm getting better with Photoshop and Illustrator every day, but at this point I'd never take on a 'design' project.  I truly appreciate nice graphics, and know what does and does not work or look good.</p>
+
+<p>At the end of the day, though, I'm not a graphic designer.  I write code.  It's one of those things where I think, 'With some experience you can make some awesome logos!' and keep that in the back of my mind as I fumble with these design tools to produce graphics that don't quite cut it.  Maybe I'll eventually get there.  Maybe I'll just hire a graphic designer.</p>
+
+<p>On a less technical note, I finished Infinite Jest a few weeks ago.  Initially I was upset by the ending (if one wants to call it that), but after a day or two of subconscious processing I came to the opposite conclusion: that while certain elements of the story were not explicitly explained, there were plenty of clues and allusions to allow the reader to work things out for himself.  I liked that.  Apparently DFW's last unfinished novel is out now, so I'm going to have to pick that up soon.</p>
+
+<p>At Devin's Mad Clojure Meetup last week I was referred to Logicomix, which I shortly thereafter bought and consumed.  The idea and format were what drew me immediately in:  a story about famous logicians/mathematicians/philosophers, in graphic novel format?  What's not to like about that?  While the illustrations were amazing, I found the writing a little boring and sometimes awkwardly/ambiguously phrased.  While I understand that including in-depth details of the fields would have made the book inaccessible to a good majority of readers, that's honestly what I was expecting and was a bit disappointed in that regard.  I felt that the book was too vague to be useful as anything more than a character-driven story and general history lesson.  Maybe that's what they were going for; I just imagined that they would cater to the 'nerd' audience a bit more.</p>
+
+<p>Still looking for a job in Milwaukee.  Further updates as events warrant.</p>
+]]></content>
+  </entry>
+  
+</feed>

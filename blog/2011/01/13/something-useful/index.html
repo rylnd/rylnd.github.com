@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Something Useful - My Octopress Blog</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="Well. I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out HERE.  A few notes &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://ryalnd.github.com/blog/2011/01/13/something-useful">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">My Octopress Blog</a></h1>
+  
+    <h2>A blogging framework for hackers.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:ryalnd.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Something Useful</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-13T17:01:23-06:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Well.</p>
+
+<p>I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out <a href="http://ry-land.com/dev/cl.html">HERE</a>.  A few notes about it:</p>
+
+<ul>
+<li>I did not go and learn the correct way to program in Ruby, as I claimed I would before finishing this.  Although I did learn some basic Ruby syntax in the work I&#8217;ve done on this so far, I mostly grew impatient and decided to hack out a solution tonight.</li>
+<li>No really, this is a hack.  I decided I wanted sorting so I quickly found a javascript table sorter and based my output around that code (which is most noticeable with the * before January postings [yay alphabetic sorting!]).
+
+<ul>
+<li>The date was particularly problematic, considering that the page I was parsing gave dates in a <code>%a %b %d</code> format (i.e. &#8216;Thu Jan 10&#8217;).  This meant I could either write my own code to figure out the year (which would still be a hack, and vary depending on the current date) or just hack it like I did (albeit temporarily)</li>
+</ul>
+</li>
+<li>Relating to that last point, I was considering storing this data in a database. This would make sorting a simple matter of changing the query, but that kind of stuff is easy and wouldn&#8217;t really help me or the page in any significant way; that&#8217;s probably not going to happen.</li>
+<li>The script as it stands is just writing an HTML file from its data.  While I could have had it do this in-place, I&#8217;m actually storing the jobs individually as objects in an array, and then later writing them out.  This is obviously wasteful but again, at this scale who cares (as long as I&#8217;m aware of it, right?).</li>
+<li>I set up the script to run every half-hour during normal business hours.  I thought that was cool.</li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-13T17:01:23-06:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ryalnd.github.com/blog/2011/01/13/something-useful/" data-via="" data-counturl="http://ryalnd.github.com/blog/2011/01/13/something-useful/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2011/01/11/scraping-the-day-away/" title="Previous Post: Scraping the Day Away">&laquo; Scraping the Day Away</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2011/01/13/an-intimate-look/" title="Next Post: An Intimate Look">An Intimate Look &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/08/05/life-upgraded/">Life: Upgraded.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/01/work-vs-not-work/">Work vs. Not-Work</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/06/12/busyness-business/">Busyness, Business</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/05/28/quickie/">Quickie</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/05/25/much-more-excitinger/">Much More Exciting(er)</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

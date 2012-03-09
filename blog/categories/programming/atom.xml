@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: programming | My Octopress Blog]]></title>
+  <link href="http://ryalnd.github.com/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://ryalnd.github.com/"/>
+  <updated>2012-03-09T17:36:14-06:00</updated>
+  <id>http://ryalnd.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Work vs. Not-Work]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/07/01/work-vs-not-work/"/>
+    <updated>2011-07-01T18:58:40-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/07/01/work-vs-not-work</id>
+    <content type="html"><![CDATA[<p>Oh, hey there!  It's been so long I almost didn't recognize you!  Yeah, I've been good.  Real busy with work, if you can call it 'work.'  Busy regardless, though.</p>
+
+<p>The Jungol project has been going great.   I don't think I can overemphasize how refreshing it is.  The team, the framework, the project itself, and the freedom that I'm given are amazing.  Don't think I'm not grateful.</p>
+
+<p>We had a bit of an uphill climb at first, make no mistake.  We needed to take the original idea, gather a whole lot of customer feedback, and decide what was most likely to succeed given those inputs.  This brings to mind an excellent quote I saw on Twitter the other day:</p>
+
+<blockquote><p>"Entrepreneurship is like jumping off a cliff and assembling your airplane on the way down"
+-- Reid Hoffman</p></blockquote>
+
+<p>I've got the plane's body and most of its engine done.  Now we get to start her up and start adding paint and decals.  I can't wait.</p>
+
+<p>Ditching the metaphor and returning to reality, the lady and I will be heading to Milwaukee tomorrow to look at apartments.  It's going to be a welcome break from all the time spent staring at a terminal screen, but the overachiever in me is constantly nagging to 'get back to work.'  We might stay and go to Summerfest on Sunday, depending on how my Ego feels.</p>
+
+<p>We attended our first Concert on the Square on Wednesday, which was graciously hosted by the folks at The Firm.  They have a balcony overlooking the capitol, and were even nice enough to fill their office with food, beer, developers, entrepreneurs, and investors!  It was a fun time, to say the least.</p>
+
+<p>Frisbee has had its ups and downs; some games we dominate, others we barely avoid a forfeit due to lack of players.  We're not the best in the league, but we're certainly not the worst.  Win or lose, though, we still get two free pitchers after every game. :)</p>
+
+<p>I don't really know what else to say right now.  Things are up in the air, and the future is uncertain, but I'm having a blast and learning every day.   I am happy.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Busyness, Business]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/06/12/busyness-business/"/>
+    <updated>2011-06-12T14:57:23-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/06/12/busyness-business</id>
+    <content type="html"><![CDATA[<p>It's been a while since I wrote anything, but I've been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
+
+<p>I was approached by Steve at Spreenkler about two weeks ago.  He asked if I'd be interested in working as a developer for one of the teams in their summer <a href="http://spreenklertalentlabs.org/startup/?page_id=4">Incubator Program</a>.  My old job was incredibly understanding about the opportunity, and after a few meetings and a trip to Milwaukee I was part of Jungol, Inc.  Expect a more detailed post about the team and what I'm doing (hint: I'm <em>the</em> developer) in the near future, when I have some more time.</p>
+
+<p>Started doing some <a href="http://4clojure.com">4Clojure</a> problems.  I thought "Hey, I'm getting it!" until I enabled Golf Mode and saw how my problems (at least length-wise) compared to others' on the site.  Rest assured that I'm working on it; I've got the first 25 problems done so far.</p>
+
+<p>I added a header to the site.  Not sure if I really like it, but it adds color and I didn't cringe upon seeing it the next day (stepping away from it for a while is always a good choice), so it's here to stay.  I'll be making small changes here and there, dependent on time and interest.</p>
+
+<p>Frisbee is going good; we're 2-1 and we finally got our sweet jerseys.
+It's been quite an ordeal trying to find an organize a team (yes, even for a 'sport' like Ultimate Frisbee), but I'm pretty damn happy with the results.  I've been trying to organize everything on Google (Mail, Documents, Calendar) and while I created the tools for my team to use, I certainly can't force their utilization.  Oh, well.  At least people are showing up to games (and winning them).</p>
+
+<p>Amanda and I went to the <a href="http://www.clipsoffaith.com/">Clips of Faith</a> Tour at Olin Park on Friday, and that was a blast.  Highlights:</p>
+
+<ul>
+<li>Really good beer, relatively cheap</li>
+<li>Free handlebars upon entry</li>
+<li>Entry to win the New Belgium cruiser</li>
+<li>Delicious vegan nachos</li>
+<li>Really cool short films</li>
+</ul>
+
+
+<p>Lastly, I've finally taken the leap and bought a MacBook Pro.  While I've supported OS X in previous jobs I've never actually owned or used it.  I'm mostly using the terminal for development anyways, so work-wise it's not that big of a jump from linux.</p>
+
+<p>However, I'm also <strong>moving from Emacs to vim</strong>, which is a more considerable jump.  I'd used vim previously in college, but have done most of my serious programming with Emacs in the last year or two.  That's going much better than I would have expected, though.  I don't think I'm ready for any significant plugins right now but I'm going to be using vim from now on and see how it goes.</p>
+
+<p>The reason for vim?  Why, my third and final paradigm shift:  I'm using Ruby on Rails as the framework for this startup project.  I spent last week learning as much as I could while getting my new workstation set up, and spent Saturday at Bendyworks for the Ruby Hack Day Meetup.  Everyone was super nice and helpful as usual; the only thing keeping me from learning more was my reluctance to speak up and ask for help.  I got a basic rails project up, and will be getting some actual guts in there this week.  The only thing I'm missing is a testing framework (I'm going to be using rspec, if any, but it's not in there yet).  I'm currently debating whether unit testing would be reasonable at this point, given the already steep learning curve I'm facing.  I'm probably going to hold off for the first few basic features, and maybe reassess the situation in a few weeks.</p>
+
+<p>The Ruby/Rails hurdle is going to be a huge one, as I'm quickly learning, but I'm really excited to have this opportunity.  As a consequence I've been doing more hacking than sleeping, and it's really starting to catch up with me.  It's an absolute blast, and in my mind it's not work at all, but my body is beginning to disagree with me.</p>
+
+<p>On that note, I think it's time I rest my weary head a bit.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My First Hackathon, Play by Play]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play/"/>
+    <updated>2011-05-09T16:28:41-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play</id>
+    <content type="html"><![CDATA[<p>I ran into a former coworker at Noodles last week, and when I mentioned I was moving to Milwaukee and looking for a job, he suggested I take a look at <a href="http://www.spreenkler.com/">Spreenkler</a>, a startup incubator based in Milwaukee.  I did some research and found that they were putting on a 24-hour hackathon over the weekend!  Realizing that this event combined three things I desperately needed: hacking experience, job opportunities (or at least some MKE networking), and free food, I decided I simply couldn't pass it up.</p>
+
+<p>This all happened on Thursday evening, with the event starting Saturday at noon. Sure it was short notice, but all coding was to be done on-site, right?  All we needed by Saturday was an idea.  While I had managed to convince a couple friends (Jared and Devin) to join my 'team' on Friday evening, we still didn't have an idea.  There was some mention of the Zappos API, but the team's general indolence brought us to our final idea:  winging it.</p>
+
+<p><strong>Saturday, 12:00pm:</strong>  I felt a bit nervous walking in, as I'd never done any public coding before. All the more reason to start now though, right?  People slowly trickled in.  12:30pm: Time to announce our plans to everyone.  Uh oh.  We'd forgot about that.  We figured a plan would slowly form as we tinkered with the tools we were given; actually presenting that was going to be embarrassing, as everyone else seemed to have a solid game plan.  But we did.  Something along the lines of 'We're going to use the Zappos API.  That is all.'</p>
+
+<p>A few minutes later, we had a team name and a git repo (Devin), both named Hot Biscuits (don't ask me).  An encryption bug on my laptop prevented me from authenticating with github until I finally figured out a workaround; speed bump #1.</p>
+
+<p>We tinkered with the API for a bit, and while the documentation didn't exactly match what the API was sending us, we were able to figure it out pretty quick.  Jared got Apache running, Devin set up the DNS (and bought a new domain name, for funsies), and I got the initial databases up and running.  Not a bad start.</p>
+
+<p>With a general structure in place, the next step was to start polling the API and storing the results.  Perl was suggested, as were ruby, clojure, and python.  I said I'd do this part, in python (due to previous experience), and set to work.  Jared took off for a bit to run some errands, and Devin, left waiting on my work, started writing the API->DB in clojure, being the fanboy that he is.</p>
+
+<p>The script wasn't as clean as I would have liked, because despite having a nice list of dicts to work with, I still had to quote the text being stored, and format the dates to appease the MySQL gods.  After a little bit, though, I had what looked like the correct sequence of SQL statements printing to stdout.  I changed the prints to executes, ran the script, and got . . . a whole bunch of encoding errors.  The problem involved some Unicode characters being sent back, and I figured I just had to specify UTF-8 as the encoding type and move right along.  Nope.  Not knowing about the default collation in MySQL, I suspected that might be the problem.  Nope.  Devin was still chugging away on his clojure implementation, and Jared, errands run, ended up writing a solution in perl that actually worked (eventually).  So by the afternoon we had three (mostly) working scripts that did exactly the same thing.  Efficiency!</p>
+
+<p>With data now coming in, we realized the API made no guarantee about duplicates, so we made a few changes to uniques in the DB to prevent that from happening.  Confident that we could now slap a few data-visualization APIs on top of what we had and call it an MVP, we decided to break for dinner/loved ones.</p>
+
+<p>We ended up meeting later that night for a bit to discuss the next morning's game plan.  We mocked up a page layout, and planned on meeting back at the hackathon at 8:30 the next day (3 hours is plenty of time to do an entire front-end, right?). I also whipped up a craptacular logo before bed.</p>
+
+<p><strong>Sunday Morning:</strong>  I reluctantly woke up a little before 8.  I was excited to work on the front-end, sure, but there are few things I value more than sleep (probably because I get so little of it during the work week).  Arrived at the building, and was immediately thwarted by locked doors; claims that the building would open again at 8am overlooked the fact that the building was officially closed on Sundays. I didn't have the number for the room the event was using, but one of the coordinators fortuitously came down a few minutes later to let someone else in.  Phew.</p>
+
+<p>I figured (correctly) that my teammates would be late, so set to work on writing an HTML skeleton and a basic stylesheet.  Tinkered for a little bit with color schemes and <a href="http://www.patternify.com/">Patternify</a>, an awesome CSS pattern generator that gives you the tile image's base64 encoding, so you don't even need a separate image file (pretty sweet, right? I even used it for the blog's current bg).</p>
+
+<p>Once my teammates showed up, the next few hours were a frantic, stressed blur.  We had location data, and we had brand data.  Someone whispered "Crocs."  There it was: use our data to display statistics about Crocs purchases from Zappos.com.  A guaranteed winner; a tool everyone needed (they just didn't know it yet).</p>
+
+<p>The night before, I'd found a Google Charts API that could color a map.  It promised it could do so given a value for each region, and a 'color gradient.'  'Awesome,' I naively thought.  'I can give it #purchases in each state, and two colors, and it'll color the states along that gradient, similar to the tagroll on delicious.'  Not so.  After a little more digging, turns out what they'd meant by 'gradient' was 'a list of hex colors, one for each region you specify you want colored.'  Hmm.  Not quite as nice as I'd envisioned, but I could still make it work; I just had to discretize the colors and the groups of states corresponding to them.  I took the simplest route; 48 states, a gradient of 6 colors, and 8 states for each color.  There'd have been more contrast (probably) on the map had I factored the range of values(#crocs orders) into the algorithm, but after adding another DB to track purchases by state, and a few more corresponding lines to the perl script, with about an hour left I was more worried about other aspects of the project.</p>
+
+<p>While I got the map working, Devin and Jared worked on styling, layout, and other content.  Devin, much more well-versed in modern web development tools than Jared or I, added HTML Boilerplate and picked a font.  Lacking the 'what' or 'why' of Boilerplate, Jared and I left Devin to 'do his thing.'  Statistics from the DB were promptly pulled and displayed on the page (our only real content).</p>
+
+<p>Reaching 'crunch time,' and all three of us simultaneously making changes to the repo, it was git's time to shine.  While Jared and I were new to git, both svn users in the past (Aside:  UW-CS is so focused on theory that I didn't hear the word 'version control' until my 2nd year.  None of my professors ever made any mention of development tools, save one fierce proponent of Emacs; I guess such knowledge is either assumed or ignored with a passing 'they'll figure it out later'), we still quickly realized that our setup was the definition of 'wrong:' we had no push/pull triggers, and the 'live' copy of the repo was simply one Jared had cloned into the document root.  Subsequently, for any changes we pushed, we had to say 'Jared, please do a pull on the server copy.' Not ideal, and frankly embarrassing to admit, but it's prompted me to learn how to properly use git, and is probably a bit humorous to those not directly involved.</p>
+
+<p>We discussed making a javascript counter to keep track of time passed since our 'Croc Epoch,' and agreed it would be super simple and wouldn't even need a query; we'd just plug the time into the code itself.  Despite this, we still didn't have time to implement it, and so ended up with a (much less impressive) static time field.</p>
+
+<p>That was it.  A few quick CSS3 features (lipstick on a corpse?) and it was noon.  Time for the presentations.</p>
+
+<p>We were told to keep them to around 3-5 minutes, and while we were worried about actually having enough material, other groups certainly didn't have that problem; several went on for 15 or 20 minutes.  At this point we realized what we were up against:  most of the attendees were the business end of a startup, and were simply presenting ideas and mockups in the hopes of being funded.</p>
+
+<p>So only a few groups had actually written most of their code in the past 24 hours; I think we may have been the only 'from scratch' team.  The vast majority, it seemed, were months into their projects, idea-wise if not code-wise.  Needless to say, our presentation of 'here's what we did in a few hours, on a whim' didn't exactly wow the judges, especially when compared to 'Here's this well-thought-out startup idea that, while not actually implemented yet, is still really cool and useful.'</p>
+
+<p>Needless to say, we didn't win anything.  Though Spreenkler had been given three $500 Zappos.com gift cards, and we were one of three teams to have used their API, we did not receive a gift card.  Not that I blame Spreenkler; I understand their decision; they couldn't expect to award anything to an obviously impromptu entry without hearing endless frustrated complaints from the other entrants.  Still, I could've used some new shoes, and I do feel that we did more 'hacking' at the event than most, if not all other teams.</p>
+
+<p>In the end, I'm not sure how to feel about the experience.  I'm happy that I went, as I learned some new tricks, got to hang out with friends and enjoyed some free food.  At the same time, I worry about the reception of our efforts.</p>
+
+<p>My final decision to enter the hackathon was based on the idea that a late entry was better than no entry at all.  It was also made under the assumption that this was a true build-something-in-24-hours event, which it certainly was not.  I can't help but wonder if these misunderstandings caused us not to be taken seriously, or, worse yet, for Spreenkler to take offense to our well-intentioned entry.</p>
+
+<p>If the latter is true, though, then our entry certainly did more harm than good.  I'd like to apologize to the Spreenkler team if that's the case.  If they were able to see past our hasty submission to our genuine talent, though, that's all I could have asked for.</p>
+
+<p>P.S. I ended up implementing the aforementioned javascript counter a few days after the hackathon ended.  More for my peace of mind than anything else.  I ended up writing a short solution on my own, and then once it didn't work immediately as I'd envisioned found a library someone else had written; I thought it was a good compromise.</p>
+
+<p>And oh, yeah, here's the (final?) product: <a href="http://crocepoch.com">CROC EPOCH</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I should probably write about something.]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
+    <updated>2011-04-11T06:29:26-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
+    <content type="html"><![CDATA[<p>So it's been a bit since I've posted anything.  I've been pretty busy.</p>
+
+<p>Between my new 9-5, an amazing girlfriend, the weather improving, several web projects and a few novels, my plate's been plenty full.</p>
+
+<p>I've not gotten any new projects lately, but I've been doing a lot of small(ish) changes/fixes to those I've already got going.  I've been considering having some kind of changelog for all my stuff in general, mostly to keep track of what I'm doing on a day-to-day basis.  I've started documenting such work but have yet to figure out a good place to share that with the rest of the world (or if that's even necessary).  I mean,<em> I</em> know I'm doing the work, I just think it would be nice to let others know as well.</p>
+
+<p>On that note, here's some general stuff I've been working on since we last talked:</p>
+
+<ul>
+<li><p>Added some stuff to lucy-dog.com, mostly aesthetic:</p>
+
+<ul>
+<li><p>Changed title(s), metadata</p></li>
+<li><p>Added a few new pictures</p></li>
+<li><p>Fixed some formatting, paging issues with 'show all'</p></li>
+</ul>
+</li>
+<li><p>Broken Spoke Updates:</p>
+
+<ul>
+<li><p>Migrated existing site to new host</p></li>
+<li><p>Added Events functionality to DB, front-end, admin panel</p></li>
+<li><p>Added, tweaked some .js libraries for picking dates and times (related to Events)</p></li>
+</ul>
+</li>
+</ul>
+
+
+<p>That's all I can think of off the top of my head. I'll let you know when I get an actual changelog documented.</p>
+
+<p>I've been reminded this last week that GoDaddy is a real pain if you don't want to use their GUIs for everything.  Allowing SSH access took around 2 days to finally get implemented, after the DNS settings were populated.  I have yet to figure out how to use mysql from a shell; no combination of usernames and passwords allows me access, although those same credentials work everywhere else.  I'm sure PHPMyAdmin is a fine tool if you like that sort of thing, but I really just want access to a mysql prompt.  Is that so much to ask, GoDaddy?</p>
+
+<p>On a related rant I have yet to find a good emacs script for multi-mode editing (PHP, javascript, html, css in this example). I tried a few but they weren't really what I was looking for.  From what I remember (this was a few weeks back) one was very close, but its PHP-mode was all kinds of broken, to the point of unusability.  If anyone has a suggestion let me know.</p>
+
+<p>Almost done with the bike site, with the notable exception of graphics.  I am <em>absolutely</em> not a graphic designer, much as it pains me to admit.  I've taken on a few projects now where they've handed me a logo designed by someone for use as a sticker or on a t-shirt.  That's great, but my Adobe fu isn't such that I can easily make that into a pretty, well-laid-out header graphic.  Consequently graphics are what need the most improvement on these sites.  I'm getting better with Photoshop and Illustrator every day, but at this point I'd never take on a 'design' project.  I truly appreciate nice graphics, and know what does and does not work or look good.</p>
+
+<p>At the end of the day, though, I'm not a graphic designer.  I write code.  It's one of those things where I think, 'With some experience you can make some awesome logos!' and keep that in the back of my mind as I fumble with these design tools to produce graphics that don't quite cut it.  Maybe I'll eventually get there.  Maybe I'll just hire a graphic designer.</p>
+
+<p>On a less technical note, I finished Infinite Jest a few weeks ago.  Initially I was upset by the ending (if one wants to call it that), but after a day or two of subconscious processing I came to the opposite conclusion: that while certain elements of the story were not explicitly explained, there were plenty of clues and allusions to allow the reader to work things out for himself.  I liked that.  Apparently DFW's last unfinished novel is out now, so I'm going to have to pick that up soon.</p>
+
+<p>At Devin's Mad Clojure Meetup last week I was referred to Logicomix, which I shortly thereafter bought and consumed.  The idea and format were what drew me immediately in:  a story about famous logicians/mathematicians/philosophers, in graphic novel format?  What's not to like about that?  While the illustrations were amazing, I found the writing a little boring and sometimes awkwardly/ambiguously phrased.  While I understand that including in-depth details of the fields would have made the book inaccessible to a good majority of readers, that's honestly what I was expecting and was a bit disappointed in that regard.  I felt that the book was too vague to be useful as anything more than a character-driven story and general history lesson.  Maybe that's what they were going for; I just imagined that they would cater to the 'nerd' audience a bit more.</p>
+
+<p>Still looking for a job in Milwaukee.  Further updates as events warrant.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Site, New Job]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/03/15/new-site-new-job/"/>
+    <updated>2011-03-15T07:48:21-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/03/15/new-site-new-job</id>
+    <content type="html"><![CDATA[<p>It's been a few weeks since I last posted.  Quite a bit's happened in that time.</p>
+
+<p>To begin, I finally found a job.  Starting Wednesday I'll be working a regular 9-to-5, doing primarily technical support for pharmacy software.  While it's only a temporary position and doesn't involve much development, I'm still really looking forward to some structure and a more 'normal' circadian rhythm.  I consider myself one of those people that loves to work, and get genuine satisfaction from doing a job well.  Also, it's well-paying and I'm dead broke; that certainly doesn't hamper my anticipation.</p>
+
+<p>I haven't done any Project Euler since I reached Level 2.  I felt it was a good stopping point for the time being, but I've definitely learned a lot from it and plan on doing a problem or two when the urge strikes; perhaps in a new language.  It's been really good for learning syntax and structure basics for Python, and at this point I feel confident that I could pretty easily solve most problems with it.  If you're looking to learn a new language, applications (in the literal sense) to math problems are in my opinion a great way to start.</p>
+
+<p>Still working on a couple of web development contracts, both for starting businesses.  They're going well, although the biggest problem I'm having is with the level of detail to which I'm giving these sites.  I'm trying to keep things quick and simple, but jQuery and PHP make doing all these awesome things so simple that I end up spending wayyy too much time experimenting with features the client neither asked for nor particularly needs.  Giving them more than they asked for up-front isn't really a problem in itself (deleting is pretty simple), but it's becoming one given that these need to get finished post-haste since time will be sparse come tomorrow.</p>
+
+<p>Finally, I launched a site last week called (tentatively): <a href="http://lucy-dog.com">Lucy In Hats</a>.  It started out as a joking comment about my girlfriend's dog, and within a few hours I had bought a domain name and had something up and running.  I've been making tweaks and adding features since then, but the concept's been the same since the start: people vote on pictures of an adorable mini-pug in silly hats.</p>
+
+<p>I ended up going through with the idea because I wanted to see how much traffic I could generate to the site, under the general knowledge that people can't get enough of cute animals.  That and learning the underlying technologies needed for a relatively simple site like this were my main goals for the project. The fact I only had to spend $10 on a domain name got things off the ground right away.</p>
+
+<p>I've done some 'advertising' on Facebook, both on my account and on the lady's; beyond that I've been relying on word-of-mouth and people's attraction to cuteness.  I'd say he site is a success even at this point, at least as compared to ry-land.com and this blog.</p>
+
+<p>As of right now I've had around 10x as many unique visitors to the site as to ry-land.com, and about 35x as many page views.  Granted, I haven't advertised ry-land.com on Facebook, nor is there dynamic content to drive all those page views, but I'm still pretty impressed by its popularity in the first week.</p>
+
+<p>I'm really cranking out the jQuery and PHP and doing new stuff with them every day.  I'm enjoying it, learning a bunch, and tomorrow I should even start making some money again.  Not bad.</p>
+]]></content>
+  </entry>
+  
+</feed>

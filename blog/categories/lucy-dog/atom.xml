@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: lucy-dog | My Octopress Blog]]></title>
+  <link href="http://ryalnd.github.com/blog/categories/lucy-dog/atom.xml" rel="self"/>
+  <link href="http://ryalnd.github.com/"/>
+  <updated>2012-03-09T17:36:14-06:00</updated>
+  <id>http://ryalnd.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I should probably write about something.]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
+    <updated>2011-04-11T06:29:26-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
+    <content type="html"><![CDATA[<p>So it's been a bit since I've posted anything.  I've been pretty busy.</p>
+
+<p>Between my new 9-5, an amazing girlfriend, the weather improving, several web projects and a few novels, my plate's been plenty full.</p>
+
+<p>I've not gotten any new projects lately, but I've been doing a lot of small(ish) changes/fixes to those I've already got going.  I've been considering having some kind of changelog for all my stuff in general, mostly to keep track of what I'm doing on a day-to-day basis.  I've started documenting such work but have yet to figure out a good place to share that with the rest of the world (or if that's even necessary).  I mean,<em> I</em> know I'm doing the work, I just think it would be nice to let others know as well.</p>
+
+<p>On that note, here's some general stuff I've been working on since we last talked:</p>
+
+<ul>
+<li><p>Added some stuff to lucy-dog.com, mostly aesthetic:</p>
+
+<ul>
+<li><p>Changed title(s), metadata</p></li>
+<li><p>Added a few new pictures</p></li>
+<li><p>Fixed some formatting, paging issues with 'show all'</p></li>
+</ul>
+</li>
+<li><p>Broken Spoke Updates:</p>
+
+<ul>
+<li><p>Migrated existing site to new host</p></li>
+<li><p>Added Events functionality to DB, front-end, admin panel</p></li>
+<li><p>Added, tweaked some .js libraries for picking dates and times (related to Events)</p></li>
+</ul>
+</li>
+</ul>
+
+
+<p>That's all I can think of off the top of my head. I'll let you know when I get an actual changelog documented.</p>
+
+<p>I've been reminded this last week that GoDaddy is a real pain if you don't want to use their GUIs for everything.  Allowing SSH access took around 2 days to finally get implemented, after the DNS settings were populated.  I have yet to figure out how to use mysql from a shell; no combination of usernames and passwords allows me access, although those same credentials work everywhere else.  I'm sure PHPMyAdmin is a fine tool if you like that sort of thing, but I really just want access to a mysql prompt.  Is that so much to ask, GoDaddy?</p>
+
+<p>On a related rant I have yet to find a good emacs script for multi-mode editing (PHP, javascript, html, css in this example). I tried a few but they weren't really what I was looking for.  From what I remember (this was a few weeks back) one was very close, but its PHP-mode was all kinds of broken, to the point of unusability.  If anyone has a suggestion let me know.</p>
+
+<p>Almost done with the bike site, with the notable exception of graphics.  I am <em>absolutely</em> not a graphic designer, much as it pains me to admit.  I've taken on a few projects now where they've handed me a logo designed by someone for use as a sticker or on a t-shirt.  That's great, but my Adobe fu isn't such that I can easily make that into a pretty, well-laid-out header graphic.  Consequently graphics are what need the most improvement on these sites.  I'm getting better with Photoshop and Illustrator every day, but at this point I'd never take on a 'design' project.  I truly appreciate nice graphics, and know what does and does not work or look good.</p>
+
+<p>At the end of the day, though, I'm not a graphic designer.  I write code.  It's one of those things where I think, 'With some experience you can make some awesome logos!' and keep that in the back of my mind as I fumble with these design tools to produce graphics that don't quite cut it.  Maybe I'll eventually get there.  Maybe I'll just hire a graphic designer.</p>
+
+<p>On a less technical note, I finished Infinite Jest a few weeks ago.  Initially I was upset by the ending (if one wants to call it that), but after a day or two of subconscious processing I came to the opposite conclusion: that while certain elements of the story were not explicitly explained, there were plenty of clues and allusions to allow the reader to work things out for himself.  I liked that.  Apparently DFW's last unfinished novel is out now, so I'm going to have to pick that up soon.</p>
+
+<p>At Devin's Mad Clojure Meetup last week I was referred to Logicomix, which I shortly thereafter bought and consumed.  The idea and format were what drew me immediately in:  a story about famous logicians/mathematicians/philosophers, in graphic novel format?  What's not to like about that?  While the illustrations were amazing, I found the writing a little boring and sometimes awkwardly/ambiguously phrased.  While I understand that including in-depth details of the fields would have made the book inaccessible to a good majority of readers, that's honestly what I was expecting and was a bit disappointed in that regard.  I felt that the book was too vague to be useful as anything more than a character-driven story and general history lesson.  Maybe that's what they were going for; I just imagined that they would cater to the 'nerd' audience a bit more.</p>
+
+<p>Still looking for a job in Milwaukee.  Further updates as events warrant.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Site, New Job]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/03/15/new-site-new-job/"/>
+    <updated>2011-03-15T07:48:21-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2011/03/15/new-site-new-job</id>
+    <content type="html"><![CDATA[<p>It's been a few weeks since I last posted.  Quite a bit's happened in that time.</p>
+
+<p>To begin, I finally found a job.  Starting Wednesday I'll be working a regular 9-to-5, doing primarily technical support for pharmacy software.  While it's only a temporary position and doesn't involve much development, I'm still really looking forward to some structure and a more 'normal' circadian rhythm.  I consider myself one of those people that loves to work, and get genuine satisfaction from doing a job well.  Also, it's well-paying and I'm dead broke; that certainly doesn't hamper my anticipation.</p>
+
+<p>I haven't done any Project Euler since I reached Level 2.  I felt it was a good stopping point for the time being, but I've definitely learned a lot from it and plan on doing a problem or two when the urge strikes; perhaps in a new language.  It's been really good for learning syntax and structure basics for Python, and at this point I feel confident that I could pretty easily solve most problems with it.  If you're looking to learn a new language, applications (in the literal sense) to math problems are in my opinion a great way to start.</p>
+
+<p>Still working on a couple of web development contracts, both for starting businesses.  They're going well, although the biggest problem I'm having is with the level of detail to which I'm giving these sites.  I'm trying to keep things quick and simple, but jQuery and PHP make doing all these awesome things so simple that I end up spending wayyy too much time experimenting with features the client neither asked for nor particularly needs.  Giving them more than they asked for up-front isn't really a problem in itself (deleting is pretty simple), but it's becoming one given that these need to get finished post-haste since time will be sparse come tomorrow.</p>
+
+<p>Finally, I launched a site last week called (tentatively): <a href="http://lucy-dog.com">Lucy In Hats</a>.  It started out as a joking comment about my girlfriend's dog, and within a few hours I had bought a domain name and had something up and running.  I've been making tweaks and adding features since then, but the concept's been the same since the start: people vote on pictures of an adorable mini-pug in silly hats.</p>
+
+<p>I ended up going through with the idea because I wanted to see how much traffic I could generate to the site, under the general knowledge that people can't get enough of cute animals.  That and learning the underlying technologies needed for a relatively simple site like this were my main goals for the project. The fact I only had to spend $10 on a domain name got things off the ground right away.</p>
+
+<p>I've done some 'advertising' on Facebook, both on my account and on the lady's; beyond that I've been relying on word-of-mouth and people's attraction to cuteness.  I'd say he site is a success even at this point, at least as compared to ry-land.com and this blog.</p>
+
+<p>As of right now I've had around 10x as many unique visitors to the site as to ry-land.com, and about 35x as many page views.  Granted, I haven't advertised ry-land.com on Facebook, nor is there dynamic content to drive all those page views, but I'm still pretty impressed by its popularity in the first week.</p>
+
+<p>I'm really cranking out the jQuery and PHP and doing new stuff with them every day.  I'm enjoying it, learning a bunch, and tomorrow I should even start making some money again.  Not bad.</p>
+]]></content>
+  </entry>
+  
+</feed>
