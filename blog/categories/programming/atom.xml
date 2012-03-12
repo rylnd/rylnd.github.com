@@ -4,7 +4,7 @@
   <title><![CDATA[Category: programming | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-03-11T20:14:51-05:00</updated>
+  <updated>2012-03-11T20:53:14-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[ryland]]></name>
@@ -149,20 +149,20 @@ It's been quite an ordeal trying to find an organize a team (yes, even for a 'sp
 <p>On that note, here's some general stuff I've been working on since we last talked:</p>
 
 <ul>
-<li><p>Added some stuff to lucy-dog.com, mostly aesthetic:</p>
+<li>Added some stuff to lucy-dog.com, mostly aesthetic:
 
 <ul>
-<li><p>Changed title(s), metadata</p></li>
-<li><p>Added a few new pictures</p></li>
-<li><p>Fixed some formatting, paging issues with 'show all'</p></li>
+<li>Changed title(s), metadata</li>
+<li>Added a few new pictures</li>
+<li>Fixed some formatting, paging issues with 'show all'</li>
 </ul>
 </li>
-<li><p>Broken Spoke Updates:</p>
+<li>Broken Spoke Updates:
 
 <ul>
-<li><p>Migrated existing site to new host</p></li>
-<li><p>Added Events functionality to DB, front-end, admin panel</p></li>
-<li><p>Added, tweaked some .js libraries for picking dates and times (related to Events)</p></li>
+<li>Migrated existing site to new host</li>
+<li>Added Events functionality to DB, front-end, admin panel</li>
+<li>Added, tweaked some .js libraries for picking dates and times (related to Events)</li>
 </ul>
 </li>
 </ul>

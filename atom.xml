@@ -4,7 +4,7 @@
   <title><![CDATA[RyLand]]></title>
   <link href="http://ryalnd.github.com/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-03-11T20:14:51-05:00</updated>
+  <updated>2012-03-11T20:53:14-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[ryland]]></name>
@@ -251,20 +251,20 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
 <p>On that note, here&#8217;s some general stuff I&#8217;ve been working on since we last talked:</p>
 
 <ul>
-<li><p>Added some stuff to lucy-dog.com, mostly aesthetic:</p>
+<li>Added some stuff to lucy-dog.com, mostly aesthetic:
 
 <ul>
-<li><p>Changed title(s), metadata</p></li>
-<li><p>Added a few new pictures</p></li>
-<li><p>Fixed some formatting, paging issues with &#8216;show all&#8217;</p></li>
+<li>Changed title(s), metadata</li>
+<li>Added a few new pictures</li>
+<li>Fixed some formatting, paging issues with &#8216;show all&#8217;</li>
 </ul>
 </li>
-<li><p>Broken Spoke Updates:</p>
+<li>Broken Spoke Updates:
 
 <ul>
-<li><p>Migrated existing site to new host</p></li>
-<li><p>Added Events functionality to DB, front-end, admin panel</p></li>
-<li><p>Added, tweaked some .js libraries for picking dates and times (related to Events)</p></li>
+<li>Migrated existing site to new host</li>
+<li>Added Events functionality to DB, front-end, admin panel</li>
+<li>Added, tweaked some .js libraries for picking dates and times (related to Events)</li>
 </ul>
 </li>
 </ul>
@@ -486,11 +486,11 @@ print max(totals, key=lambda x: x[1] )
     <content type="html"><![CDATA[<p>I wasn&#8217;t feeling very well today, and it was super cold out, so I decided to be as productive as I possibly could at home.  This involved:</p>
 
 <ul>
-<li><p>Updating profiles/resumes on various job sites</p></li>
-<li><p>Searching and applying for jobs on same</p></li>
-<li><p>Doing some stalking of Milwaukee-area businesses</p></li>
-<li><p>Finally setting up, lurking IRC</p></li>
-<li><p>Several PE problems as a reward</p></li>
+<li>Updating profiles/resumes on various job sites</li>
+<li>Searching and applying for jobs on same</li>
+<li>Doing some stalking of Milwaukee-area businesses</li>
+<li>Finally setting up, lurking IRC</li>
+<li>Several PE problems as a reward</li>
 </ul>
 
 
@@ -572,8 +572,8 @@ Finished problem 35.  Pretty embarrassed about that one.  I was trying to speed 
 <p>So, knowing that, I basically jumped into writing a solution as follows:</p>
 
 <ul>
-<li><p>The starting, 0th permutation is 0123456789</p></li>
-<li><p>I would manually write out the next x permutations, in lexicographic order, along with the corresponding inversion vectors, in the hopes of seeing a pattern regarding the list of inversion vectors.</p>
+<li>The starting, 0th permutation is 0123456789</li>
+<li>I would manually write out the next x permutations, in lexicographic order, along with the corresponding inversion vectors, in the hopes of seeing a pattern regarding the list of inversion vectors.
 
 <ul>
 <li>I did this under the idea that calculating 1,000,000 10-digit numbers in a certain way would be much faster than actually doing the permuting manually, one million times.</li>
@@ -584,7 +584,7 @@ Finished problem 35.  Pretty embarrassed about that one.  I was trying to speed 
 
 <p>I did this for what ended up being the first 24 permutations, which corresponded to permutations of only the last 4 digits, and ended up with something like the table on the far left:</p>
 
-<table class='left'>
+<table class='small left'>
 <tr><th> number </th><th> permutation </th></tr>
 <tr><td> 6987 </td><td> 012 </td></tr>
 <tr><td> 7689 </td><td> 100 </td></tr>
@@ -610,7 +610,7 @@ Finished problem 35.  Pretty embarrassed about that one.  I was trying to speed 
 
 
 
-<table class='left'>
+<table class='small left'>
 <tr><th> decimal   </th><th> factorial   </th></tr>
 <tr><td> 0         </td><td> 0!          </td></tr>
 <tr><td> 1         </td><td> 10!         </td></tr>

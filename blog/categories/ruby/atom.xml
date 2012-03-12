@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-03-11T20:14:51-05:00</updated>
+  <updated>2012-03-11T20:53:14-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[ryland]]></name>
@@ -112,8 +112,8 @@ It's been quite an ordeal trying to find an organize a team (yes, even for a 'sp
 <p>So, knowing that, I basically jumped into writing a solution as follows:</p>
 
 <ul>
-<li><p>The starting, 0th permutation is 0123456789</p></li>
-<li><p>I would manually write out the next x permutations, in lexicographic order, along with the corresponding inversion vectors, in the hopes of seeing a pattern regarding the list of inversion vectors.</p>
+<li>The starting, 0th permutation is 0123456789</li>
+<li>I would manually write out the next x permutations, in lexicographic order, along with the corresponding inversion vectors, in the hopes of seeing a pattern regarding the list of inversion vectors.
 
 <ul>
 <li>I did this under the idea that calculating 1,000,000 10-digit numbers in a certain way would be much faster than actually doing the permuting manually, one million times.</li>
@@ -124,7 +124,7 @@ It's been quite an ordeal trying to find an organize a team (yes, even for a 'sp
 
 <p>I did this for what ended up being the first 24 permutations, which corresponded to permutations of only the last 4 digits, and ended up with something like the table on the far left:</p>
 
-<table class='left'>
+<table class='small left'>
 <tr><th> number </th><th> permutation </th></tr>
 <tr><td> 6987 </td><td> 012 </td></tr>
 <tr><td> 7689 </td><td> 100 </td></tr>
@@ -150,7 +150,7 @@ It's been quite an ordeal trying to find an organize a team (yes, even for a 'sp
 
 
 
-<table class='left'>
+<table class='small left'>
 <tr><th> decimal   </th><th> factorial   </th></tr>
 <tr><td> 0         </td><td> 0!          </td></tr>
 <tr><td> 1         </td><td> 10!         </td></tr>
