@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>RyLand</title>
+  <meta name="author" content="ryland">
+
+  
+  <meta name="description" content="Project Euler Update: I&#8217;ve still been plugging away at various PE problems.
+I finally finished my first 25(26 now) problems, earning me a &# &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://ryalnd.github.com/blog/page/5">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="RyLand" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">RyLand</a></h1>
+  
+    <h2>Adventures in Hedonism, Coding</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:ryalnd.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/26/im-bored/">I&#8217;m Bored</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-26T12:40:20-06:00" pubdate data-updated="true">Jan 26<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Project Euler Update: I&#8217;ve still been plugging away at various PE problems.
+I finally finished my first 25(26 now) problems, earning me a &#8216;Level 1&#8217; status which from what I can tell is just a title.  But it&#8217;s <em>my</em> title!
+So, I know I talked about showing some code, and I still plan to post all the solutions I&#8217;ve written, but to whet your appetites here&#8217;s a quick, straightforward solution to problem 30:</p>
+
+<div><script src='https://gist.github.com/2019448.js?file=p30.py'></script>
+<noscript><pre><code>def split(str): return sum(int(x)**5 for x in str)
+print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscript></div>
+
+
+<p>Nothing too special going on here (though I&#8217;m finally getting the hang of list comprehensions).  It&#8217;s basically brute force, which from what I&#8217;ve seen on the forums is really the only way it&#8217;s been done. The <code>split()</code> function gets the value for a given number(passed as a string, not an int), and the next line finds all numbers fitting the criteria of the problem. The solution space of 2-999,999 comes from the fact that since the maximum value for a digit is 9<sup>5</sup> = 59049, no number with 7 or more digits could possibly be part of the solution since 7 x 9<sup>5</sup> = 413,343 &lt;&lt;&lt; 9,999,999.</p>
+
+<p>Tonight&#8217;s the first week of the Stand-Up Competition at the Comedy Club.  I was there for part of last year&#8217;s, and since a cheap comedy show is the pastime of choice for poor, unemployed, narcissistic college graduates around the world, I plan on being a regular attendee for the next few weeks.</p>
+
+<p>I&#8217;ve decided I don&#8217;t like the look of the site, anymore.  I&#8217;ll be changing things around soon, or maybe just tweaking, so check back.</p>
+
+<p>EDIT(7:02pm):  I felt like a bum for not doing any PE today, so I just did problem 29 with:</p>
+
+<div><script src='https://gist.github.com/2019448.js?file=p29.py'></script>
+<noscript><pre><code>print len(set(a**b for a in range(2,101) for b in range(2,101)))</code></pre></noscript></div>
+
+
+<p>using python&#8217;s <code>set</code> structure to avoid having to remove duplicates myself.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/21/more-euler-problem-15/">More Euler: Problem 15</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-21T11:49:36-06:00" pubdate data-updated="true">Jan 21<span>st</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So I came upon problem 15 last night, after finishing up 12, 13, and 14.  Though I was done for the night, and an obvious solution wasn&#8217;t immediately apparent, I knew one thing: buried in my mind somewhere is the answer to this problem.  I knew I had done math like this before, I just had to figure out to what class this problem belonged.</p>
+
+<p>That, though, turned out to be pretty frustrating.  I turned off my monitor and tried to sleep, but couldn&#8217;t help thinking about the problem.  At first I tried to think of the grid as a graph (which was obviously easy), with intersections being nodes and lines edges, under the assumption that perhaps this was some type of network flow problem.  I soon realized that this was a much simpler problem than that, which made me consider it even more (instead of sleeping, mind).</p>
+
+<p>The arrows in the diagram apparently threw me at first; this was not a network problem.  I started thinking along the right lines as soon as I dozed off: I knew it wasn&#8217;t &#8216;wrong&#8217; to think of the grid as a graph, with limited paths, and that a choice was being made at each node (whether to go down or right).  The rest came just right now.</p>
+
+<p>I hadn&#8217;t consciously thought of it until my mind came back to it just now.  The breakthrough came when I realized that each possible path was of the same length (W + L or 2L, same here) and consisted of an equal number (here, L) of &#8216;down&#8217; and &#8216;right&#8217; moves.</p>
+
+<p>It sometimes helps when I write things out visually, so to represent this to myself I wrote out the example 2x2 grid paths as binary: 0011, 0101, 0110, 1001, 1010, 1100.</p>
+
+<p>Only then did I FINALLY, embarrassingly realize what this problem was: really basic combinatorics.  Here&#8217;s how I broke down the problem: given an nxn grid, what it&#8217;s really asking is how many ways you can arrange n/2 1s and n/2 0s along a string of length n.  Since, however, these 0s and 1s are indistinguishable, the answer ends up being &#8216;n choose n/2&#8217;, or:</p>
+
+<pre><code>  n!
+------
+2(n/2)!
+</code></pre>
+
+<p>The only real programming I did for this one was calculating those factorials, which in python (or any language) is pretty trivial.  Problem 15 down.</p>
+
+<p>I biked downtown today.  It was cold.  Like, -13° windchill cold.  I needed some exercise, though, to work off this cold I&#8217;ve had.  It was worth it just to see her smile.</p>
+
+<p>I realized earlier that I&#8217;d never chronicled my experience with Dropquest 2011.  For right now I&#8217;ll just say it was incredibly fun and rewarding; I live for that kind of thing.  Maybe I&#8217;ll expound a bit more later.  Until then.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/20/euler-oilier/">Euler, Oilier.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-20T15:34:43-06:00" pubdate data-updated="true">Jan 20<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>What&#8217;s in the news &#8230;?</p>
+
+<p>Off the top of my mind, this: <a href="http://www.donothingfor2minutes.com/">LINK</a>.</p>
+
+<p>Now, I thought I was a patient person; I let programs run, pages load: I give them their time.  But to surrender control of both my mouse and keyboard for two minutes made me reconsider just how impatient I really am at my desk.</p>
+
+<p>I&#8217;m writing this as my solution to problem 12 on Project Euler chugs away, eating my resources.  It&#8217;s a very, VERY brute-force solution, mind you.  The actual question can be found <a href="http://projecteuler.net/index.php?section=problems&amp;id=12">here</a>.  It seems fairly straightforward; find the first triangle number with >500 factors.  I wrote a method to calculate the nth triangle number, and then wrote a brute-force &#8216;factor counter&#8217;, which just goes through every number smaller than the given input and sees if it divides it cleanly.  So that&#8217;s running.</p>
+
+<p>In the meantime, though, I started looking up smarter solutions, of which this time there thankfully are.  There&#8217;s a much easier way to calculate the number of factors a number has, based off its prime factors (I&#8217;ll leave you to google it if you&#8217;re interested).  So, once I write a &#8216;prime-factorizer&#8217; I should have a much better solution.</p>
+
+<p>This work with Ruby and Python has given me more than an academic reason to learn more about functional programming.  I watched a few really great FP talks by Rich Hickey that got me interested, but learning the basics was as far as that had got me.  While there&#8217;s still not a pressing need to really involve myself, it&#8217;s nice to be able to slowly add bits and pieces to my repertoire as I need/research/find them.</p>
+
+<p>EDIT(10:52pm)
+So &#8230; while I was writing that post, I was realizing that my brute-force solution wasn&#8217;t cutting it.  In fact, it probably wouldn&#8217;t find the solution if I left it overnight, as it was taking exponentially longer with each new number (I was aware of this problem).</p>
+
+<p>So, I went back, did a little research, and wrote a program that counts factors based on the number&#8217;s prime factors.  It found the solution in under 1s.  Problem 13 down.</p>
+
+<p>Live and learn.  Goodnight.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/01/13/an-intimate-look/">An Intimate Look</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-13T17:13:34-06:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I know I just wrote that last post about the Ruby scraper, but I wanted to take a quick second to talk quickly about what else I&#8217;ve been doing with my time.</p>
+
+<p>Mostly, I&#8217;ve been reading.  This summer I discovered/fell in love with David Foster Wallace, and have read 5 of his books since then.  I&#8217;d been checking them out from the library, but asked for &#8216;A Supposedly Fun Thing &#8230;&#8217; for Christmas and will probably finish that tonight.</p>
+
+<p>Since I returned from Kenosha I&#8217;ve been riding my bike anywhere within reason when I need transportation.  I had gotten lazy in December and started driving everywhere, but I&#8217;m back on the saddle and feel much better doing so.</p>
+
+<p>I&#8217;ve got several things on my Kindle that I&#8217;ve been slowly getting through.  The details aren&#8217;t important, but topics include Ruby, Lisp, regex, Clojure, and a bunch of other things I&#8217;m really interested (but severely lacking) in.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/6/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/4/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2011/08/05/life-upgraded/">Life: Upgraded.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/07/01/work-vs-not-work/">Work vs. Not-Work</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/06/12/busyness-business/">Busyness, Business</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/05/28/quickie/">Quickie</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/05/25/much-more-excitinger/">Much More Exciting(er)</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("rylnd", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/rylnd" class="twitter-follow-button" data-show-count="false">Follow @rylnd</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/ryalnd">@ryalnd</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'ryalnd',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - ryland -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
