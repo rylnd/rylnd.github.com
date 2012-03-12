@@ -95,9 +95,10 @@ I finally finished my first 25(26 now) problems, earning me a &# &hellip;">
 I finally finished my first 25(26 now) problems, earning me a &#8216;Level 1&#8217; status which from what I can tell is just a title.  But it&#8217;s <em>my</em> title!
 So, I know I talked about showing some code, and I still plan to post all the solutions I&#8217;ve written, but to whet your appetites here&#8217;s a quick, straightforward solution to problem 30:</p>
 
-<pre><code>def split(str): return sum(int(x)**5 for x in str)
-print sum(i for i in range(2, 999999) if i==split(str(i)))
-</code></pre>
+<div><script src='https://gist.github.com/2019448.js?file=p30.py'></script>
+<noscript><pre><code>def split(str): return sum(int(x)**5 for x in str)
+print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscript></div>
+
 
 <p>Nothing too special going on here (though I&#8217;m finally getting the hang of list comprehensions).  It&#8217;s basically brute force, which from what I&#8217;ve seen on the forums is really the only way it&#8217;s been done. The <code>split()</code> function gets the value for a given number(passed as a string, not an int), and the next line finds all numbers fitting the criteria of the problem. The solution space of 2-999,999 comes from the fact that since the maximum value for a digit is 9<sup>5</sup> = 59049, no number with 7 or more digits could possibly be part of the solution since 7 x 9<sup>5</sup> = 413,343 &lt;&lt;&lt; 9,999,999.</p>
 
@@ -107,8 +108,9 @@ print sum(i for i in range(2, 999999) if i==split(str(i)))
 
 <p>EDIT(7:02pm):  I felt like a bum for not doing any PE today, so I just did problem 29 with:</p>
 
-<pre><code>print len(set(a**b for a in range(2,101) for b in range(2,101)))
-</code></pre>
+<div><script src='https://gist.github.com/2019448.js?file=p29.py'></script>
+<noscript><pre><code>print len(set(a**b for a in range(2,101) for b in range(2,101)))</code></pre></noscript></div>
+
 
 <p>using python&#8217;s <code>set</code> structure to avoid having to remove duplicates myself.</p>
 </div>

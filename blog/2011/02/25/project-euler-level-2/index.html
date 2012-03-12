@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>PE: Level 2 - RyLand</title>
+  <title>Project Euler: Level 2 - RyLand</title>
   <meta name="author" content="ryland">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://ryalnd.github.com/blog/2011/02/25/pe-level-2">
+  <link rel="canonical" href="http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2">
   <link href="/favicon.ico" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -67,7 +67,7 @@
   
   <header>
     
-      <h1 class="entry-title">PE: Level 2</h1>
+      <h1 class="entry-title">Project Euler: Level 2</h1>
     
     
       <p class="meta">
@@ -110,7 +110,8 @@
 
 <p>55: Easier to just show this one.  Used a recursive function and the limits the explicitly stated.</p>
 
-<pre><code>def lychrel(n, it):
+<div><script src='https://gist.github.com/2019414.js?file=euler_55.py'></script>
+<noscript><pre><code>def lychrel(n, it):
     if it&lt;50:
         rev = n[::-1]
         _sum = str(int(n) + int(rev))
@@ -120,8 +121,8 @@
     else: return 0
 
 l = [x for x in range(1,10000) if not lychrel(str(x),0)]
-print len(l)
-</code></pre>
+print len(l)</code></pre></noscript></div>
+
 
 <p>Problem 79 was the most interesting.  I just finished.  I made two related assumptions, without which my answer probably wouldn&#8217;t work. I also cheated a bit and ended up explicitly telling the program which numbers were used in the password, although I could&#8217;ve easily made that list from the input as well.</p>
 
@@ -129,7 +130,8 @@ print len(l)
 
 <p>I ran my program and took a look at the lists, and saw that in this case my assumptions were correct.  Then I simply ordered those digits based on the lengths of their &#8216;left&#8217; sets (So the digit with nothing to the left of it would be first, and the digit with everything else to the left of it would be last.  Get it?).  Voila.  Code:</p>
 
-<pre><code>class digit:
+<div><script src='https://gist.github.com/2019414.js?file=euler_79.py'></script>
+<noscript><pre><code>class digit:
     def __init__(self,x):
         self.dig = x
         self.left = set()
@@ -169,8 +171,8 @@ SORT V1
 print [dig.dig for i in range(9) for dig in obs if len(dig.left)==i]
 '''
 print ''.join([d.dig for d in obs])
-print reduce(lambda x,y: x+y,[d.dig for d in obs])
-</code></pre>
+print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
+
 
 <p>Commented out near the bottom you&#8217;ll see two previous methods I had used to do the final sorting mentioned above.  V0 had nested loops, which wasn&#8217;t awful but not good; V1 was essentially just a list comprehension of same.  I tried to be a bit more &#8216;pythonic&#8217; with my final method, using lambda function within the list.sort() method to order the list of &#8216;digit&#8217; instances on their left set.</p>
 
@@ -217,7 +219,7 @@ print reduce(lambda x,y: x+y,[d.dig for d in obs])
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ryalnd.github.com/blog/2011/02/25/pe-level-2/" data-via="rylnd" data-counturl="http://ryalnd.github.com/blog/2011/02/25/pe-level-2/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2/" data-via="rylnd" data-counturl="http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2/" >Tweet</a>
   
   
   

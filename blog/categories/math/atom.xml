@@ -4,7 +4,7 @@
   <title><![CDATA[Category: math | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/math/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-03-11T20:53:14-05:00</updated>
+  <updated>2012-03-11T22:00:58-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[ryland]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[PE: Level 2]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/25/pe-level-2/"/>
+    <title type="html"><![CDATA[Project Euler: Level 2]]></title>
+    <link href="http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
     <updated>2011-02-25T20:51:27-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/25/pe-level-2</id>
+    <id>http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2</id>
     <content type="html"><![CDATA[<p>Spent the day attempting contact with people who didn't want to communicate with me.  Filed my state taxes (had done federal a week or so ago).</p>
 
 <p>I couldn't decide whether to feel good about today's productivity or not, so to add some weight to the 'productive' side, I went ahead and finished the remaining 7 PE problems needed to get me to the coveted <strong>Level 2</strong>.</p>
@@ -38,7 +38,8 @@
 
 <p>55: Easier to just show this one.  Used a recursive function and the limits the explicitly stated.</p>
 
-<pre><code>def lychrel(n, it):
+<p><div><script src='https://gist.github.com/2019414.js?file=euler_55.py'></script>
+<noscript><pre><code>def lychrel(n, it):
     if it&lt;50:
         rev = n[::-1]
         _sum = str(int(n) + int(rev))
@@ -48,8 +49,8 @@
     else: return 0
 
 l = [x for x in range(1,10000) if not lychrel(str(x),0)]
-print len(l)
-</code></pre>
+print len(l)</code></pre></noscript></div>
+</p>
 
 <p>Problem 79 was the most interesting.  I just finished.  I made two related assumptions, without which my answer probably wouldn't work. I also cheated a bit and ended up explicitly telling the program which numbers were used in the password, although I could've easily made that list from the input as well.</p>
 
@@ -57,7 +58,8 @@ print len(l)
 
 <p>I ran my program and took a look at the lists, and saw that in this case my assumptions were correct.  Then I simply ordered those digits based on the lengths of their 'left' sets (So the digit with nothing to the left of it would be first, and the digit with everything else to the left of it would be last.  Get it?).  Voila.  Code:</p>
 
-<pre><code>class digit:
+<p><div><script src='https://gist.github.com/2019414.js?file=euler_79.py'></script>
+<noscript><pre><code>class digit:
     def __init__(self,x):
         self.dig = x
         self.left = set()
@@ -97,8 +99,8 @@ SORT V1
 print [dig.dig for i in range(9) for dig in obs if len(dig.left)==i]
 '''
 print ''.join([d.dig for d in obs])
-print reduce(lambda x,y: x+y,[d.dig for d in obs])
-</code></pre>
+print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
+</p>
 
 <p>Commented out near the bottom you'll see two previous methods I had used to do the final sorting mentioned above.  V0 had nested loops, which wasn't awful but not good; V1 was essentially just a list comprehension of same.  I tried to be a bit more 'pythonic' with my final method, using lambda function within the list.sort() method to order the list of 'digit' instances on their left set.</p>
 
@@ -151,28 +153,30 @@ print reduce(lambda x,y: x+y,[d.dig for d in obs])
 
 <p>After that it was just a matter of putting it all together:</p>
 
-<pre><code>from fractions import gcd
+<p><div><script src='https://gist.github.com/2019433.js?file='></script>
+<noscript><pre><code>from fractions import gcd
 
 #Euclid's Formula
 def getabc(m,n):
-    a = m**2 -n**2
+    a = m**2 - n**2
     b = 2*m*n
     c = m**2 + n**2
     return a,b,c
 
 #calculate all PPTs for which p &lt; 1000
-prim_trips = [getabc(m,n) for m in range(1,100) for n in range(1,100) if m&gt;n and gcd(m,n)==1 and 2*m*m + 2*m*n&lt;=1000 and (m%2==0 or n%2==0)]
+prim_trips = [getabc(m,n) for m in range(1,100) for n in range(1,100) if m &gt; n and gcd(m,n) == 1 and 2*m*m + 2*m*n &lt;= 1000 and (m%2 == 0 or n % 2 == 0)]
 
 #find all possible triples for a given p
 def total(p):
-    return sum([1 for (a,b,c) in prim_trips if p%(a+b+c)==0])
+    return sum([1 for (a,b,c) in prim_trips if p % (a + b + c) == 0])
 
 #collect all possible solutions for each perimeter p
 totals = [(p,total(p)) for p in range(1,1001)]
 
 #get max
-print max(totals, key=lambda x: x[1] )
-</code></pre>
+print max(totals, key = lambda x: x[1] )
+</code></pre></noscript></div>
+</p>
 
 <p>Check back soon for more discussion of math, code, and existential crises.</p>
 ]]></content>
@@ -337,9 +341,10 @@ print max(totals, key=lambda x: x[1] )
 I finally finished my first 25(26 now) problems, earning me a 'Level 1' status which from what I can tell is just a title.  But it's <em>my</em> title!
 So, I know I talked about showing some code, and I still plan to post all the solutions I've written, but to whet your appetites here's a quick, straightforward solution to problem 30:</p>
 
-<pre><code>def split(str): return sum(int(x)**5 for x in str)
-print sum(i for i in range(2, 999999) if i==split(str(i)))
-</code></pre>
+<p><div><script src='https://gist.github.com/2019448.js?file=p30.py'></script>
+<noscript><pre><code>def split(str): return sum(int(x)**5 for x in str)
+print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscript></div>
+</p>
 
 <p>Nothing too special going on here (though I'm finally getting the hang of list comprehensions).  It's basically brute force, which from what I've seen on the forums is really the only way it's been done. The <code>split()</code> function gets the value for a given number(passed as a string, not an int), and the next line finds all numbers fitting the criteria of the problem. The solution space of 2-999,999 comes from the fact that since the maximum value for a digit is 9<sup>5</sup> = 59049, no number with 7 or more digits could possibly be part of the solution since 7 x 9<sup>5</sup> = 413,343 &lt;&lt;&lt; 9,999,999.</p>
 
@@ -349,8 +354,9 @@ print sum(i for i in range(2, 999999) if i==split(str(i)))
 
 <p>EDIT(7:02pm):  I felt like a bum for not doing any PE today, so I just did problem 29 with:</p>
 
-<pre><code>print len(set(a**b for a in range(2,101) for b in range(2,101)))
-</code></pre>
+<p><div><script src='https://gist.github.com/2019448.js?file=p29.py'></script>
+<noscript><pre><code>print len(set(a**b for a in range(2,101) for b in range(2,101)))</code></pre></noscript></div>
+</p>
 
 <p>using python's <code>set</code> structure to avoid having to remove duplicates myself.</p>
 ]]></content>
