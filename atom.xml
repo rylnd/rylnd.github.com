@@ -4,7 +4,7 @@
   <title><![CDATA[RyLand]]></title>
   <link href="http://ryalnd.github.com/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-03-11T22:05:40-05:00</updated>
+  <updated>2012-04-08T20:28:12-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[ryland]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Github Pages]]></title>
+    <link href="http://ryalnd.github.com/blog/2012/04/08/github-pages/"/>
+    <updated>2012-04-08T19:59:00-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2012/04/08/github-pages</id>
+    <content type="html"><![CDATA[<p>I haven&#8217;t posted anything in a while. I won&#8217;t make excuses, that&#8217;s just the way it is.</p>
+
+<p>If you hadn&#8217;t noticed, the blog is no longer WordPress, nor is it hosted on my Linode. A few weeks ago, during <a href="http://bendyworks.com">bendyworks</a>&#8217; amazing growth days (which will be described in a future post), I converted my blog entries to <a href="https://github.com/mojombo/jekyll">jekyll</a>-formatted YAML and markdown. This was actually the hardest part of the process. I won&#8217;t go into details, but it involved piping my WordPress-exported posts through a Rube-Goldbergesque series of Python libraries.</p>
+
+<p>With my old posts converted, I then got an <a href="http://octopress.org">octopress</a> repository set up on GitHub, using their super-cool <a href="http://pages.github.com">Pages</a> functionality for hosting and super-easy deployment. The whole process is very slick, and requires much, much less effort, maintenance, money, and disk space than my former methods.</p>
+
+<p>I&#8217;ll be tweaking the look and content in the weeks to come; I just wanted to give an update (mostly so that my newest post wasn&#8217;t a year old).</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Life: Upgraded.]]></title>
@@ -753,21 +768,6 @@ So &#8230; while I was writing that post, I was realizing that my brute-force so
 <p>So, I went back, did a little research, and wrote a program that counts factors based on the number&#8217;s prime factors.  It found the solution in under 1s.  Problem 13 down.</p>
 
 <p>Live and learn.  Goodnight.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[An Intimate Look]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/01/13/an-intimate-look/"/>
-    <updated>2011-01-13T17:13:34-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/01/13/an-intimate-look</id>
-    <content type="html"><![CDATA[<p>I know I just wrote that last post about the Ruby scraper, but I wanted to take a quick second to talk quickly about what else I&#8217;ve been doing with my time.</p>
-
-<p>Mostly, I&#8217;ve been reading.  This summer I discovered/fell in love with David Foster Wallace, and have read 5 of his books since then.  I&#8217;d been checking them out from the library, but asked for &#8216;A Supposedly Fun Thing &#8230;&#8217; for Christmas and will probably finish that tonight.</p>
-
-<p>Since I returned from Kenosha I&#8217;ve been riding my bike anywhere within reason when I need transportation.  I had gotten lazy in December and started driving everywhere, but I&#8217;m back on the saddle and feel much better doing so.</p>
-
-<p>I&#8217;ve got several things on my Kindle that I&#8217;ve been slowly getting through.  The details aren&#8217;t important, but topics include Ruby, Lisp, regex, Clojure, and a bunch of other things I&#8217;m really interested (but severely lacking) in.</p>
 ]]></content>
   </entry>
   

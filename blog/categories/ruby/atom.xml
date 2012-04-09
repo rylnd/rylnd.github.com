@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-03-11T22:05:40-05:00</updated>
+  <updated>2012-04-08T20:28:12-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[ryland]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Github Pages]]></title>
+    <link href="http://ryalnd.github.com/blog/2012/04/08/github-pages/"/>
+    <updated>2012-04-08T19:59:00-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2012/04/08/github-pages</id>
+    <content type="html"><![CDATA[<p>I haven't posted anything in a while. I won't make excuses, that's just the way it is.</p>
+
+<p>If you hadn't noticed, the blog is no longer WordPress, nor is it hosted on my Linode. A few weeks ago, during <a href="http://bendyworks.com">bendyworks</a>' amazing growth days (which will be described in a future post), I converted my blog entries to <a href="https://github.com/mojombo/jekyll">jekyll</a>-formatted YAML and markdown. This was actually the hardest part of the process. I won't go into details, but it involved piping my WordPress-exported posts through a Rube-Goldbergesque series of Python libraries.</p>
+
+<p>With my old posts converted, I then got an <a href="http://octopress.org">octopress</a> repository set up on GitHub, using their super-cool <a href="http://pages.github.com">Pages</a> functionality for hosting and super-easy deployment. The whole process is very slick, and requires much, much less effort, maintenance, money, and disk space than my former methods.</p>
+
+<p>I'll be tweaking the look and content in the weeks to come; I just wanted to give an update (mostly so that my newest post wasn't a year old).</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Life: Upgraded.]]></title>
@@ -203,32 +218,6 @@ It's been quite an ordeal trying to find an organize a team (yes, even for a 'sp
 <p>After that, 36 and 34 were easy.  For 36 I just wrote a function <code>is_pal()</code> that takes a string and returns whether or not it's palindromic (and now I know how to get the binary representation of an int!).  34 was even easier: I reused the factorial function I had just written for 24 (I know there are built-in ones now; I wanted to write my own).</p>
 
 <p>Hopefully tomorrow won't get snowed out.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Euler, Oilier.]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/01/20/euler-oilier/"/>
-    <updated>2011-01-20T15:34:43-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/01/20/euler-oilier</id>
-    <content type="html"><![CDATA[<p>What's in the news . . .?</p>
-
-<p>Off the top of my mind, this: <a href="http://www.donothingfor2minutes.com/">LINK</a>.</p>
-
-<p>Now, I thought I was a patient person; I let programs run, pages load: I give them their time.  But to surrender control of both my mouse and keyboard for two minutes made me reconsider just how impatient I really am at my desk.</p>
-
-<p>I'm writing this as my solution to problem 12 on Project Euler chugs away, eating my resources.  It's a very, VERY brute-force solution, mind you.  The actual question can be found <a href="http://projecteuler.net/index.php?section=problems&amp;id=12">here</a>.  It seems fairly straightforward; find the first triangle number with >500 factors.  I wrote a method to calculate the nth triangle number, and then wrote a brute-force 'factor counter', which just goes through every number smaller than the given input and sees if it divides it cleanly.  So that's running.</p>
-
-<p>In the meantime, though, I started looking up smarter solutions, of which this time there thankfully are.  There's a much easier way to calculate the number of factors a number has, based off its prime factors (I'll leave you to google it if you're interested).  So, once I write a 'prime-factorizer' I should have a much better solution.</p>
-
-<p>This work with Ruby and Python has given me more than an academic reason to learn more about functional programming.  I watched a few really great FP talks by Rich Hickey that got me interested, but learning the basics was as far as that had got me.  While there's still not a pressing need to really involve myself, it's nice to be able to slowly add bits and pieces to my repertoire as I need/research/find them.</p>
-
-<p>EDIT(10:52pm)
-So . . . while I was writing that post, I was realizing that my brute-force solution wasn't cutting it.  In fact, it probably wouldn't find the solution if I left it overnight, as it was taking exponentially longer with each new number (I was aware of this problem).</p>
-
-<p>So, I went back, did a little research, and wrote a program that counts factors based on the number's prime factors.  It found the solution in under 1s.  Problem 13 down.</p>
-
-<p>Live and learn.  Goodnight.</p>
 ]]></content>
   </entry>
   
