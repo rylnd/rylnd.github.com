@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-04-27T17:22:04-05:00</updated>
+  <updated>2012-04-27T17:30:01-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -20,16 +20,16 @@
     <id>http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
     <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn't done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
 
-<p>While I had successfully done a <code>gem install heroku &amp;&amp; heroku create --stack cedar</code>, I got the following error when trying to do a <code>git push heroku master</code> to get things up and running:</p>
+<p>While I had successfully done a <code>$ gem install heroku &amp;&amp; heroku create --stack cedar</code>, I got the following error when trying to do a <code>$ git push heroku master</code> to get things up and running:</p>
 
-<pre><code>!  Your key with fingerprint &lt;REDACTED&gt; is not authorized to access evening-snow-some-number.
+<pre><code>!  Your key with fingerprint 09:84:27:65:48:de:b4:48:fe:64:25:d8:dd:55:d8:db is not authorized to access evening-snow-7878.
 
 fatal: The remote end hung up unexpectedly
 </code></pre>
 
-<p>Hmm.  That looked like an ssh issue to me. A quick <code>ssh-keygen -l</code> of a few of my keys told me that it was using the 'wrong one,' which was my default ssh key.</p>
+<p>Hmm.  That looked like an ssh issue to me. A quick <code>$ ssh-keygen -l</code> of a few of my keys told me that it was using the 'wrong one,' which was my default ssh key.</p>
 
-<p>Looking at <code>heroku keys</code> didn't help; it was using the correct key. So the issue was with my ssh config, not the heroku gem or its configuration.</p>
+<p>Looking at <code>$ heroku keys</code> didn't help; it was using the correct key. So the issue was with my ssh config, not the heroku gem or its configuration.</p>
 
 <p>I quickly tried to add an entry to my <code>~/.ssh/config</code> file, along the lines of</p>
 
@@ -53,9 +53,10 @@ fatal: The remote end hung up unexpectedly
 
 <pre><code>$ git remote add heroku git@heroku.app_name:app_name.git
 </code></pre></li>
-<li><p>Enjoy!</p></li>
 </ol>
 
+
+<p>That should be it. Enjoy!</p>
 ]]></content>
   </entry>
   
