@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ssh | RyLand]]></title>
+  <link href="http://ryalnd.github.com/blog/categories/ssh/atom.xml" rel="self"/>
+  <link href="http://ryalnd.github.com/"/>
+  <updated>2012-04-27T17:22:04-05:00</updated>
+  <id>http://ryalnd.github.com/</id>
+  <author>
+    <name><![CDATA[Ryland Herrick]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Multiple Heroku Accounts and git]]></title>
+    <link href="http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
+    <updated>2012-04-27T16:49:00-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
+    <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn't done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
+
+<p>While I had successfully done a <code>gem install heroku &amp;&amp; heroku create --stack cedar</code>, I got the following error when trying to do a <code>git push heroku master</code> to get things up and running:</p>
+
+<pre><code>!  Your key with fingerprint &lt;REDACTED&gt; is not authorized to access evening-snow-some-number.
+
+fatal: The remote end hung up unexpectedly
+</code></pre>
+
+<p>Hmm.  That looked like an ssh issue to me. A quick <code>ssh-keygen -l</code> of a few of my keys told me that it was using the 'wrong one,' which was my default ssh key.</p>
+
+<p>Looking at <code>heroku keys</code> didn't help; it was using the correct key. So the issue was with my ssh config, not the heroku gem or its configuration.</p>
+
+<p>I quickly tried to add an entry to my <code>~/.ssh/config</code> file, along the lines of</p>
+
+<pre><code>Host heroku.com
+  IdentityFile ~/.ssh/the_key_you_want
+</code></pre>
+
+<p>But I still got the same error: it was still using the wrong key. I did some quick googling and couldn't find a good answer.  I eventually stumbled on this <a href="https://github.com/ddollar/heroku-accounts">excellent heroku plugin</a> that does exactly what I was looking for.</p>
+
+<p>However, if you aren't using many accounts, and don't want to type a command in each terminal session, here's what it's doing under the covers (and what I ended up doing):</p>
+
+<ol>
+<li><p>Add something like the following to your <code>~/.ssh/config</code> file:</p>
+
+<pre><code>Host heroku.app_name
+  HostName heroku.com
+  IdentityFile ~/.ssh/the_key_you_want
+  IdentitiesOnly yes
+</code></pre></li>
+<li><p>Add a remote to your repo using that host:</p>
+
+<pre><code>$ git remote add heroku git@heroku.app_name:app_name.git
+</code></pre></li>
+<li><p>Enjoy!</p></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

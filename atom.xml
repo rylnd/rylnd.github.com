@@ -4,7 +4,7 @@
   <title><![CDATA[RyLand]]></title>
   <link href="http://ryalnd.github.com/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-04-08T20:50:08-05:00</updated>
+  <updated>2012-04-27T17:22:04-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Multiple Heroku Accounts and git]]></title>
+    <link href="http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
+    <updated>2012-04-27T16:49:00-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
+    <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn&#8217;t done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
+
+<p>While I had successfully done a <code>gem install heroku &amp;&amp; heroku create --stack cedar</code>, I got the following error when trying to do a <code>git push heroku master</code> to get things up and running:</p>
+
+<pre><code>!  Your key with fingerprint &lt;REDACTED&gt; is not authorized to access evening-snow-some-number.
+
+fatal: The remote end hung up unexpectedly
+</code></pre>
+
+<p>Hmm.  That looked like an ssh issue to me. A quick <code>ssh-keygen -l</code> of a few of my keys told me that it was using the &#8216;wrong one,&#8217; which was my default ssh key.</p>
+
+<p>Looking at <code>heroku keys</code> didn&#8217;t help; it was using the correct key. So the issue was with my ssh config, not the heroku gem or its configuration.</p>
+
+<p>I quickly tried to add an entry to my <code>~/.ssh/config</code> file, along the lines of</p>
+
+<pre><code>Host heroku.com
+  IdentityFile ~/.ssh/the_key_you_want
+</code></pre>
+
+<p>But I still got the same error: it was still using the wrong key. I did some quick googling and couldn&#8217;t find a good answer.  I eventually stumbled on this <a href="https://github.com/ddollar/heroku-accounts">excellent heroku plugin</a> that does exactly what I was looking for.</p>
+
+<p>However, if you aren&#8217;t using many accounts, and don&#8217;t want to type a command in each terminal session, here&#8217;s what it&#8217;s doing under the covers (and what I ended up doing):</p>
+
+<ol>
+<li><p>Add something like the following to your <code>~/.ssh/config</code> file:</p>
+
+<pre><code>Host heroku.app_name
+  HostName heroku.com
+  IdentityFile ~/.ssh/the_key_you_want
+  IdentitiesOnly yes
+</code></pre></li>
+<li><p>Add a remote to your repo using that host:</p>
+
+<pre><code>$ git remote add heroku git@heroku.app_name:app_name.git
+</code></pre></li>
+<li><p>Enjoy!</p></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Github Pages]]></title>
@@ -742,32 +788,6 @@ print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscr
 <p>I biked downtown today.  It was cold.  Like, -13° windchill cold.  I needed some exercise, though, to work off this cold I&#8217;ve had.  It was worth it just to see her smile.</p>
 
 <p>I realized earlier that I&#8217;d never chronicled my experience with Dropquest 2011.  For right now I&#8217;ll just say it was incredibly fun and rewarding; I live for that kind of thing.  Maybe I&#8217;ll expound a bit more later.  Until then.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Euler, Oilier.]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/01/20/euler-oilier/"/>
-    <updated>2011-01-20T15:34:43-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/01/20/euler-oilier</id>
-    <content type="html"><![CDATA[<p>What&#8217;s in the news &#8230;?</p>
-
-<p>Off the top of my mind, this: <a href="http://www.donothingfor2minutes.com/">LINK</a>.</p>
-
-<p>Now, I thought I was a patient person; I let programs run, pages load: I give them their time.  But to surrender control of both my mouse and keyboard for two minutes made me reconsider just how impatient I really am at my desk.</p>
-
-<p>I&#8217;m writing this as my solution to problem 12 on Project Euler chugs away, eating my resources.  It&#8217;s a very, VERY brute-force solution, mind you.  The actual question can be found <a href="http://projecteuler.net/index.php?section=problems&amp;id=12">here</a>.  It seems fairly straightforward; find the first triangle number with >500 factors.  I wrote a method to calculate the nth triangle number, and then wrote a brute-force &#8216;factor counter&#8217;, which just goes through every number smaller than the given input and sees if it divides it cleanly.  So that&#8217;s running.</p>
-
-<p>In the meantime, though, I started looking up smarter solutions, of which this time there thankfully are.  There&#8217;s a much easier way to calculate the number of factors a number has, based off its prime factors (I&#8217;ll leave you to google it if you&#8217;re interested).  So, once I write a &#8216;prime-factorizer&#8217; I should have a much better solution.</p>
-
-<p>This work with Ruby and Python has given me more than an academic reason to learn more about functional programming.  I watched a few really great FP talks by Rich Hickey that got me interested, but learning the basics was as far as that had got me.  While there&#8217;s still not a pressing need to really involve myself, it&#8217;s nice to be able to slowly add bits and pieces to my repertoire as I need/research/find them.</p>
-
-<p>EDIT(10:52pm)
-So &#8230; while I was writing that post, I was realizing that my brute-force solution wasn&#8217;t cutting it.  In fact, it probably wouldn&#8217;t find the solution if I left it overnight, as it was taking exponentially longer with each new number (I was aware of this problem).</p>
-
-<p>So, I went back, did a little research, and wrote a program that counts factors based on the number&#8217;s prime factors.  It found the solution in under 1s.  Problem 13 down.</p>
-
-<p>Live and learn.  Goodnight.</p>
 ]]></content>
   </entry>
   

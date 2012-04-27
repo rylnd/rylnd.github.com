@@ -7,7 +7,7 @@
     <meta name="author" content="Ryland Herrick">
 
     
-    <meta name="description" content="Lots of Snow Woke up to the promise of a blizzard. I was supposed to head down to Kenosha for a dentist&#8217;s appointment this morning, but that &hellip;">
+    <meta name="description" content="No Job, More Euler Worked on problems 23 and 35 tonight. Problem 23 was pretty straightforward, especially in Python: Define a function that finds &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -67,6 +67,71 @@
 </script>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2011/02/05/no-job-more-euler/">No Job, More Euler</a></h1>
+    <div class="entry">
+        <p>Worked on problems <a href="http://projecteuler.net/index.php?section=problems&amp;id=23">23</a> and <a href="http://projecteuler.net/index.php?section=problems&amp;id=35">35</a> tonight.  Problem 23 was pretty straightforward, especially in Python:</p>
+
+<ol>
+<li><p>Define a function that finds the sum of a number&#8217;s proper divisors</p></li>
+<li><p>Create a list of all abundant numbers less than 28123</p></li>
+<li><p>Create a <strong>set</strong> of sums resulting from the addition of each pair in the list described in 2.</p></li>
+<li><p>Create a final set of numbers &lt; 28123 that are not in the set described in 3.</p></li>
+</ol>
+
+
+<p>The answer is the sum of that last set. Easy enough, right?  I&#8217;ve been using the built-in <code>set</code> structure from Python where it makes sense (where I don&#8217;t want duplicates), although I&#8217;ve been doing so under the assumption that their duplicate handling is better-implemented than anything I would write after-the-fact.  I imagine they&#8217;re just doing some checks before actually appending, but I&#8217;m curious to learn exactly how they&#8217;re doing it, and if in fact I&#8217;m using set correctly in these instances.  Remind me to look that up later.</p>
+
+<p>Figured I&#8217;d have 35 finished by the time I finished writing this, but my algorithm is apparently too naive, and requires something more than iterating through all primes under one million to find which are circular. Dang.  I&#8217;ll keep working on it after this, and post about it when I&#8217;m done.</p>
+
+<p>Did a bit of work on the main site, mostly behind the scenes.  I actually designed a few logos today, as I plan on putting a banner/header at the top in place of my little &#8216;random statement&#8217; javascript thingy.  I&#8217;m moving toward making the front page more like the border-rounded, background-gradiented, &#8216;look at me I&#8217;m a 2.0 designer&#8217; designs you see everywhere these days.  Not because I agree with the aesthetic, but because I want to show that I can do that, too.</p>
+
+<p>Super Bowl tomorrow.  I honestly haven&#8217;t payed very much attention this season, but having the Packers in the running always reminds me of the great Holmgren era, and thus of my childhood.  It&#8217;s always fun to watch a football game with friends, especially when I&#8217;m actually invested in a team, so tomorrow should be a lot of fun.</p>
+
+<p>Still no job, but I&#8217;m pretty much constantly in talks with recruiters.  The fact that in the past several months they&#8217;ve not managed to find me a job indicates that maybe they&#8217;re not the best way to go, but I remain confident in my competence and have no doubt that eventually someone else will recognize it as well.</p>
+
+<p>In the meantime I&#8217;ll be calculating circular primes and learning from my mistakes.</p>
+
+<p>Edit (12:16am):
+Finished problem 35.  Pretty embarrassed about that one.  I was trying to speed up the algorithm by reducing the list of primes over which it was iterating, but wasn&#8217;t having much luck, until the daily facepalm:</p>
+
+<blockquote><p><strong>Besides 2 and 5, circular primes&#8217; digits can only be 1,3,7, or 9.</strong></p></blockquote>
+
+<p>The number of primes under one million? About 78k.  Those that also satisfy the above condition? 2500.</p>
+
+<p>Problem 35 down.  33 problems done, 289 to go.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-02-05T17:57:27-06:00" pubdate data-updated="true">Feb 5<span>th</span>, 2011</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/javascript/'>javascript</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/python/'>python</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
 
 
     <article class="post">
@@ -317,59 +382,6 @@ print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscr
 <div class="cat">
   
     <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/math/'>math</a>
-  
-</div>
-
-</div>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2011/01/20/euler-oilier/">Euler, Oilier.</a></h1>
-    <div class="entry">
-        <p>What&#8217;s in the news &#8230;?</p>
-
-<p>Off the top of my mind, this: <a href="http://www.donothingfor2minutes.com/">LINK</a>.</p>
-
-<p>Now, I thought I was a patient person; I let programs run, pages load: I give them their time.  But to surrender control of both my mouse and keyboard for two minutes made me reconsider just how impatient I really am at my desk.</p>
-
-<p>I&#8217;m writing this as my solution to problem 12 on Project Euler chugs away, eating my resources.  It&#8217;s a very, VERY brute-force solution, mind you.  The actual question can be found <a href="http://projecteuler.net/index.php?section=problems&amp;id=12">here</a>.  It seems fairly straightforward; find the first triangle number with >500 factors.  I wrote a method to calculate the nth triangle number, and then wrote a brute-force &#8216;factor counter&#8217;, which just goes through every number smaller than the given input and sees if it divides it cleanly.  So that&#8217;s running.</p>
-
-<p>In the meantime, though, I started looking up smarter solutions, of which this time there thankfully are.  There&#8217;s a much easier way to calculate the number of factors a number has, based off its prime factors (I&#8217;ll leave you to google it if you&#8217;re interested).  So, once I write a &#8216;prime-factorizer&#8217; I should have a much better solution.</p>
-
-<p>This work with Ruby and Python has given me more than an academic reason to learn more about functional programming.  I watched a few really great FP talks by Rich Hickey that got me interested, but learning the basics was as far as that had got me.  While there&#8217;s still not a pressing need to really involve myself, it&#8217;s nice to be able to slowly add bits and pieces to my repertoire as I need/research/find them.</p>
-
-<p>EDIT(10:52pm)
-So &#8230; while I was writing that post, I was realizing that my brute-force solution wasn&#8217;t cutting it.  In fact, it probably wouldn&#8217;t find the solution if I left it overnight, as it was taking exponentially longer with each new number (I was aware of this problem).</p>
-
-<p>So, I went back, did a little research, and wrote a program that counts factors based on the number&#8217;s prime factors.  It found the solution in under 1s.  Problem 13 down.</p>
-
-<p>Live and learn.  Goodnight.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-01-20T15:34:43-06:00" pubdate data-updated="true">Jan 20<span>th</span>, 2011</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/math/'>math</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/python/'>python</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
   
 </div>
 

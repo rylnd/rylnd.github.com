@@ -7,7 +7,7 @@
     <meta name="author" content="Ryland Herrick">
 
     
-    <meta name="description" content="An Intimate Look I know I just wrote that last post about the Ruby scraper, but I wanted to take a quick second to talk quickly about what else I&# &hellip;">
+    <meta name="description" content="Euler, Oilier. What&#8217;s in the news &#8230;? Off the top of my mind, this: LINK. Now, I thought I was a patient person; I let programs run, &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -67,6 +67,59 @@
 </script>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2011/01/20/euler-oilier/">Euler, Oilier.</a></h1>
+    <div class="entry">
+        <p>What&#8217;s in the news &#8230;?</p>
+
+<p>Off the top of my mind, this: <a href="http://www.donothingfor2minutes.com/">LINK</a>.</p>
+
+<p>Now, I thought I was a patient person; I let programs run, pages load: I give them their time.  But to surrender control of both my mouse and keyboard for two minutes made me reconsider just how impatient I really am at my desk.</p>
+
+<p>I&#8217;m writing this as my solution to problem 12 on Project Euler chugs away, eating my resources.  It&#8217;s a very, VERY brute-force solution, mind you.  The actual question can be found <a href="http://projecteuler.net/index.php?section=problems&amp;id=12">here</a>.  It seems fairly straightforward; find the first triangle number with >500 factors.  I wrote a method to calculate the nth triangle number, and then wrote a brute-force &#8216;factor counter&#8217;, which just goes through every number smaller than the given input and sees if it divides it cleanly.  So that&#8217;s running.</p>
+
+<p>In the meantime, though, I started looking up smarter solutions, of which this time there thankfully are.  There&#8217;s a much easier way to calculate the number of factors a number has, based off its prime factors (I&#8217;ll leave you to google it if you&#8217;re interested).  So, once I write a &#8216;prime-factorizer&#8217; I should have a much better solution.</p>
+
+<p>This work with Ruby and Python has given me more than an academic reason to learn more about functional programming.  I watched a few really great FP talks by Rich Hickey that got me interested, but learning the basics was as far as that had got me.  While there&#8217;s still not a pressing need to really involve myself, it&#8217;s nice to be able to slowly add bits and pieces to my repertoire as I need/research/find them.</p>
+
+<p>EDIT(10:52pm)
+So &#8230; while I was writing that post, I was realizing that my brute-force solution wasn&#8217;t cutting it.  In fact, it probably wouldn&#8217;t find the solution if I left it overnight, as it was taking exponentially longer with each new number (I was aware of this problem).</p>
+
+<p>So, I went back, did a little research, and wrote a program that counts factors based on the number&#8217;s prime factors.  It found the solution in under 1s.  Problem 13 down.</p>
+
+<p>Live and learn.  Goodnight.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-20T15:34:43-06:00" pubdate data-updated="true">Jan 20<span>th</span>, 2011</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/math/'>math</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/python/'>python</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
 
 
     <article class="post">
@@ -199,50 +252,6 @@
 
 
 <time datetime="2011-01-11T19:14:13-06:00" pubdate data-updated="true">Jan 11<span>th</span>, 2011</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
-  
-</div>
-
-</div>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2011/01/08/i-told-you/">I Told You!</a></h1>
-    <div class="entry">
-        <p>Wow.</p>
-
-<p>After posting earlier tonight I modified a WP theme so that the blog fits better with the main site.</p>
-
-<p>I also spent some time installing Ruby, Rails, and the gem Mechanize.</p>
-
-<p>My friend said that using Ruby for scraping would be easy, but &#8230; wow.  I wasn&#8217;t expecting this much power.  With 3 lines of code I&#8217;m halfway done with what I originally wanted.</p>
-
-<p>I&#8217;m definitely going to be working on this tomorrow.  I&#8217;ll let you know when I&#8217;ve got a working version together.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-01-08T18:32:06-06:00" pubdate data-updated="true">Jan 8<span>th</span>, 2011</time></div>
         <div class="tags">
 
 <div class="cat">

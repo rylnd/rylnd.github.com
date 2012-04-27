@@ -7,7 +7,7 @@
     <meta name="author" content="Ryland Herrick">
 
     
-    <meta name="description" content="Github Pages I haven&#8217;t posted anything in a while. I won&#8217;t make excuses, that&#8217;s just the way it is. If you hadn&#8217;t noticed, &hellip;">
+    <meta name="description" content="Multiple Heroku Accounts and Git I was recently trying to deploy a heroku instance for some testing. I hadn&#8217;t done any work on heroku in a &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -67,6 +67,79 @@
 </script>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2012/04/27/multiple-heroku-accounts-and-git/">Multiple Heroku Accounts and Git</a></h1>
+    <div class="entry">
+        <p>I was recently trying to deploy a heroku instance for some testing. I hadn&#8217;t done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
+
+<p>While I had successfully done a <code>gem install heroku &amp;&amp; heroku create --stack cedar</code>, I got the following error when trying to do a <code>git push heroku master</code> to get things up and running:</p>
+
+<pre><code>!  Your key with fingerprint &lt;REDACTED&gt; is not authorized to access evening-snow-some-number.
+
+fatal: The remote end hung up unexpectedly
+</code></pre>
+
+<p>Hmm.  That looked like an ssh issue to me. A quick <code>ssh-keygen -l</code> of a few of my keys told me that it was using the &#8216;wrong one,&#8217; which was my default ssh key.</p>
+
+<p>Looking at <code>heroku keys</code> didn&#8217;t help; it was using the correct key. So the issue was with my ssh config, not the heroku gem or its configuration.</p>
+
+<p>I quickly tried to add an entry to my <code>~/.ssh/config</code> file, along the lines of</p>
+
+<pre><code>Host heroku.com
+  IdentityFile ~/.ssh/the_key_you_want
+</code></pre>
+
+<p>But I still got the same error: it was still using the wrong key. I did some quick googling and couldn&#8217;t find a good answer.  I eventually stumbled on this <a href="https://github.com/ddollar/heroku-accounts">excellent heroku plugin</a> that does exactly what I was looking for.</p>
+
+<p>However, if you aren&#8217;t using many accounts, and don&#8217;t want to type a command in each terminal session, here&#8217;s what it&#8217;s doing under the covers (and what I ended up doing):</p>
+
+<ol>
+<li><p>Add something like the following to your <code>~/.ssh/config</code> file:</p>
+
+<pre><code>Host heroku.app_name
+  HostName heroku.com
+  IdentityFile ~/.ssh/the_key_you_want
+  IdentitiesOnly yes
+</code></pre></li>
+<li><p>Add a remote to your repo using that host:</p>
+
+<pre><code>$ git remote add heroku git@heroku.app_name:app_name.git
+</code></pre></li>
+<li><p>Enjoy!</p></li>
+</ol>
+
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-27T16:49:00-05:00" pubdate data-updated="true">Apr 27<span>th</span>, 2012</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/git/'>git</a>, <a class='category' href='/blog/categories/heroku/'>heroku</a>, <a class='category' href='/blog/categories/ssh/'>ssh</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
 
 
     <article class="post">
@@ -201,72 +274,6 @@
 <div class="cat">
   
     <a class='category' href='/blog/categories/beer/'>beer</a>, <a class='category' href='/blog/categories/frisbee/'>frisbee</a>, <a class='category' href='/blog/categories/hacking/'>hacking</a>, <a class='category' href='/blog/categories/jungol/'>jungol</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/updates/'>updates</a>
-  
-</div>
-
-</div>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2011/06/12/busyness-business/">Busyness, Business</a></h1>
-    <div class="entry">
-        <p>It&#8217;s been a while since I wrote anything, but I&#8217;ve been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
-
-<p>I was approached by Steve at Spreenkler about two weeks ago.  He asked if I&#8217;d be interested in working as a developer for one of the teams in their summer <a href="http://spreenklertalentlabs.org/startup/?page_id=4">Incubator Program</a>.  My old job was incredibly understanding about the opportunity, and after a few meetings and a trip to Milwaukee I was part of Jungol, Inc.  Expect a more detailed post about the team and what I&#8217;m doing (hint: I&#8217;m <em>the</em> developer) in the near future, when I have some more time.</p>
-
-<p>Started doing some <a href="http://4clojure.com">4Clojure</a> problems.  I thought &#8220;Hey, I&#8217;m getting it!&#8221; until I enabled Golf Mode and saw how my problems (at least length-wise) compared to others&#8217; on the site.  Rest assured that I&#8217;m working on it; I&#8217;ve got the first 25 problems done so far.</p>
-
-<p>I added a header to the site.  Not sure if I really like it, but it adds color and I didn&#8217;t cringe upon seeing it the next day (stepping away from it for a while is always a good choice), so it&#8217;s here to stay.  I&#8217;ll be making small changes here and there, dependent on time and interest.</p>
-
-<p>Frisbee is going good; we&#8217;re 2-1 and we finally got our sweet jerseys.
-It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for a &#8216;sport&#8217; like Ultimate Frisbee), but I&#8217;m pretty damn happy with the results.  I&#8217;ve been trying to organize everything on Google (Mail, Documents, Calendar) and while I created the tools for my team to use, I certainly can&#8217;t force their utilization.  Oh, well.  At least people are showing up to games (and winning them).</p>
-
-<p>Amanda and I went to the <a href="http://www.clipsoffaith.com/">Clips of Faith</a> Tour at Olin Park on Friday, and that was a blast.  Highlights:</p>
-
-<ul>
-<li>Really good beer, relatively cheap</li>
-<li>Free handlebars upon entry</li>
-<li>Entry to win the New Belgium cruiser</li>
-<li>Delicious vegan nachos</li>
-<li>Really cool short films</li>
-</ul>
-
-
-<p>Lastly, I&#8217;ve finally taken the leap and bought a MacBook Pro.  While I&#8217;ve supported OS X in previous jobs I&#8217;ve never actually owned or used it.  I&#8217;m mostly using the terminal for development anyways, so work-wise it&#8217;s not that big of a jump from linux.</p>
-
-<p>However, I&#8217;m also <strong>moving from Emacs to vim</strong>, which is a more considerable jump.  I&#8217;d used vim previously in college, but have done most of my serious programming with Emacs in the last year or two.  That&#8217;s going much better than I would have expected, though.  I don&#8217;t think I&#8217;m ready for any significant plugins right now but I&#8217;m going to be using vim from now on and see how it goes.</p>
-
-<p>The reason for vim?  Why, my third and final paradigm shift:  I&#8217;m using Ruby on Rails as the framework for this startup project.  I spent last week learning as much as I could while getting my new workstation set up, and spent Saturday at Bendyworks for the Ruby Hack Day Meetup.  Everyone was super nice and helpful as usual; the only thing keeping me from learning more was my reluctance to speak up and ask for help.  I got a basic rails project up, and will be getting some actual guts in there this week.  The only thing I&#8217;m missing is a testing framework (I&#8217;m going to be using rspec, if any, but it&#8217;s not in there yet).  I&#8217;m currently debating whether unit testing would be reasonable at this point, given the already steep learning curve I&#8217;m facing.  I&#8217;m probably going to hold off for the first few basic features, and maybe reassess the situation in a few weeks.</p>
-
-<p>The Ruby/Rails hurdle is going to be a huge one, as I&#8217;m quickly learning, but I&#8217;m really excited to have this opportunity.  As a consequence I&#8217;ve been doing more hacking than sleeping, and it&#8217;s really starting to catch up with me.  It&#8217;s an absolute blast, and in my mind it&#8217;s not work at all, but my body is beginning to disagree with me.</p>
-
-<p>On that note, I think it&#8217;s time I rest my weary head a bit.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-12T14:57:23-05:00" pubdate data-updated="true">Jun 12<span>th</span>, 2011</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/beer/'>beer</a>, <a class='category' href='/blog/categories/bikes/'>bikes</a>, <a class='category' href='/blog/categories/changelog/'>changelog</a>, <a class='category' href='/blog/categories/hacking/'>hacking</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>, <a class='category' href='/blog/categories/updates/'>updates</a>
   
 </div>
 
