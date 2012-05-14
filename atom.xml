@@ -4,7 +4,7 @@
   <title><![CDATA[RyLand]]></title>
   <link href="http://ryalnd.github.com/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-05-06T16:17:54-05:00</updated>
+  <updated>2012-05-13T20:10:30-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -22,7 +22,7 @@
 
 <p>While I had successfully done a <code>$ gem install heroku &amp;&amp; heroku create --stack cedar</code>, I got the following error when trying to do a <code>$ git push heroku master</code> to get things up and running:</p>
 
-<pre><code>!  Your key with fingerprint 09:84:27:65:48:de:b4:48:fe:64:25:d8:dd:55:d8:db 
+<pre><code>!  Your key with fingerprint 09:84:27:65:48:de:b4:48:fe:64:25:d8:dd:55:d8:db
 is not authorized to access evening-snow-7878.
 
 fatal: The remote end hung up unexpectedly
