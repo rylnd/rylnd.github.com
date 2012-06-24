@@ -7,7 +7,7 @@
     <meta name="author" content="Ryland Herrick">
 
     
-    <meta name="description" content="Euler, Oilier. What&#8217;s in the news &#8230;? Off the top of my mind, this: LINK. Now, I thought I was a patient person; I let programs run, &hellip;">
+    <meta name="description" content="More Euler: Problem 15 So I came upon problem 15 last night, after finishing up 12, 13, and 14. Though I was done for the night, and an obvious &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -83,6 +83,63 @@
 
 
     <article class="post">
+    <h1 class="title"><a href="/blog/2011/01/21/more-euler-problem-15/">More Euler: Problem 15</a></h1>
+    <div class="entry">
+        <p>So I came upon problem 15 last night, after finishing up 12, 13, and 14.  Though I was done for the night, and an obvious solution wasn&#8217;t immediately apparent, I knew one thing: buried in my mind somewhere is the answer to this problem.  I knew I had done math like this before, I just had to figure out to what class this problem belonged.</p>
+
+<p>That, though, turned out to be pretty frustrating.  I turned off my monitor and tried to sleep, but couldn&#8217;t help thinking about the problem.  At first I tried to think of the grid as a graph (which was obviously easy), with intersections being nodes and lines edges, under the assumption that perhaps this was some type of network flow problem.  I soon realized that this was a much simpler problem than that, which made me consider it even more (instead of sleeping, mind).</p>
+
+<p>The arrows in the diagram apparently threw me at first; this was not a network problem.  I started thinking along the right lines as soon as I dozed off: I knew it wasn&#8217;t &#8216;wrong&#8217; to think of the grid as a graph, with limited paths, and that a choice was being made at each node (whether to go down or right).  The rest came just right now.</p>
+
+<p>I hadn&#8217;t consciously thought of it until my mind came back to it just now.  The breakthrough came when I realized that each possible path was of the same length (W + L or 2L, same here) and consisted of an equal number (here, L) of &#8216;down&#8217; and &#8216;right&#8217; moves.</p>
+
+<p>It sometimes helps when I write things out visually, so to represent this to myself I wrote out the example 2x2 grid paths as binary: 0011, 0101, 0110, 1001, 1010, 1100.</p>
+
+<p>Only then did I FINALLY, embarrassingly realize what this problem was: really basic combinatorics.  Here&#8217;s how I broke down the problem: given an nxn grid, what it&#8217;s really asking is how many ways you can arrange n/2 1s and n/2 0s along a string of length n.  Since, however, these 0s and 1s are indistinguishable, the answer ends up being &#8216;n choose n/2&#8217;, or:</p>
+
+<pre><code>  n!
+------
+2(n/2)!
+</code></pre>
+
+<p>The only real programming I did for this one was calculating those factorials, which in python (or any language) is pretty trivial.  Problem 15 down.</p>
+
+<p>I biked downtown today.  It was cold.  Like, -13° windchill cold.  I needed some exercise, though, to work off this cold I&#8217;ve had.  It was worth it just to see her smile.</p>
+
+<p>I realized earlier that I&#8217;d never chronicled my experience with Dropquest 2011.  For right now I&#8217;ll just say it was incredibly fun and rewarding; I live for that kind of thing.  Maybe I&#8217;ll expound a bit more later.  Until then.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-21T12:49:36-05:00" pubdate data-updated="true">Jan 21<span>st</span>, 2011</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/math/'>math</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
     <h1 class="title"><a href="/blog/2011/01/20/euler-oilier/">Euler, Oilier.</a></h1>
     <div class="entry">
         <p>What&#8217;s in the news &#8230;?</p>
@@ -120,7 +177,7 @@ So &#8230; while I was writing that post, I was realizing that my brute-force so
   
 
 
-<time datetime="2011-01-20T15:34:43-06:00" pubdate data-updated="true">Jan 20<span>th</span>, 2011</time></div>
+<time datetime="2011-01-20T16:34:43-05:00" pubdate data-updated="true">Jan 20<span>th</span>, 2011</time></div>
         <div class="tags">
 
 <div class="cat">
@@ -162,7 +219,7 @@ So &#8230; while I was writing that post, I was realizing that my brute-force so
   
 
 
-<time datetime="2011-01-13T17:13:34-06:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time></div>
+<time datetime="2011-01-13T18:13:34-05:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time></div>
         <div class="tags">
 
 <div class="cat">
@@ -214,62 +271,12 @@ So &#8230; while I was writing that post, I was realizing that my brute-force so
   
 
 
-<time datetime="2011-01-13T17:01:23-06:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time></div>
+<time datetime="2011-01-13T18:01:23-05:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time></div>
         <div class="tags">
 
 <div class="cat">
   
     <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
-  
-</div>
-
-</div>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2011/01/11/scraping-the-day-away/">Scraping the Day Away</a></h1>
-    <div class="entry">
-        <p>So I&#8217;ve been tinkering with Ruby/Rails, using Mechanize to try and whip up a quick scraper for craigslist to aid me in my job search.</p>
-
-<p>I know it&#8217;s not a novel or particularly interesting idea, but practice is practice, right?  I feel like I&#8217;m learning <em>something</em> and I&#8217;m definitely not comfortable with the language, so that&#8217;s good, right?</p>
-
-<p>I mentioned earlier how I was impressed with how easily I was able to retrieve an array of link objects from a given page (seriously, 2 lines).  That still stands.  It seems that craigslist is particularly difficult for this kind of task, or at least this particular tool (in how I&#8217;ve come to know it in these past few hours).  The problem is that craigslist&#8217;s DOM &#8216;tree&#8217; has lots of leaves.  These leaves are the data that I want.  So instead of using Mechanize&#8217;s neat features, I&#8217;m stuck basically just iterating through these leaves finding what I want.</p>
-
-<p>That probably doesn&#8217;t make sense.  The point is, I need to learn more about all this before I actually try to write something.  In two hours I managed to write what&#8217;s basically just a compilation of several craigslist pages, and it works, but I know that this was a very, very naive approach.  I wrote a similar tool in Java over the summer for a job interview, and as it stands I&#8217;m not really using anything novel in the Ruby version (yet!).</p>
-
-<p>The page is up on my site, but I&#8217;m not going to provide a link right now.  If you really cared (which you shouldn&#8217;t) you could probably find it.</p>
-
-<p>This blog seems to have taken a somewhat negative turn as of the past few posts, so I wanted to say something about that:</p>
-
-<blockquote><p>The point of this blog is to chronicle my technical projects, my personal life, and my job search.  What may be thought of as negative is generally the more interesting topic, for me at least.  I was discussing the shortcomings of this Ruby project not because I dislike Ruby but because I find it to be more helpful/thought-provoking than writing about some small success in said project.</p></blockquote>
-
-<p>I think I&#8217;m done for the night.  Tomorrow&#8217;s goal: learn Ruby!</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-01-11T19:14:13-06:00" pubdate data-updated="true">Jan 11<span>th</span>, 2011</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
   
 </div>
 

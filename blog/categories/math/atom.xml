@@ -4,7 +4,7 @@
   <title><![CDATA[Category: math | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/math/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-05-13T20:10:30-05:00</updated>
+  <updated>2012-06-24T16:55:21-04:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Project Euler: Level 2]]></title>
     <link href="http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
-    <updated>2011-02-25T20:51:27-06:00</updated>
+    <updated>2011-02-25T21:51:27-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2</id>
     <content type="html"><![CDATA[<p>Spent the day attempting contact with people who didn't want to communicate with me.  Filed my state taxes (had done federal a week or so ago).</p>
 
@@ -117,7 +117,7 @@ print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
   <entry>
     <title type="html"><![CDATA[Feb 24, 2011]]></title>
     <link href="http://ryalnd.github.com/blog/2011/02/24/feb-24-2011/"/>
-    <updated>2011-02-24T16:59:00-06:00</updated>
+    <updated>2011-02-24T17:59:00-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/02/24/feb-24-2011</id>
     <content type="html"><![CDATA[<p>Haven't written in a while.  Things have been busy.  Not always productive, but always busy.  I just finished a few PE problems, and I'll talk about those in a bit, but first here's everything else:</p>
 
@@ -185,7 +185,7 @@ print max(totals, key = lambda x: x[1] )
   <entry>
     <title type="html"><![CDATA[Math in the Cold]]></title>
     <link href="http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
-    <updated>2011-02-10T18:07:51-06:00</updated>
+    <updated>2011-02-10T19:07:51-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold</id>
     <content type="html"><![CDATA[<p>I wasn't feeling very well today, and it was super cold out, so I decided to be as productive as I possibly could at home.  This involved:</p>
 
@@ -219,7 +219,7 @@ print max(totals, key = lambda x: x[1] )
   <entry>
     <title type="html"><![CDATA[Lots of Snow]]></title>
     <link href="http://ryalnd.github.com/blog/2011/01/31/lots-of-snow/"/>
-    <updated>2011-01-31T19:11:48-06:00</updated>
+    <updated>2011-01-31T20:11:48-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/01/31/lots-of-snow</id>
     <content type="html"><![CDATA[<p>Woke up to the promise of a blizzard.</p>
 
@@ -335,7 +335,7 @@ print max(totals, key = lambda x: x[1] )
   <entry>
     <title type="html"><![CDATA[I'm Bored]]></title>
     <link href="http://ryalnd.github.com/blog/2011/01/26/im-bored/"/>
-    <updated>2011-01-26T12:40:20-06:00</updated>
+    <updated>2011-01-26T13:40:20-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/01/26/im-bored</id>
     <content type="html"><![CDATA[<p>Project Euler Update: I've still been plugging away at various PE problems.
 I finally finished my first 25(26 now) problems, earning me a 'Level 1' status which from what I can tell is just a title.  But it's <em>my</em> title!

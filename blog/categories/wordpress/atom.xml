@@ -4,7 +4,7 @@
   <title><![CDATA[Category: wordpress | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/wordpress/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-05-13T20:10:30-05:00</updated>
+  <updated>2012-06-24T16:55:21-04:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Quickie]]></title>
     <link href="http://ryalnd.github.com/blog/2011/05/28/quickie/"/>
-    <updated>2011-05-28T18:59:57-05:00</updated>
+    <updated>2011-05-28T19:59:57-04:00</updated>
     <id>http://ryalnd.github.com/blog/2011/05/28/quickie</id>
     <content type="html"><![CDATA[<p>Okay, I'm really tired but I wanted to make note of a few updates.  While I'm not naive enough to think that the built-in comment system is the reason the blog doesn't have any comments, I realize that that could conceivably be an issue if the site actually had readers.  With that in mind, I present the new comment system, powered by <a href="http://disqus.com">Disqus</a>!</p>
 
