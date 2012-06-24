@@ -4,7 +4,7 @@
   <title><![CDATA[Category: bendyworks | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/bendyworks/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-06-24T16:55:21-04:00</updated>
+  <updated>2012-06-24T16:57:01-04:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -20,7 +20,7 @@
     <id>http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
     <content type="html"><![CDATA[<p>Hey, I wrote about some things I recently learned about Devise and Rails 3.</p>
 
-<p>It's posted on the <a href="http://bendyworks.com/geekville">bendyworks blog</a>. You should check it out.</p>
+<p>It's posted on the <a href="http://bendyworks.com/geekville">bendyworks blog</a>. You should <a href="http://bendyworks.com/geekville/tutorials/2012/6/respond-with-an-explanation">check it out</a>.</p>
 ]]></content>
   </entry>
   
