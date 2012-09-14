@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rails | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-14T18:38:48-05:00</updated>
+  <updated>2012-09-14T18:41:36-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -20,7 +20,7 @@
     <id>http://ryalnd.github.com/blog/2012/09/14/turnip-helpers</id>
     <content type="html"><![CDATA[<p>So today was a growth day for me at bendyworks. I started the day working on <a href="https://github.com/ryalnd/bendylunch">bendylunch</a>.</p>
 
-<p>Bendylunch uses turnip, which we've been using (and enjoying) as an alternative to cucumber. We also tried poltergeist/cucumber briefly, but it seems a bit immature to be a replacement right now.</p>
+<p>Bendylunch uses <a href="https://github.com/jnicklas/turnip">turnip</a>, which we've been using (and enjoying) as an alternative to cucumber. We also tried poltergeist/cucumber briefly, but it seems a bit immature to be a replacement right now.</p>
 
 <p>Anyway, I was writing some acceptance tests, and decided to write a bash function to run them for me. And then the day was over.</p>
 
