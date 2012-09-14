@@ -7,7 +7,7 @@
     <meta name="author" content="Ryland Herrick">
 
     
-    <meta name="description" content="Scraping the Day Away So I&#8217;ve been tinkering with Ruby/Rails, using Mechanize to try and whip up a quick scraper for craigslist to aid me in &hellip;">
+    <meta name="description" content="Something Useful Well. I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -83,6 +83,58 @@
 
 
     <article class="post">
+    <h1 class="title"><a href="/blog/2011/01/13/something-useful/">Something Useful</a></h1>
+    <div class="entry">
+        <p>Well.</p>
+
+<p>I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out <a href="http://ry-land.com/dev/cl.html">HERE</a>.  A few notes about it:</p>
+
+<ul>
+<li>I did not go and learn the correct way to program in Ruby, as I claimed I would before finishing this.  Although I did learn some basic Ruby syntax in the work I&#8217;ve done on this so far, I mostly grew impatient and decided to hack out a solution tonight.</li>
+<li>No really, this is a hack.  I decided I wanted sorting so I quickly found a javascript table sorter and based my output around that code (which is most noticeable with the * before January postings [yay alphabetic sorting!]).
+
+<ul>
+<li>The date was particularly problematic, considering that the page I was parsing gave dates in a <code>%a %b %d</code> format (i.e. &#8216;Thu Jan 10&#8217;).  This meant I could either write my own code to figure out the year (which would still be a hack, and vary depending on the current date) or just hack it like I did (albeit temporarily)</li>
+</ul>
+</li>
+<li>Relating to that last point, I was considering storing this data in a database. This would make sorting a simple matter of changing the query, but that kind of stuff is easy and wouldn&#8217;t really help me or the page in any significant way; that&#8217;s probably not going to happen.</li>
+<li>The script as it stands is just writing an HTML file from its data.  While I could have had it do this in-place, I&#8217;m actually storing the jobs individually as objects in an array, and then later writing them out.  This is obviously wasteful but again, at this scale who cares (as long as I&#8217;m aware of it, right?).</li>
+<li>I set up the script to run every half-hour during normal business hours.  I thought that was cool.</li>
+</ul>
+
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-13T17:01:23-06:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
     <h1 class="title"><a href="/blog/2011/01/11/scraping-the-day-away/">Scraping the Day Away</a></h1>
     <div class="entry">
         <p>So I&#8217;ve been tinkering with Ruby/Rails, using Mechanize to try and whip up a quick scraper for craigslist to aid me in my job search.</p>
@@ -117,7 +169,7 @@
   
 
 
-<time datetime="2011-01-11T20:14:13-05:00" pubdate data-updated="true">Jan 11<span>th</span>, 2011</time></div>
+<time datetime="2011-01-11T19:14:13-06:00" pubdate data-updated="true">Jan 11<span>th</span>, 2011</time></div>
         <div class="tags">
 
 <div class="cat">
@@ -161,7 +213,7 @@
   
 
 
-<time datetime="2011-01-08T19:32:06-05:00" pubdate data-updated="true">Jan 8<span>th</span>, 2011</time></div>
+<time datetime="2011-01-08T18:32:06-06:00" pubdate data-updated="true">Jan 8<span>th</span>, 2011</time></div>
         <div class="tags">
 
 <div class="cat">
@@ -238,58 +290,12 @@
   
 
 
-<time datetime="2011-01-08T17:08:24-05:00" pubdate data-updated="true">Jan 8<span>th</span>, 2011</time></div>
+<time datetime="2011-01-08T16:08:24-06:00" pubdate data-updated="true">Jan 8<span>th</span>, 2011</time></div>
         <div class="tags">
 
 <div class="cat">
   
     <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/kindle/'>kindle</a>, <a class='category' href='/blog/categories/math/'>math</a>, <a class='category' href='/blog/categories/programming/'>programming</a>
-  
-</div>
-
-</div>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2010/12/20/i-love-math-also-programming/">I Love Math. Also Programming.</a></h1>
-    <div class="entry">
-        <p>Dropped the lady off at work this morning, and have been reading HN since I got home.</p>
-
-<p>If you frequent HN you probably saw this post but I wanted to share because it&#8217;s beautiful:</p>
-
-<p><a href="http://www.reddit.com/r/math/comments/eo4e1/respectful_question_you_guys_actually_like_this/c19lh2k">Why I love math</a></p>
-
-<p>The elegance of that description is just amazing.  I read it and immediately identified with the author.  I&#8217;m sure I&#8217;m nowhere near his level of understanding, but that expression of math as a language, and the idea of transcending the minutia of it to see its beauty really struck a chord in me.</p>
-
-<p>That&#8217;s it for now.  I did problem 11 a few days ago.  I managed to get it on the second try only because of a typo on my first compilation; I was taking one of the neighbors twice in a product, so got a larger max than possible.</p>
-
-<p>That one took me more than a few minutes (mostly because of I/O[mostly I]) and I was disappointed to learn that there wasn&#8217;t a more elegant solution than just brute-forcing it.  That&#8217;s what I had done, and my solution was on the order of ~2ms, but I had hoped to be amazed by greater minds.  Maybe tomorrow.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-12-20T05:00:24-05:00" pubdate data-updated="true">Dec 20<span>th</span>, 2010</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/math/'>math</a>, <a class='category' href='/blog/categories/programming/'>programming</a>
   
 </div>
 

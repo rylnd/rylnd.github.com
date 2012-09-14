@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rails | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-06-24T16:57:01-04:00</updated>
+  <updated>2012-09-14T18:38:48-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -14,9 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Turnip Helpers]]></title>
+    <link href="http://ryalnd.github.com/blog/2012/09/14/turnip-helpers/"/>
+    <updated>2012-09-14T18:26:00-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2012/09/14/turnip-helpers</id>
+    <content type="html"><![CDATA[<p>So today was a growth day for me at bendyworks. I started the day working on <a href="https://github.com/ryalnd/bendylunch">bendylunch</a>.</p>
+
+<p>Bendylunch uses turnip, which we've been using (and enjoying) as an alternative to cucumber. We also tried poltergeist/cucumber briefly, but it seems a bit immature to be a replacement right now.</p>
+
+<p>Anyway, I was writing some acceptance tests, and decided to write a bash function to run them for me. And then the day was over.</p>
+
+<p>It ended with a few coderwall <a href="http://coderwall.com/p/u/ryalnd">protips</a>, outlining what I ended up with. I'm particularly happy with the <a href="http://coderwall.com/p/buxyuw">first</a>. The <a href="http://coderwall.com/p/senquw">second</a>, not so much (it works, but it's not very clean).</p>
+
+<p>I really need to get more of my dotfiles out on the <a href="https://github.com/ryalnd/dotfiles">repo</a>. I realize that no one <em>really</em> cares, but I feel bad for withholding information regardless.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Respond With An Explanation]]></title>
     <link href="http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation/"/>
-    <updated>2012-06-24T16:52:00-04:00</updated>
+    <updated>2012-06-24T16:52:00-05:00</updated>
     <id>http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
     <content type="html"><![CDATA[<p>Hey, I wrote about some things I recently learned about Devise and Rails 3.</p>
 
@@ -27,7 +44,7 @@
   <entry>
     <title type="html"><![CDATA[Life: Upgraded.]]></title>
     <link href="http://ryalnd.github.com/blog/2011/08/05/life-upgraded/"/>
-    <updated>2011-08-05T20:18:59-04:00</updated>
+    <updated>2011-08-05T19:18:59-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/08/05/life-upgraded</id>
     <content type="html"><![CDATA[<p>Hoo boy.  A lot has changed in the past few weeks.  After spending about a month looking for jobs and apartments in Milwaukee, we finally found both.  We found the perfect apartment, and I accepted a job offer for an awesome Django startup in Spreenkler's Accelerator program.  The day after I said yes to the job, I was approached with an offer here in Madison.  While both were amazing jobs, I ended up taking the job here in Madison as I felt it had more to offer, experientially.  Starting at the end of August, I'll be an official <a href="http://bendyworks.com/">Bendyworker</a>.</p>
 
@@ -46,7 +63,7 @@
   <entry>
     <title type="html"><![CDATA[Work vs. Not-Work]]></title>
     <link href="http://ryalnd.github.com/blog/2011/07/01/work-vs-not-work/"/>
-    <updated>2011-07-01T19:58:40-04:00</updated>
+    <updated>2011-07-01T18:58:40-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/07/01/work-vs-not-work</id>
     <content type="html"><![CDATA[<p>Oh, hey there!  It's been so long I almost didn't recognize you!  Yeah, I've been good.  Real busy with work, if you can call it 'work.'  Busy regardless, though.</p>
 
@@ -72,7 +89,7 @@
   <entry>
     <title type="html"><![CDATA[Busyness, Business]]></title>
     <link href="http://ryalnd.github.com/blog/2011/06/12/busyness-business/"/>
-    <updated>2011-06-12T15:57:23-04:00</updated>
+    <updated>2011-06-12T14:57:23-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/06/12/busyness-business</id>
     <content type="html"><![CDATA[<p>It's been a while since I wrote anything, but I've been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
 
@@ -105,25 +122,6 @@ It's been quite an ordeal trying to find an organize a team (yes, even for a 'sp
 <p>The Ruby/Rails hurdle is going to be a huge one, as I'm quickly learning, but I'm really excited to have this opportunity.  As a consequence I've been doing more hacking than sleeping, and it's really starting to catch up with me.  It's an absolute blast, and in my mind it's not work at all, but my body is beginning to disagree with me.</p>
 
 <p>On that note, I think it's time I rest my weary head a bit.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Quick Post]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/25/quick-post/"/>
-    <updated>2011-05-25T18:23:36-04:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/25/quick-post</id>
-    <content type="html"><![CDATA[<p>First: I started this post on Monday, but never got around to finishing it.</p>
-
-<p>Went to the Mad Railers meetup Monday, despite my body requesting otherwise.  I figure if I don't have the time to sit down and learn Ruby right myself right now, I should at least take advantage of these local groups.</p>
-
-<p>The topic was testing, and while that might not be where most people would start when learning a new language (myself included), I have no doubts that it will help me in the long run.  There were a few great talks and I learned quite a bit.  I'm slowly putting the framework together in my mind, piece by piece.</p>
-
-<p>My general approach to learning practical programming has been 'abstraction is a treat that must be deserved.'  While higher-level languages are amazing and I absolutely cannot wait to use them professionally, at the same time I feel like I need to program a little 'lower' for a while to appreciate and understand things to a reasonable degree.  Subsequently a good deal of what I do has holes and certainly isn't as comprehensive as if I'd put the same amount of work on top of a template.  But finding and plugging those holes is a great learning experience.</p>
-
-<p>Running my own VPS and web server has probably been the best project, education-wise.  There are certainly plenty of holes and configurations that go into system administration stuff, along with being great practice with bash.  I didn't really get that when I was a student, but I'm sure glad I'm doing it now.</p>
-
-<p>Knowledge is power.</p>
 ]]></content>
   </entry>
   

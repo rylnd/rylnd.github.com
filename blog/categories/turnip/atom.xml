@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: turnip | RyLand]]></title>
+  <link href="http://ryalnd.github.com/blog/categories/turnip/atom.xml" rel="self"/>
+  <link href="http://ryalnd.github.com/"/>
+  <updated>2012-09-14T18:38:48-05:00</updated>
+  <id>http://ryalnd.github.com/</id>
+  <author>
+    <name><![CDATA[Ryland Herrick]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Turnip Helpers]]></title>
+    <link href="http://ryalnd.github.com/blog/2012/09/14/turnip-helpers/"/>
+    <updated>2012-09-14T18:26:00-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2012/09/14/turnip-helpers</id>
+    <content type="html"><![CDATA[<p>So today was a growth day for me at bendyworks. I started the day working on <a href="https://github.com/ryalnd/bendylunch">bendylunch</a>.</p>
+
+<p>Bendylunch uses turnip, which we've been using (and enjoying) as an alternative to cucumber. We also tried poltergeist/cucumber briefly, but it seems a bit immature to be a replacement right now.</p>
+
+<p>Anyway, I was writing some acceptance tests, and decided to write a bash function to run them for me. And then the day was over.</p>
+
+<p>It ended with a few coderwall <a href="http://coderwall.com/p/u/ryalnd">protips</a>, outlining what I ended up with. I'm particularly happy with the <a href="http://coderwall.com/p/buxyuw">first</a>. The <a href="http://coderwall.com/p/senquw">second</a>, not so much (it works, but it's not very clean).</p>
+
+<p>I really need to get more of my dotfiles out on the <a href="https://github.com/ryalnd/dotfiles">repo</a>. I realize that no one <em>really</em> cares, but I feel bad for withholding information regardless.</p>
+]]></content>
+  </entry>
+  
+</feed>

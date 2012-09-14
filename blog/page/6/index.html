@@ -7,7 +7,8 @@
     <meta name="author" content="Ryland Herrick">
 
     
-    <meta name="description" content="More Euler: Problem 15 So I came upon problem 15 last night, after finishing up 12, 13, and 14. Though I was done for the night, and an obvious &hellip;">
+    <meta name="description" content="I&#8217;m Bored Project Euler Update: I&#8217;ve still been plugging away at various PE problems.
+I finally finished my first 25(26 now) problems, &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -83,6 +84,63 @@
 
 
     <article class="post">
+    <h1 class="title"><a href="/blog/2011/01/26/im-bored/">I&#8217;m Bored</a></h1>
+    <div class="entry">
+        <p>Project Euler Update: I&#8217;ve still been plugging away at various PE problems.
+I finally finished my first 25(26 now) problems, earning me a &#8216;Level 1&#8217; status which from what I can tell is just a title.  But it&#8217;s <em>my</em> title!
+So, I know I talked about showing some code, and I still plan to post all the solutions I&#8217;ve written, but to whet your appetites here&#8217;s a quick, straightforward solution to problem 30:</p>
+
+<div><script src='https://gist.github.com/2019448.js?file=p30.py'></script>
+<noscript><pre><code>def split(str): return sum(int(x)**5 for x in str)
+print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscript></div>
+
+
+<p>Nothing too special going on here (though I&#8217;m finally getting the hang of list comprehensions).  It&#8217;s basically brute force, which from what I&#8217;ve seen on the forums is really the only way it&#8217;s been done. The <code>split()</code> function gets the value for a given number(passed as a string, not an int), and the next line finds all numbers fitting the criteria of the problem. The solution space of 2-999,999 comes from the fact that since the maximum value for a digit is 9<sup>5</sup> = 59049, no number with 7 or more digits could possibly be part of the solution since 7 x 9<sup>5</sup> = 413,343 &lt;&lt;&lt; 9,999,999.</p>
+
+<p>Tonight&#8217;s the first week of the Stand-Up Competition at the Comedy Club.  I was there for part of last year&#8217;s, and since a cheap comedy show is the pastime of choice for poor, unemployed, narcissistic college graduates around the world, I plan on being a regular attendee for the next few weeks.</p>
+
+<p>I&#8217;ve decided I don&#8217;t like the look of the site, anymore.  I&#8217;ll be changing things around soon, or maybe just tweaking, so check back.</p>
+
+<p>EDIT(7:02pm):  I felt like a bum for not doing any PE today, so I just did problem 29 with:</p>
+
+<div><script src='https://gist.github.com/2019448.js?file=p29.py'></script>
+<noscript><pre><code>print len(set(a**b for a in range(2,101) for b in range(2,101)))</code></pre></noscript></div>
+
+
+<p>using python&#8217;s <code>set</code> structure to avoid having to remove duplicates myself.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-26T12:40:20-06:00" pubdate data-updated="true">Jan 26<span>th</span>, 2011</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/math/'>math</a>, <a class='category' href='/blog/categories/python/'>python</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
+
+
+    <article class="post">
     <h1 class="title"><a href="/blog/2011/01/21/more-euler-problem-15/">More Euler: Problem 15</a></h1>
     <div class="entry">
         <p>So I came upon problem 15 last night, after finishing up 12, 13, and 14.  Though I was done for the night, and an obvious solution wasn&#8217;t immediately apparent, I knew one thing: buried in my mind somewhere is the answer to this problem.  I knew I had done math like this before, I just had to figure out to what class this problem belonged.</p>
@@ -124,7 +182,7 @@
   
 
 
-<time datetime="2011-01-21T12:49:36-05:00" pubdate data-updated="true">Jan 21<span>st</span>, 2011</time></div>
+<time datetime="2011-01-21T11:49:36-06:00" pubdate data-updated="true">Jan 21<span>st</span>, 2011</time></div>
         <div class="tags">
 
 <div class="cat">
@@ -177,7 +235,7 @@ So &#8230; while I was writing that post, I was realizing that my brute-force so
   
 
 
-<time datetime="2011-01-20T16:34:43-05:00" pubdate data-updated="true">Jan 20<span>th</span>, 2011</time></div>
+<time datetime="2011-01-20T15:34:43-06:00" pubdate data-updated="true">Jan 20<span>th</span>, 2011</time></div>
         <div class="tags">
 
 <div class="cat">
@@ -219,64 +277,12 @@ So &#8230; while I was writing that post, I was realizing that my brute-force so
   
 
 
-<time datetime="2011-01-13T18:13:34-05:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time></div>
+<time datetime="2011-01-13T17:13:34-06:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time></div>
         <div class="tags">
 
 <div class="cat">
   
     <a class='category' href='/blog/categories/bikes/'>bikes</a>, <a class='category' href='/blog/categories/kindle/'>kindle</a>
-  
-</div>
-
-</div>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2011/01/13/something-useful/">Something Useful</a></h1>
-    <div class="entry">
-        <p>Well.</p>
-
-<p>I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out <a href="http://ry-land.com/dev/cl.html">HERE</a>.  A few notes about it:</p>
-
-<ul>
-<li>I did not go and learn the correct way to program in Ruby, as I claimed I would before finishing this.  Although I did learn some basic Ruby syntax in the work I&#8217;ve done on this so far, I mostly grew impatient and decided to hack out a solution tonight.</li>
-<li>No really, this is a hack.  I decided I wanted sorting so I quickly found a javascript table sorter and based my output around that code (which is most noticeable with the * before January postings [yay alphabetic sorting!]).
-
-<ul>
-<li>The date was particularly problematic, considering that the page I was parsing gave dates in a <code>%a %b %d</code> format (i.e. &#8216;Thu Jan 10&#8217;).  This meant I could either write my own code to figure out the year (which would still be a hack, and vary depending on the current date) or just hack it like I did (albeit temporarily)</li>
-</ul>
-</li>
-<li>Relating to that last point, I was considering storing this data in a database. This would make sorting a simple matter of changing the query, but that kind of stuff is easy and wouldn&#8217;t really help me or the page in any significant way; that&#8217;s probably not going to happen.</li>
-<li>The script as it stands is just writing an HTML file from its data.  While I could have had it do this in-place, I&#8217;m actually storing the jobs individually as objects in an array, and then later writing them out.  This is obviously wasteful but again, at this scale who cares (as long as I&#8217;m aware of it, right?).</li>
-<li>I set up the script to run every half-hour during normal business hours.  I thought that was cool.</li>
-</ul>
-
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-01-13T18:01:23-05:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
   
 </div>
 

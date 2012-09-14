@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | RyLand]]></title>
   <link href="http://ryalnd.github.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-06-24T16:57:01-04:00</updated>
+  <updated>2012-09-14T18:38:48-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Multiple Heroku Accounts and git]]></title>
     <link href="http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
-    <updated>2012-04-27T16:49:00-04:00</updated>
+    <updated>2012-04-27T16:49:00-05:00</updated>
     <id>http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
     <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn't done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
 

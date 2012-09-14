@@ -4,7 +4,7 @@
   <title><![CDATA[RyLand]]></title>
   <link href="http://ryalnd.github.com/atom.xml" rel="self"/>
   <link href="http://ryalnd.github.com/"/>
-  <updated>2012-06-24T16:57:01-04:00</updated>
+  <updated>2012-09-14T18:38:48-05:00</updated>
   <id>http://ryalnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -14,9 +14,26 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Turnip Helpers]]></title>
+    <link href="http://ryalnd.github.com/blog/2012/09/14/turnip-helpers/"/>
+    <updated>2012-09-14T18:26:00-05:00</updated>
+    <id>http://ryalnd.github.com/blog/2012/09/14/turnip-helpers</id>
+    <content type="html"><![CDATA[<p>So today was a growth day for me at bendyworks. I started the day working on <a href="https://github.com/ryalnd/bendylunch">bendylunch</a>.</p>
+
+<p>Bendylunch uses turnip, which we&#8217;ve been using (and enjoying) as an alternative to cucumber. We also tried poltergeist/cucumber briefly, but it seems a bit immature to be a replacement right now.</p>
+
+<p>Anyway, I was writing some acceptance tests, and decided to write a bash function to run them for me. And then the day was over.</p>
+
+<p>It ended with a few coderwall <a href="http://coderwall.com/p/u/ryalnd">protips</a>, outlining what I ended up with. I&#8217;m particularly happy with the <a href="http://coderwall.com/p/buxyuw">first</a>. The <a href="http://coderwall.com/p/senquw">second</a>, not so much (it works, but it&#8217;s not very clean).</p>
+
+<p>I really need to get more of my dotfiles out on the <a href="https://github.com/ryalnd/dotfiles">repo</a>. I realize that no one <em>really</em> cares, but I feel bad for withholding information regardless.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Respond With An Explanation]]></title>
     <link href="http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation/"/>
-    <updated>2012-06-24T16:52:00-04:00</updated>
+    <updated>2012-06-24T16:52:00-05:00</updated>
     <id>http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
     <content type="html"><![CDATA[<p>Hey, I wrote about some things I recently learned about Devise and Rails 3.</p>
 
@@ -27,7 +44,7 @@
   <entry>
     <title type="html"><![CDATA[Multiple Heroku Accounts and git]]></title>
     <link href="http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
-    <updated>2012-04-27T16:49:00-04:00</updated>
+    <updated>2012-04-27T16:49:00-05:00</updated>
     <id>http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
     <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn&#8217;t done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
 
@@ -75,7 +92,7 @@ fatal: The remote end hung up unexpectedly
   <entry>
     <title type="html"><![CDATA[Github Pages]]></title>
     <link href="http://ryalnd.github.com/blog/2012/04/08/github-pages/"/>
-    <updated>2012-04-08T19:59:00-04:00</updated>
+    <updated>2012-04-08T19:59:00-05:00</updated>
     <id>http://ryalnd.github.com/blog/2012/04/08/github-pages</id>
     <content type="html"><![CDATA[<p>I haven&#8217;t posted anything in a while. I won&#8217;t make excuses, that&#8217;s just the way it is.</p>
 
@@ -90,7 +107,7 @@ fatal: The remote end hung up unexpectedly
   <entry>
     <title type="html"><![CDATA[Life: Upgraded.]]></title>
     <link href="http://ryalnd.github.com/blog/2011/08/05/life-upgraded/"/>
-    <updated>2011-08-05T20:18:59-04:00</updated>
+    <updated>2011-08-05T19:18:59-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/08/05/life-upgraded</id>
     <content type="html"><![CDATA[<p>Hoo boy.  A lot has changed in the past few weeks.  After spending about a month looking for jobs and apartments in Milwaukee, we finally found both.  We found the perfect apartment, and I accepted a job offer for an awesome Django startup in Spreenkler&#8217;s Accelerator program.  The day after I said yes to the job, I was approached with an offer here in Madison.  While both were amazing jobs, I ended up taking the job here in Madison as I felt it had more to offer, experientially.  Starting at the end of August, I&#8217;ll be an official <a href="http://bendyworks.com/">Bendyworker</a>.</p>
 
@@ -109,7 +126,7 @@ fatal: The remote end hung up unexpectedly
   <entry>
     <title type="html"><![CDATA[Work vs. Not-Work]]></title>
     <link href="http://ryalnd.github.com/blog/2011/07/01/work-vs-not-work/"/>
-    <updated>2011-07-01T19:58:40-04:00</updated>
+    <updated>2011-07-01T18:58:40-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/07/01/work-vs-not-work</id>
     <content type="html"><![CDATA[<p>Oh, hey there!  It&#8217;s been so long I almost didn&#8217;t recognize you!  Yeah, I&#8217;ve been good.  Real busy with work, if you can call it &#8216;work.&#8217;  Busy regardless, though.</p>
 
@@ -135,7 +152,7 @@ fatal: The remote end hung up unexpectedly
   <entry>
     <title type="html"><![CDATA[Busyness, Business]]></title>
     <link href="http://ryalnd.github.com/blog/2011/06/12/busyness-business/"/>
-    <updated>2011-06-12T15:57:23-04:00</updated>
+    <updated>2011-06-12T14:57:23-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/06/12/busyness-business</id>
     <content type="html"><![CDATA[<p>It&#8217;s been a while since I wrote anything, but I&#8217;ve been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
 
@@ -174,7 +191,7 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Quickie]]></title>
     <link href="http://ryalnd.github.com/blog/2011/05/28/quickie/"/>
-    <updated>2011-05-28T19:59:57-04:00</updated>
+    <updated>2011-05-28T18:59:57-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/05/28/quickie</id>
     <content type="html"><![CDATA[<p>Okay, I&#8217;m really tired but I wanted to make note of a few updates.  While I&#8217;m not naive enough to think that the built-in comment system is the reason the blog doesn&#8217;t have any comments, I realize that that could conceivably be an issue if the site actually had readers.  With that in mind, I present the new comment system, powered by <a href="http://disqus.com">Disqus</a>!</p>
 
@@ -189,7 +206,7 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Much More Exciting(er)]]></title>
     <link href="http://ryalnd.github.com/blog/2011/05/25/much-more-excitinger/"/>
-    <updated>2011-05-25T18:49:12-04:00</updated>
+    <updated>2011-05-25T17:49:12-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/05/25/much-more-excitinger</id>
     <content type="html"><![CDATA[<p>Oh snap.  Lots of exciting stuff happening lately.  Most publicly, I finally got some old code up on <a href="https://github.com/ryalnd">GitHub</a> a week or so ago.  &#8216;Social Coding&#8217; is such an amazingly cool concept, I deeply regret not participating sooner.  I literally get giddy when I load my dashboard.  It&#8217;s probably love.  Follow me or just lurk; I&#8217;ll be posting some more projects in the near future, and probably talking about it here.</p>
 
@@ -206,7 +223,7 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Quick Post]]></title>
     <link href="http://ryalnd.github.com/blog/2011/05/25/quick-post/"/>
-    <updated>2011-05-25T18:23:36-04:00</updated>
+    <updated>2011-05-25T17:23:36-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/05/25/quick-post</id>
     <content type="html"><![CDATA[<p>First: I started this post on Monday, but never got around to finishing it.</p>
 
@@ -225,7 +242,7 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Quality Disclaimer]]></title>
     <link href="http://ryalnd.github.com/blog/2011/05/09/quality-disclaimer/"/>
-    <updated>2011-05-09T17:36:29-04:00</updated>
+    <updated>2011-05-09T16:36:29-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/05/09/quality-disclaimer</id>
     <content type="html"><![CDATA[<p>In case this wasn&#8217;t apparent, I wanted to make it explicit real quickly:  all the blog posts thus far have been written on the fly.  I&#8217;ve not gone back and edited them in any major (or minor, for that matter) way;  I believe my stream-of-consciousness is coherent enough to follow without doing so, and I&#8217;m not trying to win any Pulitzers here anyway.</p>
 
@@ -240,7 +257,7 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[My First Hackathon, Play by Play]]></title>
     <link href="http://ryalnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play/"/>
-    <updated>2011-05-09T17:28:41-04:00</updated>
+    <updated>2011-05-09T16:28:41-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play</id>
     <content type="html"><![CDATA[<p>I ran into a former coworker at Noodles last week, and when I mentioned I was moving to Milwaukee and looking for a job, he suggested I take a look at <a href="http://www.spreenkler.com/">Spreenkler</a>, a startup incubator based in Milwaukee.  I did some research and found that they were putting on a 24-hour hackathon over the weekend!  Realizing that this event combined three things I desperately needed: hacking experience, job opportunities (or at least some MKE networking), and free food, I decided I simply couldn&#8217;t pass it up.</p>
 
@@ -297,7 +314,7 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Instant Morale Boost]]></title>
     <link href="http://ryalnd.github.com/blog/2011/04/27/instant-morale-boost/"/>
-    <updated>2011-04-27T03:26:26-04:00</updated>
+    <updated>2011-04-27T02:26:26-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/04/27/instant-morale-boost</id>
     <content type="html"><![CDATA[<p>I know I&#8217;ve mentioned the frustration I&#8217;ve been feeling with my work, and maybe I&#8217;ve even hinted that, in the back of my mind, I knew I just had to persevere.   But to hear someone as well-known and respected as Ira Glass say that these feelings, this &#8216;gap&#8217; (see below) is commonplace and almost expected in one&#8217;s career, was exactly what this post&#8217;s title suggests.</p>
 
@@ -314,7 +331,7 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[I should probably write about something.]]></title>
     <link href="http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
-    <updated>2011-04-11T07:29:26-04:00</updated>
+    <updated>2011-04-11T06:29:26-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
     <content type="html"><![CDATA[<p>So it&#8217;s been a bit since I&#8217;ve posted anything.  I&#8217;ve been pretty busy.</p>
 
@@ -365,7 +382,7 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[New Site, New Job]]></title>
     <link href="http://ryalnd.github.com/blog/2011/03/15/new-site-new-job/"/>
-    <updated>2011-03-15T08:48:21-04:00</updated>
+    <updated>2011-03-15T07:48:21-05:00</updated>
     <id>http://ryalnd.github.com/blog/2011/03/15/new-site-new-job</id>
     <content type="html"><![CDATA[<p>It&#8217;s been a few weeks since I last posted.  Quite a bit&#8217;s happened in that time.</p>
 
@@ -390,7 +407,7 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Project Euler: Level 2]]></title>
     <link href="http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
-    <updated>2011-02-25T21:51:27-05:00</updated>
+    <updated>2011-02-25T20:51:27-06:00</updated>
     <id>http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2</id>
     <content type="html"><![CDATA[<p>Spent the day attempting contact with people who didn&#8217;t want to communicate with me.  Filed my state taxes (had done federal a week or so ago).</p>
 
@@ -491,7 +508,7 @@ print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
   <entry>
     <title type="html"><![CDATA[Feb 24, 2011]]></title>
     <link href="http://ryalnd.github.com/blog/2011/02/24/feb-24-2011/"/>
-    <updated>2011-02-24T17:59:00-05:00</updated>
+    <updated>2011-02-24T16:59:00-06:00</updated>
     <id>http://ryalnd.github.com/blog/2011/02/24/feb-24-2011</id>
     <content type="html"><![CDATA[<p>Haven&#8217;t written in a while.  Things have been busy.  Not always productive, but always busy.  I just finished a few PE problems, and I&#8217;ll talk about those in a bit, but first here&#8217;s everything else:</p>
 
@@ -559,7 +576,7 @@ print max(totals, key = lambda x: x[1] )
   <entry>
     <title type="html"><![CDATA[Math in the Cold]]></title>
     <link href="http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
-    <updated>2011-02-10T19:07:51-05:00</updated>
+    <updated>2011-02-10T18:07:51-06:00</updated>
     <id>http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold</id>
     <content type="html"><![CDATA[<p>I wasn&#8217;t feeling very well today, and it was super cold out, so I decided to be as productive as I possibly could at home.  This involved:</p>
 
@@ -593,7 +610,7 @@ print max(totals, key = lambda x: x[1] )
   <entry>
     <title type="html"><![CDATA[No Job, More Euler]]></title>
     <link href="http://ryalnd.github.com/blog/2011/02/05/no-job-more-euler/"/>
-    <updated>2011-02-05T18:57:27-05:00</updated>
+    <updated>2011-02-05T17:57:27-06:00</updated>
     <id>http://ryalnd.github.com/blog/2011/02/05/no-job-more-euler</id>
     <content type="html"><![CDATA[<p>Worked on problems <a href="http://projecteuler.net/index.php?section=problems&amp;id=23">23</a> and <a href="http://projecteuler.net/index.php?section=problems&amp;id=35">35</a> tonight.  Problem 23 was pretty straightforward, especially in Python:</p>
 
@@ -631,7 +648,7 @@ Finished problem 35.  Pretty embarrassed about that one.  I was trying to speed 
   <entry>
     <title type="html"><![CDATA[Lots of Snow]]></title>
     <link href="http://ryalnd.github.com/blog/2011/01/31/lots-of-snow/"/>
-    <updated>2011-01-31T20:11:48-05:00</updated>
+    <updated>2011-01-31T19:11:48-06:00</updated>
     <id>http://ryalnd.github.com/blog/2011/01/31/lots-of-snow</id>
     <content type="html"><![CDATA[<p>Woke up to the promise of a blizzard.</p>
 
@@ -741,36 +758,6 @@ Finished problem 35.  Pretty embarrassed about that one.  I was trying to speed 
 <p>After that, 36 and 34 were easy.  For 36 I just wrote a function <code>is_pal()</code> that takes a string and returns whether or not it&#8217;s palindromic (and now I know how to get the binary representation of an int!).  34 was even easier: I reused the factorial function I had just written for 24 (I know there are built-in ones now; I wanted to write my own).</p>
 
 <p>Hopefully tomorrow won&#8217;t get snowed out.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[I'm Bored]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/01/26/im-bored/"/>
-    <updated>2011-01-26T13:40:20-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/01/26/im-bored</id>
-    <content type="html"><![CDATA[<p>Project Euler Update: I&#8217;ve still been plugging away at various PE problems.
-I finally finished my first 25(26 now) problems, earning me a &#8216;Level 1&#8217; status which from what I can tell is just a title.  But it&#8217;s <em>my</em> title!
-So, I know I talked about showing some code, and I still plan to post all the solutions I&#8217;ve written, but to whet your appetites here&#8217;s a quick, straightforward solution to problem 30:</p>
-
-<div><script src='https://gist.github.com/2019448.js?file=p30.py'></script>
-<noscript><pre><code>def split(str): return sum(int(x)**5 for x in str)
-print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscript></div>
-
-
-<p>Nothing too special going on here (though I&#8217;m finally getting the hang of list comprehensions).  It&#8217;s basically brute force, which from what I&#8217;ve seen on the forums is really the only way it&#8217;s been done. The <code>split()</code> function gets the value for a given number(passed as a string, not an int), and the next line finds all numbers fitting the criteria of the problem. The solution space of 2-999,999 comes from the fact that since the maximum value for a digit is 9<sup>5</sup> = 59049, no number with 7 or more digits could possibly be part of the solution since 7 x 9<sup>5</sup> = 413,343 &lt;&lt;&lt; 9,999,999.</p>
-
-<p>Tonight&#8217;s the first week of the Stand-Up Competition at the Comedy Club.  I was there for part of last year&#8217;s, and since a cheap comedy show is the pastime of choice for poor, unemployed, narcissistic college graduates around the world, I plan on being a regular attendee for the next few weeks.</p>
-
-<p>I&#8217;ve decided I don&#8217;t like the look of the site, anymore.  I&#8217;ll be changing things around soon, or maybe just tweaking, so check back.</p>
-
-<p>EDIT(7:02pm):  I felt like a bum for not doing any PE today, so I just did problem 29 with:</p>
-
-<div><script src='https://gist.github.com/2019448.js?file=p29.py'></script>
-<noscript><pre><code>print len(set(a**b for a in range(2,101) for b in range(2,101)))</code></pre></noscript></div>
-
-
-<p>using python&#8217;s <code>set</code> structure to avoid having to remove duplicates myself.</p>
 ]]></content>
   </entry>
   
