@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: python | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/python/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[New Site, New Job]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/03/15/new-site-new-job/"/>
+    <link href="http://rylnd.github.com/blog/2011/03/15/new-site-new-job/"/>
     <updated>2011-03-15T07:48:21-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/03/15/new-site-new-job</id>
+    <id>http://rylnd.github.com/blog/2011/03/15/new-site-new-job</id>
     <content type="html"><![CDATA[<p>It's been a few weeks since I last posted.  Quite a bit's happened in that time.</p>
 
 <p>To begin, I finally found a job.  Starting Wednesday I'll be working a regular 9-to-5, doing primarily technical support for pharmacy software.  While it's only a temporary position and doesn't involve much development, I'm still really looking forward to some structure and a more 'normal' circadian rhythm.  I consider myself one of those people that loves to work, and get genuine satisfaction from doing a job well.  Also, it's well-paying and I'm dead broke; that certainly doesn't hamper my anticipation.</p>
@@ -40,9 +40,9 @@
   
   <entry>
     <title type="html"><![CDATA[Project Euler: Level 2]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
     <updated>2011-02-25T20:51:27-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2</id>
+    <id>http://rylnd.github.com/blog/2011/02/25/project-euler-level-2</id>
     <content type="html"><![CDATA[<p>Spent the day attempting contact with people who didn't want to communicate with me.  Filed my state taxes (had done federal a week or so ago).</p>
 
 <p>I couldn't decide whether to feel good about today's productivity or not, so to add some weight to the 'productive' side, I went ahead and finished the remaining 7 PE problems needed to get me to the coveted <strong>Level 2</strong>.</p>
@@ -141,9 +141,9 @@ print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
   
   <entry>
     <title type="html"><![CDATA[Feb 24, 2011]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/24/feb-24-2011/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/24/feb-24-2011/"/>
     <updated>2011-02-24T16:59:00-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/24/feb-24-2011</id>
+    <id>http://rylnd.github.com/blog/2011/02/24/feb-24-2011</id>
     <content type="html"><![CDATA[<p>Haven't written in a while.  Things have been busy.  Not always productive, but always busy.  I just finished a few PE problems, and I'll talk about those in a bit, but first here's everything else:</p>
 
 <p>Officially started work on a new web development project, using mostly MySQL, JavaScript and PHP.  This will definitely be the most complicated of the ones I've done so far, so I'm looking forward to learning how to use these technologies to do things I've done in the past with .NET.  I'll keep you posted on that.</p>
@@ -209,9 +209,9 @@ print max(totals, key = lambda x: x[1] )
   
   <entry>
     <title type="html"><![CDATA[Math in the Cold]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
     <updated>2011-02-10T18:07:51-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold</id>
+    <id>http://rylnd.github.com/blog/2011/02/10/math-in-the-cold</id>
     <content type="html"><![CDATA[<p>I wasn't feeling very well today, and it was super cold out, so I decided to be as productive as I possibly could at home.  This involved:</p>
 
 <ul>
@@ -243,9 +243,9 @@ print max(totals, key = lambda x: x[1] )
   
   <entry>
     <title type="html"><![CDATA[No Job, More Euler]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/05/no-job-more-euler/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/05/no-job-more-euler/"/>
     <updated>2011-02-05T17:57:27-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/05/no-job-more-euler</id>
+    <id>http://rylnd.github.com/blog/2011/02/05/no-job-more-euler</id>
     <content type="html"><![CDATA[<p>Worked on problems <a href="http://projecteuler.net/index.php?section=problems&amp;id=23">23</a> and <a href="http://projecteuler.net/index.php?section=problems&amp;id=35">35</a> tonight.  Problem 23 was pretty straightforward, especially in Python:</p>
 
 <ol>

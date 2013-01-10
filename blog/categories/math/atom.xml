@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: math | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/math/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/math/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Project Euler: Level 2]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
     <updated>2011-02-25T20:51:27-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2</id>
+    <id>http://rylnd.github.com/blog/2011/02/25/project-euler-level-2</id>
     <content type="html"><![CDATA[<p>Spent the day attempting contact with people who didn't want to communicate with me.  Filed my state taxes (had done federal a week or so ago).</p>
 
 <p>I couldn't decide whether to feel good about today's productivity or not, so to add some weight to the 'productive' side, I went ahead and finished the remaining 7 PE problems needed to get me to the coveted <strong>Level 2</strong>.</p>
@@ -116,9 +116,9 @@ print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
   
   <entry>
     <title type="html"><![CDATA[Feb 24, 2011]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/24/feb-24-2011/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/24/feb-24-2011/"/>
     <updated>2011-02-24T16:59:00-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/24/feb-24-2011</id>
+    <id>http://rylnd.github.com/blog/2011/02/24/feb-24-2011</id>
     <content type="html"><![CDATA[<p>Haven't written in a while.  Things have been busy.  Not always productive, but always busy.  I just finished a few PE problems, and I'll talk about those in a bit, but first here's everything else:</p>
 
 <p>Officially started work on a new web development project, using mostly MySQL, JavaScript and PHP.  This will definitely be the most complicated of the ones I've done so far, so I'm looking forward to learning how to use these technologies to do things I've done in the past with .NET.  I'll keep you posted on that.</p>
@@ -184,9 +184,9 @@ print max(totals, key = lambda x: x[1] )
   
   <entry>
     <title type="html"><![CDATA[Math in the Cold]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
     <updated>2011-02-10T18:07:51-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold</id>
+    <id>http://rylnd.github.com/blog/2011/02/10/math-in-the-cold</id>
     <content type="html"><![CDATA[<p>I wasn't feeling very well today, and it was super cold out, so I decided to be as productive as I possibly could at home.  This involved:</p>
 
 <ul>
@@ -218,9 +218,9 @@ print max(totals, key = lambda x: x[1] )
   
   <entry>
     <title type="html"><![CDATA[Lots of Snow]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/01/31/lots-of-snow/"/>
+    <link href="http://rylnd.github.com/blog/2011/01/31/lots-of-snow/"/>
     <updated>2011-01-31T19:11:48-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/01/31/lots-of-snow</id>
+    <id>http://rylnd.github.com/blog/2011/01/31/lots-of-snow</id>
     <content type="html"><![CDATA[<p>Woke up to the promise of a blizzard.</p>
 
 <p>I was supposed to head down to Kenosha for a dentist's appointment this morning, but that was canceled due to weather; it wasn't a crucial appointment, and I really didn't want to be stuck there until Wednesday/Thursday.</p>
@@ -334,9 +334,9 @@ print max(totals, key = lambda x: x[1] )
   
   <entry>
     <title type="html"><![CDATA[I'm Bored]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/01/26/im-bored/"/>
+    <link href="http://rylnd.github.com/blog/2011/01/26/im-bored/"/>
     <updated>2011-01-26T12:40:20-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/01/26/im-bored</id>
+    <id>http://rylnd.github.com/blog/2011/01/26/im-bored</id>
     <content type="html"><![CDATA[<p>Project Euler Update: I've still been plugging away at various PE problems.
 I finally finished my first 25(26 now) problems, earning me a 'Level 1' status which from what I can tell is just a title.  But it's <em>my</em> title!
 So, I know I talked about showing some code, and I still plan to post all the solutions I've written, but to whet your appetites here's a quick, straightforward solution to problem 30:</p>

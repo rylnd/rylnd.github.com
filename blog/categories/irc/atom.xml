@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: IRC | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/irc/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/irc/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Math in the Cold]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
     <updated>2011-02-10T18:07:51-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold</id>
+    <id>http://rylnd.github.com/blog/2011/02/10/math-in-the-cold</id>
     <content type="html"><![CDATA[<p>I wasn't feeling very well today, and it was super cold out, so I decided to be as productive as I possibly could at home.  This involved:</p>
 
 <ul>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: meetup | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/meetup/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/meetup/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Quick Post]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/25/quick-post/"/>
+    <link href="http://rylnd.github.com/blog/2011/05/25/quick-post/"/>
     <updated>2011-05-25T17:23:36-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/25/quick-post</id>
+    <id>http://rylnd.github.com/blog/2011/05/25/quick-post</id>
     <content type="html"><![CDATA[<p>First: I started this post on Monday, but never got around to finishing it.</p>
 
 <p>Went to the Mad Railers meetup Monday, despite my body requesting otherwise.  I figure if I don't have the time to sit down and learn Ruby right myself right now, I should at least take advantage of these local groups.</p>

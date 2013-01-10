@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: DFW | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/dfw/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/dfw/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[I should probably write about something.]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
+    <link href="http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
     <updated>2011-04-11T06:29:26-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
+    <id>http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
     <content type="html"><![CDATA[<p>So it's been a bit since I've posted anything.  I've been pretty busy.</p>
 
 <p>Between my new 9-5, an amazing girlfriend, the weather improving, several web projects and a few novels, my plate's been plenty full.</p>

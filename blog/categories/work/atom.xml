@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: work | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/work/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/work/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Life: Upgraded.]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/08/05/life-upgraded/"/>
+    <link href="http://rylnd.github.com/blog/2011/08/05/life-upgraded/"/>
     <updated>2011-08-05T19:18:59-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/08/05/life-upgraded</id>
+    <id>http://rylnd.github.com/blog/2011/08/05/life-upgraded</id>
     <content type="html"><![CDATA[<p>Hoo boy.  A lot has changed in the past few weeks.  After spending about a month looking for jobs and apartments in Milwaukee, we finally found both.  We found the perfect apartment, and I accepted a job offer for an awesome Django startup in Spreenkler's Accelerator program.  The day after I said yes to the job, I was approached with an offer here in Madison.  While both were amazing jobs, I ended up taking the job here in Madison as I felt it had more to offer, experientially.  Starting at the end of August, I'll be an official <a href="http://bendyworks.com/">Bendyworker</a>.</p>
 
 <p>Of course, this means that the time Amanda and I spent planning for Milwaukee was basically for naught.  I've got an amazing job, but we're back to square one apartment-wise.  I've moved every year since 2005; I'm ready to buy a house out of sheer laziness.</p>
@@ -34,9 +34,9 @@
   
   <entry>
     <title type="html"><![CDATA[Much More Exciting(er)]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/25/much-more-excitinger/"/>
+    <link href="http://rylnd.github.com/blog/2011/05/25/much-more-excitinger/"/>
     <updated>2011-05-25T17:49:12-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/25/much-more-excitinger</id>
+    <id>http://rylnd.github.com/blog/2011/05/25/much-more-excitinger</id>
     <content type="html"><![CDATA[<p>Oh snap.  Lots of exciting stuff happening lately.  Most publicly, I finally got some old code up on <a href="https://github.com/ryalnd">GitHub</a> a week or so ago.  'Social Coding' is such an amazingly cool concept, I deeply regret not participating sooner.  I literally get giddy when I load my dashboard.  It's probably love.  Follow me or just lurk; I'll be posting some more projects in the near future, and probably talking about it here.</p>
 
 <p>In an exciting new development, Spreenkler has apparently changed their minds about the whole Zappos Gift Certificate thing (thanks to a rogue email by Devin, of which I swear I had no knowledge).  We've yet to receive the goods, but Steve @ <a href="http://www.spreenkler.com/">Spreenkler</a> apparently talked to the guys at Blurbs and they agreed that we could have the award.  I was dumbfounded by the kindness exhibited in that gesture; if Steve and co. are representative of the Milwaukee community, I cannot wait.</p>
@@ -51,9 +51,9 @@
   
   <entry>
     <title type="html"><![CDATA[Quick Post]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/25/quick-post/"/>
+    <link href="http://rylnd.github.com/blog/2011/05/25/quick-post/"/>
     <updated>2011-05-25T17:23:36-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/25/quick-post</id>
+    <id>http://rylnd.github.com/blog/2011/05/25/quick-post</id>
     <content type="html"><![CDATA[<p>First: I started this post on Monday, but never got around to finishing it.</p>
 
 <p>Went to the Mad Railers meetup Monday, despite my body requesting otherwise.  I figure if I don't have the time to sit down and learn Ruby right myself right now, I should at least take advantage of these local groups.</p>
@@ -70,9 +70,9 @@
   
   <entry>
     <title type="html"><![CDATA[Instant Morale Boost]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/04/27/instant-morale-boost/"/>
+    <link href="http://rylnd.github.com/blog/2011/04/27/instant-morale-boost/"/>
     <updated>2011-04-27T02:26:26-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/04/27/instant-morale-boost</id>
+    <id>http://rylnd.github.com/blog/2011/04/27/instant-morale-boost</id>
     <content type="html"><![CDATA[<p>I know I've mentioned the frustration I've been feeling with my work, and maybe I've even hinted that, in the back of my mind, I knew I just had to persevere.   But to hear someone as well-known and respected as Ira Glass say that these feelings, this 'gap' (see below) is commonplace and almost expected in one's career, was exactly what this post's title suggests.</p>
 
 <p>Am I still frustrated with the quality of my work?  Absolutely.  But whereas before I only had my own intuition to keep me going, I now have Ira Glass telling me it's alright:</p>
@@ -87,9 +87,9 @@
   
   <entry>
     <title type="html"><![CDATA[I should probably write about something.]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
+    <link href="http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
     <updated>2011-04-11T06:29:26-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
+    <id>http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
     <content type="html"><![CDATA[<p>So it's been a bit since I've posted anything.  I've been pretty busy.</p>
 
 <p>Between my new 9-5, an amazing girlfriend, the weather improving, several web projects and a few novels, my plate's been plenty full.</p>

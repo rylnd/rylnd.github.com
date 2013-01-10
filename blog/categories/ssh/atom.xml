@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ssh | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/ssh/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/ssh/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Multiple Heroku Accounts and git]]></title>
-    <link href="http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
+    <link href="http://rylnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
     <updated>2012-04-27T16:49:00-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
+    <id>http://rylnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
     <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn't done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
 
 <p>While I had successfully done a <code>$ gem install heroku &amp;&amp; heroku create --stack cedar</code>, I got the following error when trying to do a <code>$ git push heroku master</code> to get things up and running:</p>

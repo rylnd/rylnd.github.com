@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[RyLand]]></title>
-  <link href="http://ryalnd.github.com/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Turnip Helpers]]></title>
-    <link href="http://ryalnd.github.com/blog/2012/09/14/turnip-helpers/"/>
+    <link href="http://rylnd.github.com/blog/2012/09/14/turnip-helpers/"/>
     <updated>2012-09-14T18:26:00-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2012/09/14/turnip-helpers</id>
+    <id>http://rylnd.github.com/blog/2012/09/14/turnip-helpers</id>
     <content type="html"><![CDATA[<p>So today was a growth day for me at bendyworks. I started the day working on <a href="https://github.com/ryalnd/bendylunch">bendylunch</a>.</p>
 
 <p>Bendylunch uses <a href="https://github.com/jnicklas/turnip">turnip</a>, which we&#8217;ve been using (and enjoying) as an alternative to cucumber. We also tried poltergeist/cucumber briefly, but it seems a bit immature to be a replacement right now.</p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[Respond With An Explanation]]></title>
-    <link href="http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation/"/>
+    <link href="http://rylnd.github.com/blog/2012/06/24/respond-with-an-explanation/"/>
     <updated>2012-06-24T16:52:00-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
+    <id>http://rylnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
     <content type="html"><![CDATA[<p>Hey, I wrote about some things I recently learned about Devise and Rails 3.</p>
 
 <p>It&#8217;s posted on the <a href="http://bendyworks.com/geekville">bendyworks blog</a>. You should <a href="http://bendyworks.com/geekville/tutorials/2012/6/respond-with-an-explanation">check it out</a>.</p>
@@ -43,9 +43,9 @@
   
   <entry>
     <title type="html"><![CDATA[Multiple Heroku Accounts and git]]></title>
-    <link href="http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
+    <link href="http://rylnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
     <updated>2012-04-27T16:49:00-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
+    <id>http://rylnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
     <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn&#8217;t done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
 
 <p>While I had successfully done a <code>$ gem install heroku &amp;&amp; heroku create --stack cedar</code>, I got the following error when trying to do a <code>$ git push heroku master</code> to get things up and running:</p>
@@ -91,9 +91,9 @@ fatal: The remote end hung up unexpectedly
   
   <entry>
     <title type="html"><![CDATA[Github Pages]]></title>
-    <link href="http://ryalnd.github.com/blog/2012/04/08/github-pages/"/>
+    <link href="http://rylnd.github.com/blog/2012/04/08/github-pages/"/>
     <updated>2012-04-08T19:59:00-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2012/04/08/github-pages</id>
+    <id>http://rylnd.github.com/blog/2012/04/08/github-pages</id>
     <content type="html"><![CDATA[<p>I haven&#8217;t posted anything in a while. I won&#8217;t make excuses, that&#8217;s just the way it is.</p>
 
 <p>If you hadn&#8217;t noticed, the blog is no longer WordPress, nor is it hosted on my Linode. A few weeks ago, during <a href="http://bendyworks.com">bendyworks</a>&#8217; amazing growth days (which will be described in a future post), I converted my blog entries to <a href="https://github.com/mojombo/jekyll">jekyll</a>-formatted YAML and markdown. This was actually the hardest part of the process. I won&#8217;t go into details, but it involved piping my WordPress-exported posts through a Rube-Goldbergesque series of Python libraries.</p>
@@ -106,9 +106,9 @@ fatal: The remote end hung up unexpectedly
   
   <entry>
     <title type="html"><![CDATA[Life: Upgraded.]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/08/05/life-upgraded/"/>
+    <link href="http://rylnd.github.com/blog/2011/08/05/life-upgraded/"/>
     <updated>2011-08-05T19:18:59-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/08/05/life-upgraded</id>
+    <id>http://rylnd.github.com/blog/2011/08/05/life-upgraded</id>
     <content type="html"><![CDATA[<p>Hoo boy.  A lot has changed in the past few weeks.  After spending about a month looking for jobs and apartments in Milwaukee, we finally found both.  We found the perfect apartment, and I accepted a job offer for an awesome Django startup in Spreenkler&#8217;s Accelerator program.  The day after I said yes to the job, I was approached with an offer here in Madison.  While both were amazing jobs, I ended up taking the job here in Madison as I felt it had more to offer, experientially.  Starting at the end of August, I&#8217;ll be an official <a href="http://bendyworks.com/">Bendyworker</a>.</p>
 
 <p>Of course, this means that the time Amanda and I spent planning for Milwaukee was basically for naught.  I&#8217;ve got an amazing job, but we&#8217;re back to square one apartment-wise.  I&#8217;ve moved every year since 2005; I&#8217;m ready to buy a house out of sheer laziness.</p>
@@ -125,9 +125,9 @@ fatal: The remote end hung up unexpectedly
   
   <entry>
     <title type="html"><![CDATA[Work vs. Not-Work]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/07/01/work-vs-not-work/"/>
+    <link href="http://rylnd.github.com/blog/2011/07/01/work-vs-not-work/"/>
     <updated>2011-07-01T18:58:40-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/07/01/work-vs-not-work</id>
+    <id>http://rylnd.github.com/blog/2011/07/01/work-vs-not-work</id>
     <content type="html"><![CDATA[<p>Oh, hey there!  It&#8217;s been so long I almost didn&#8217;t recognize you!  Yeah, I&#8217;ve been good.  Real busy with work, if you can call it &#8216;work.&#8217;  Busy regardless, though.</p>
 
 <p>The Jungol project has been going great.   I don&#8217;t think I can overemphasize how refreshing it is.  The team, the framework, the project itself, and the freedom that I&#8217;m given are amazing.  Don&#8217;t think I&#8217;m not grateful.</p>
@@ -151,9 +151,9 @@ fatal: The remote end hung up unexpectedly
   
   <entry>
     <title type="html"><![CDATA[Busyness, Business]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/06/12/busyness-business/"/>
+    <link href="http://rylnd.github.com/blog/2011/06/12/busyness-business/"/>
     <updated>2011-06-12T14:57:23-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/06/12/busyness-business</id>
+    <id>http://rylnd.github.com/blog/2011/06/12/busyness-business</id>
     <content type="html"><![CDATA[<p>It&#8217;s been a while since I wrote anything, but I&#8217;ve been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
 
 <p>I was approached by Steve at Spreenkler about two weeks ago.  He asked if I&#8217;d be interested in working as a developer for one of the teams in their summer <a href="http://spreenklertalentlabs.org/startup/?page_id=4">Incubator Program</a>.  My old job was incredibly understanding about the opportunity, and after a few meetings and a trip to Milwaukee I was part of Jungol, Inc.  Expect a more detailed post about the team and what I&#8217;m doing (hint: I&#8217;m <em>the</em> developer) in the near future, when I have some more time.</p>
@@ -190,9 +190,9 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   
   <entry>
     <title type="html"><![CDATA[Quickie]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/28/quickie/"/>
+    <link href="http://rylnd.github.com/blog/2011/05/28/quickie/"/>
     <updated>2011-05-28T18:59:57-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/28/quickie</id>
+    <id>http://rylnd.github.com/blog/2011/05/28/quickie</id>
     <content type="html"><![CDATA[<p>Okay, I&#8217;m really tired but I wanted to make note of a few updates.  While I&#8217;m not naive enough to think that the built-in comment system is the reason the blog doesn&#8217;t have any comments, I realize that that could conceivably be an issue if the site actually had readers.  With that in mind, I present the new comment system, powered by <a href="http://disqus.com">Disqus</a>!</p>
 
 <p>I finally got around to updating Wordpress this week as well.  I don&#8217;t have FTP on my server for several reasons (mainly security), so Wordpress&#8217; handy dandy auto-install isn&#8217;t an option for me (I suppose I could temporarily use it, but that&#8217;s almost as much work as just doing it manually).  It&#8217;s pretty painless since most of the files they update aren&#8217;t ones I&#8217;ve customized, but I always delay it because I fear change (and they update so damn often).</p>
@@ -205,9 +205,9 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   
   <entry>
     <title type="html"><![CDATA[Much More Exciting(er)]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/25/much-more-excitinger/"/>
+    <link href="http://rylnd.github.com/blog/2011/05/25/much-more-excitinger/"/>
     <updated>2011-05-25T17:49:12-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/25/much-more-excitinger</id>
+    <id>http://rylnd.github.com/blog/2011/05/25/much-more-excitinger</id>
     <content type="html"><![CDATA[<p>Oh snap.  Lots of exciting stuff happening lately.  Most publicly, I finally got some old code up on <a href="https://github.com/ryalnd">GitHub</a> a week or so ago.  &#8216;Social Coding&#8217; is such an amazingly cool concept, I deeply regret not participating sooner.  I literally get giddy when I load my dashboard.  It&#8217;s probably love.  Follow me or just lurk; I&#8217;ll be posting some more projects in the near future, and probably talking about it here.</p>
 
 <p>In an exciting new development, Spreenkler has apparently changed their minds about the whole Zappos Gift Certificate thing (thanks to a rogue email by Devin, of which I swear I had no knowledge).  We&#8217;ve yet to receive the goods, but Steve @ <a href="http://www.spreenkler.com/">Spreenkler</a> apparently talked to the guys at Blurbs and they agreed that we could have the award.  I was dumbfounded by the kindness exhibited in that gesture; if Steve and co. are representative of the Milwaukee community, I cannot wait.</p>
@@ -222,9 +222,9 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   
   <entry>
     <title type="html"><![CDATA[Quick Post]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/25/quick-post/"/>
+    <link href="http://rylnd.github.com/blog/2011/05/25/quick-post/"/>
     <updated>2011-05-25T17:23:36-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/25/quick-post</id>
+    <id>http://rylnd.github.com/blog/2011/05/25/quick-post</id>
     <content type="html"><![CDATA[<p>First: I started this post on Monday, but never got around to finishing it.</p>
 
 <p>Went to the Mad Railers meetup Monday, despite my body requesting otherwise.  I figure if I don&#8217;t have the time to sit down and learn Ruby right myself right now, I should at least take advantage of these local groups.</p>
@@ -241,9 +241,9 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   
   <entry>
     <title type="html"><![CDATA[Quality Disclaimer]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/09/quality-disclaimer/"/>
+    <link href="http://rylnd.github.com/blog/2011/05/09/quality-disclaimer/"/>
     <updated>2011-05-09T16:36:29-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/09/quality-disclaimer</id>
+    <id>http://rylnd.github.com/blog/2011/05/09/quality-disclaimer</id>
     <content type="html"><![CDATA[<p>In case this wasn&#8217;t apparent, I wanted to make it explicit real quickly:  all the blog posts thus far have been written on the fly.  I&#8217;ve not gone back and edited them in any major (or minor, for that matter) way;  I believe my stream-of-consciousness is coherent enough to follow without doing so, and I&#8217;m not trying to win any Pulitzers here anyway.</p>
 
 <p>That being said, if something is unclear or obviously, distractingly wrong in one of my posts, please feel free to let me know and I&#8217;ll definitely look into making it clearer/correct.</p>
@@ -256,9 +256,9 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   
   <entry>
     <title type="html"><![CDATA[My First Hackathon, Play by Play]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play/"/>
+    <link href="http://rylnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play/"/>
     <updated>2011-05-09T16:28:41-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play</id>
+    <id>http://rylnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play</id>
     <content type="html"><![CDATA[<p>I ran into a former coworker at Noodles last week, and when I mentioned I was moving to Milwaukee and looking for a job, he suggested I take a look at <a href="http://www.spreenkler.com/">Spreenkler</a>, a startup incubator based in Milwaukee.  I did some research and found that they were putting on a 24-hour hackathon over the weekend!  Realizing that this event combined three things I desperately needed: hacking experience, job opportunities (or at least some MKE networking), and free food, I decided I simply couldn&#8217;t pass it up.</p>
 
 <p>This all happened on Thursday evening, with the event starting Saturday at noon. Sure it was short notice, but all coding was to be done on-site, right?  All we needed by Saturday was an idea.  While I had managed to convince a couple friends (Jared and Devin) to join my &#8216;team&#8217; on Friday evening, we still didn&#8217;t have an idea.  There was some mention of the Zappos API, but the team&#8217;s general indolence brought us to our final idea:  winging it.</p>
@@ -313,9 +313,9 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   
   <entry>
     <title type="html"><![CDATA[Instant Morale Boost]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/04/27/instant-morale-boost/"/>
+    <link href="http://rylnd.github.com/blog/2011/04/27/instant-morale-boost/"/>
     <updated>2011-04-27T02:26:26-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/04/27/instant-morale-boost</id>
+    <id>http://rylnd.github.com/blog/2011/04/27/instant-morale-boost</id>
     <content type="html"><![CDATA[<p>I know I&#8217;ve mentioned the frustration I&#8217;ve been feeling with my work, and maybe I&#8217;ve even hinted that, in the back of my mind, I knew I just had to persevere.   But to hear someone as well-known and respected as Ira Glass say that these feelings, this &#8216;gap&#8217; (see below) is commonplace and almost expected in one&#8217;s career, was exactly what this post&#8217;s title suggests.</p>
 
 <p>Am I still frustrated with the quality of my work?  Absolutely.  But whereas before I only had my own intuition to keep me going, I now have Ira Glass telling me it&#8217;s alright:</p>
@@ -330,9 +330,9 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   
   <entry>
     <title type="html"><![CDATA[I should probably write about something.]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
+    <link href="http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
     <updated>2011-04-11T06:29:26-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
+    <id>http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
     <content type="html"><![CDATA[<p>So it&#8217;s been a bit since I&#8217;ve posted anything.  I&#8217;ve been pretty busy.</p>
 
 <p>Between my new 9-5, an amazing girlfriend, the weather improving, several web projects and a few novels, my plate&#8217;s been plenty full.</p>
@@ -381,9 +381,9 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   
   <entry>
     <title type="html"><![CDATA[New Site, New Job]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/03/15/new-site-new-job/"/>
+    <link href="http://rylnd.github.com/blog/2011/03/15/new-site-new-job/"/>
     <updated>2011-03-15T07:48:21-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/03/15/new-site-new-job</id>
+    <id>http://rylnd.github.com/blog/2011/03/15/new-site-new-job</id>
     <content type="html"><![CDATA[<p>It&#8217;s been a few weeks since I last posted.  Quite a bit&#8217;s happened in that time.</p>
 
 <p>To begin, I finally found a job.  Starting Wednesday I&#8217;ll be working a regular 9-to-5, doing primarily technical support for pharmacy software.  While it&#8217;s only a temporary position and doesn&#8217;t involve much development, I&#8217;m still really looking forward to some structure and a more &#8216;normal&#8217; circadian rhythm.  I consider myself one of those people that loves to work, and get genuine satisfaction from doing a job well.  Also, it&#8217;s well-paying and I&#8217;m dead broke; that certainly doesn&#8217;t hamper my anticipation.</p>
@@ -406,9 +406,9 @@ It&#8217;s been quite an ordeal trying to find an organize a team (yes, even for
   
   <entry>
     <title type="html"><![CDATA[Project Euler: Level 2]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
     <updated>2011-02-25T20:51:27-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/25/project-euler-level-2</id>
+    <id>http://rylnd.github.com/blog/2011/02/25/project-euler-level-2</id>
     <content type="html"><![CDATA[<p>Spent the day attempting contact with people who didn&#8217;t want to communicate with me.  Filed my state taxes (had done federal a week or so ago).</p>
 
 <p>I couldn&#8217;t decide whether to feel good about today&#8217;s productivity or not, so to add some weight to the &#8216;productive&#8217; side, I went ahead and finished the remaining 7 PE problems needed to get me to the coveted <strong>Level 2</strong>.</p>
@@ -507,9 +507,9 @@ print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
   
   <entry>
     <title type="html"><![CDATA[Feb 24, 2011]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/24/feb-24-2011/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/24/feb-24-2011/"/>
     <updated>2011-02-24T16:59:00-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/24/feb-24-2011</id>
+    <id>http://rylnd.github.com/blog/2011/02/24/feb-24-2011</id>
     <content type="html"><![CDATA[<p>Haven&#8217;t written in a while.  Things have been busy.  Not always productive, but always busy.  I just finished a few PE problems, and I&#8217;ll talk about those in a bit, but first here&#8217;s everything else:</p>
 
 <p>Officially started work on a new web development project, using mostly MySQL, JavaScript and PHP.  This will definitely be the most complicated of the ones I&#8217;ve done so far, so I&#8217;m looking forward to learning how to use these technologies to do things I&#8217;ve done in the past with .NET.  I&#8217;ll keep you posted on that.</p>
@@ -575,9 +575,9 @@ print max(totals, key = lambda x: x[1] )
   
   <entry>
     <title type="html"><![CDATA[Math in the Cold]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
     <updated>2011-02-10T18:07:51-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/10/math-in-the-cold</id>
+    <id>http://rylnd.github.com/blog/2011/02/10/math-in-the-cold</id>
     <content type="html"><![CDATA[<p>I wasn&#8217;t feeling very well today, and it was super cold out, so I decided to be as productive as I possibly could at home.  This involved:</p>
 
 <ul>
@@ -609,9 +609,9 @@ print max(totals, key = lambda x: x[1] )
   
   <entry>
     <title type="html"><![CDATA[No Job, More Euler]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/05/no-job-more-euler/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/05/no-job-more-euler/"/>
     <updated>2011-02-05T17:57:27-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/05/no-job-more-euler</id>
+    <id>http://rylnd.github.com/blog/2011/02/05/no-job-more-euler</id>
     <content type="html"><![CDATA[<p>Worked on problems <a href="http://projecteuler.net/index.php?section=problems&amp;id=23">23</a> and <a href="http://projecteuler.net/index.php?section=problems&amp;id=35">35</a> tonight.  Problem 23 was pretty straightforward, especially in Python:</p>
 
 <ol>
@@ -647,9 +647,9 @@ Finished problem 35.  Pretty embarrassed about that one.  I was trying to speed 
   
   <entry>
     <title type="html"><![CDATA[Lots of Snow]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/01/31/lots-of-snow/"/>
+    <link href="http://rylnd.github.com/blog/2011/01/31/lots-of-snow/"/>
     <updated>2011-01-31T19:11:48-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/01/31/lots-of-snow</id>
+    <id>http://rylnd.github.com/blog/2011/01/31/lots-of-snow</id>
     <content type="html"><![CDATA[<p>Woke up to the promise of a blizzard.</p>
 
 <p>I was supposed to head down to Kenosha for a dentist&#8217;s appointment this morning, but that was canceled due to weather; it wasn&#8217;t a crucial appointment, and I really didn&#8217;t want to be stuck there until Wednesday/Thursday.</p>

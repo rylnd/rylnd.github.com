@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: javascript | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/javascript/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My First Hackathon, Play by Play]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play/"/>
+    <link href="http://rylnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play/"/>
     <updated>2011-05-09T16:28:41-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play</id>
+    <id>http://rylnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play</id>
     <content type="html"><![CDATA[<p>I ran into a former coworker at Noodles last week, and when I mentioned I was moving to Milwaukee and looking for a job, he suggested I take a look at <a href="http://www.spreenkler.com/">Spreenkler</a>, a startup incubator based in Milwaukee.  I did some research and found that they were putting on a 24-hour hackathon over the weekend!  Realizing that this event combined three things I desperately needed: hacking experience, job opportunities (or at least some MKE networking), and free food, I decided I simply couldn't pass it up.</p>
 
 <p>This all happened on Thursday evening, with the event starting Saturday at noon. Sure it was short notice, but all coding was to be done on-site, right?  All we needed by Saturday was an idea.  While I had managed to convince a couple friends (Jared and Devin) to join my 'team' on Friday evening, we still didn't have an idea.  There was some mention of the Zappos API, but the team's general indolence brought us to our final idea:  winging it.</p>
@@ -72,9 +72,9 @@
   
   <entry>
     <title type="html"><![CDATA[I should probably write about something.]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
+    <link href="http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
     <updated>2011-04-11T06:29:26-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
+    <id>http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
     <content type="html"><![CDATA[<p>So it's been a bit since I've posted anything.  I've been pretty busy.</p>
 
 <p>Between my new 9-5, an amazing girlfriend, the weather improving, several web projects and a few novels, my plate's been plenty full.</p>
@@ -123,9 +123,9 @@
   
   <entry>
     <title type="html"><![CDATA[New Site, New Job]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/03/15/new-site-new-job/"/>
+    <link href="http://rylnd.github.com/blog/2011/03/15/new-site-new-job/"/>
     <updated>2011-03-15T07:48:21-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/03/15/new-site-new-job</id>
+    <id>http://rylnd.github.com/blog/2011/03/15/new-site-new-job</id>
     <content type="html"><![CDATA[<p>It's been a few weeks since I last posted.  Quite a bit's happened in that time.</p>
 
 <p>To begin, I finally found a job.  Starting Wednesday I'll be working a regular 9-to-5, doing primarily technical support for pharmacy software.  While it's only a temporary position and doesn't involve much development, I'm still really looking forward to some structure and a more 'normal' circadian rhythm.  I consider myself one of those people that loves to work, and get genuine satisfaction from doing a job well.  Also, it's well-paying and I'm dead broke; that certainly doesn't hamper my anticipation.</p>
@@ -148,9 +148,9 @@
   
   <entry>
     <title type="html"><![CDATA[No Job, More Euler]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/02/05/no-job-more-euler/"/>
+    <link href="http://rylnd.github.com/blog/2011/02/05/no-job-more-euler/"/>
     <updated>2011-02-05T17:57:27-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/02/05/no-job-more-euler</id>
+    <id>http://rylnd.github.com/blog/2011/02/05/no-job-more-euler</id>
     <content type="html"><![CDATA[<p>Worked on problems <a href="http://projecteuler.net/index.php?section=problems&amp;id=23">23</a> and <a href="http://projecteuler.net/index.php?section=problems&amp;id=35">35</a> tonight.  Problem 23 was pretty straightforward, especially in Python:</p>
 
 <ol>

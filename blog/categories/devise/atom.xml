@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: devise | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/devise/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/devise/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Respond With An Explanation]]></title>
-    <link href="http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation/"/>
+    <link href="http://rylnd.github.com/blog/2012/06/24/respond-with-an-explanation/"/>
     <updated>2012-06-24T16:52:00-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
+    <id>http://rylnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
     <content type="html"><![CDATA[<p>Hey, I wrote about some things I recently learned about Devise and Rails 3.</p>
 
 <p>It's posted on the <a href="http://bendyworks.com/geekville">bendyworks blog</a>. You should <a href="http://bendyworks.com/geekville/tutorials/2012/6/respond-with-an-explanation">check it out</a>.</p>

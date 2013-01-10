@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: changelog | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/changelog/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/changelog/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Busyness, Business]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/06/12/busyness-business/"/>
+    <link href="http://rylnd.github.com/blog/2011/06/12/busyness-business/"/>
     <updated>2011-06-12T14:57:23-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/06/12/busyness-business</id>
+    <id>http://rylnd.github.com/blog/2011/06/12/busyness-business</id>
     <content type="html"><![CDATA[<p>It's been a while since I wrote anything, but I've been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
 
 <p>I was approached by Steve at Spreenkler about two weeks ago.  He asked if I'd be interested in working as a developer for one of the teams in their summer <a href="http://spreenklertalentlabs.org/startup/?page_id=4">Incubator Program</a>.  My old job was incredibly understanding about the opportunity, and after a few meetings and a trip to Milwaukee I was part of Jungol, Inc.  Expect a more detailed post about the team and what I'm doing (hint: I'm <em>the</em> developer) in the near future, when I have some more time.</p>
@@ -54,9 +54,9 @@ It's been quite an ordeal trying to find an organize a team (yes, even for a 'sp
   
   <entry>
     <title type="html"><![CDATA[Quickie]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/05/28/quickie/"/>
+    <link href="http://rylnd.github.com/blog/2011/05/28/quickie/"/>
     <updated>2011-05-28T18:59:57-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/05/28/quickie</id>
+    <id>http://rylnd.github.com/blog/2011/05/28/quickie</id>
     <content type="html"><![CDATA[<p>Okay, I'm really tired but I wanted to make note of a few updates.  While I'm not naive enough to think that the built-in comment system is the reason the blog doesn't have any comments, I realize that that could conceivably be an issue if the site actually had readers.  With that in mind, I present the new comment system, powered by <a href="http://disqus.com">Disqus</a>!</p>
 
 <p>I finally got around to updating Wordpress this week as well.  I don't have FTP on my server for several reasons (mainly security), so Wordpress' handy dandy auto-install isn't an option for me (I suppose I could temporarily use it, but that's almost as much work as just doing it manually).  It's pretty painless since most of the files they update aren't ones I've customized, but I always delay it because I fear change (and they update so damn often).</p>
@@ -69,9 +69,9 @@ It's been quite an ordeal trying to find an organize a team (yes, even for a 'sp
   
   <entry>
     <title type="html"><![CDATA[I should probably write about something.]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
+    <link href="http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
     <updated>2011-04-11T06:29:26-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
+    <id>http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
     <content type="html"><![CDATA[<p>So it's been a bit since I've posted anything.  I've been pretty busy.</p>
 
 <p>Between my new 9-5, an amazing girlfriend, the weather improving, several web projects and a few novels, my plate's been plenty full.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: kindle | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/kindle/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/kindle/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Intimate Look]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/01/13/an-intimate-look/"/>
+    <link href="http://rylnd.github.com/blog/2011/01/13/an-intimate-look/"/>
     <updated>2011-01-13T17:13:34-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/01/13/an-intimate-look</id>
+    <id>http://rylnd.github.com/blog/2011/01/13/an-intimate-look</id>
     <content type="html"><![CDATA[<p>I know I just wrote that last post about the Ruby scraper, but I wanted to take a quick second to talk quickly about what else I've been doing with my time.</p>
 
 <p>Mostly, I've been reading.  This summer I discovered/fell in love with David Foster Wallace, and have read 5 of his books since then.  I'd been checking them out from the library, but asked for 'A Supposedly Fun Thing . . .' for Christmas and will probably finish that tonight.</p>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA[Oh right.  2011.]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/01/08/oh-right-2011/"/>
+    <link href="http://rylnd.github.com/blog/2011/01/08/oh-right-2011/"/>
     <updated>2011-01-08T16:08:24-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/01/08/oh-right-2011</id>
+    <id>http://rylnd.github.com/blog/2011/01/08/oh-right-2011</id>
     <content type="html"><![CDATA[<p>Second Saturday of the new year and I'm feeling just as lazy as 2010.  The difference?  Uhh . . . I'm writing this post!</p>
 
 <p>Haven't written in a couple weeks.  I went home for the holidays, which was nice.  Got to see lots of friends and family that I've not in a long time.  I also got a bike stand for easier home repairs, and most excitingly a Kindle.  I've had a lot of technical/educational documents on my computer for a while now, mostly in pdf, and I'm excited to finally have more opportunities to read them.</p>

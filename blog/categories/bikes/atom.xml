@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: bikes | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/bikes/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/bikes/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Busyness, Business]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/06/12/busyness-business/"/>
+    <link href="http://rylnd.github.com/blog/2011/06/12/busyness-business/"/>
     <updated>2011-06-12T14:57:23-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/06/12/busyness-business</id>
+    <id>http://rylnd.github.com/blog/2011/06/12/busyness-business</id>
     <content type="html"><![CDATA[<p>It's been a while since I wrote anything, but I've been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
 
 <p>I was approached by Steve at Spreenkler about two weeks ago.  He asked if I'd be interested in working as a developer for one of the teams in their summer <a href="http://spreenklertalentlabs.org/startup/?page_id=4">Incubator Program</a>.  My old job was incredibly understanding about the opportunity, and after a few meetings and a trip to Milwaukee I was part of Jungol, Inc.  Expect a more detailed post about the team and what I'm doing (hint: I'm <em>the</em> developer) in the near future, when I have some more time.</p>
@@ -54,9 +54,9 @@ It's been quite an ordeal trying to find an organize a team (yes, even for a 'sp
   
   <entry>
     <title type="html"><![CDATA[An Intimate Look]]></title>
-    <link href="http://ryalnd.github.com/blog/2011/01/13/an-intimate-look/"/>
+    <link href="http://rylnd.github.com/blog/2011/01/13/an-intimate-look/"/>
     <updated>2011-01-13T17:13:34-06:00</updated>
-    <id>http://ryalnd.github.com/blog/2011/01/13/an-intimate-look</id>
+    <id>http://rylnd.github.com/blog/2011/01/13/an-intimate-look</id>
     <content type="html"><![CDATA[<p>I know I just wrote that last post about the Ruby scraper, but I wanted to take a quick second to talk quickly about what else I've been doing with my time.</p>
 
 <p>Mostly, I've been reading.  This summer I discovered/fell in love with David Foster Wallace, and have read 5 of his books since then.  I'd been checking them out from the library, but asked for 'A Supposedly Fun Thing . . .' for Christmas and will probably finish that tonight.</p>

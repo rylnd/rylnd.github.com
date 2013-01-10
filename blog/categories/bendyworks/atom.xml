@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: bendyworks | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/bendyworks/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/bendyworks/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Respond With An Explanation]]></title>
-    <link href="http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation/"/>
+    <link href="http://rylnd.github.com/blog/2012/06/24/respond-with-an-explanation/"/>
     <updated>2012-06-24T16:52:00-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
+    <id>http://rylnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
     <content type="html"><![CDATA[<p>Hey, I wrote about some things I recently learned about Devise and Rails 3.</p>
 
 <p>It's posted on the <a href="http://bendyworks.com/geekville">bendyworks blog</a>. You should <a href="http://bendyworks.com/geekville/tutorials/2012/6/respond-with-an-explanation">check it out</a>.</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[Github Pages]]></title>
-    <link href="http://ryalnd.github.com/blog/2012/04/08/github-pages/"/>
+    <link href="http://rylnd.github.com/blog/2012/04/08/github-pages/"/>
     <updated>2012-04-08T19:59:00-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2012/04/08/github-pages</id>
+    <id>http://rylnd.github.com/blog/2012/04/08/github-pages</id>
     <content type="html"><![CDATA[<p>I haven't posted anything in a while. I won't make excuses, that's just the way it is.</p>
 
 <p>If you hadn't noticed, the blog is no longer WordPress, nor is it hosted on my Linode. A few weeks ago, during <a href="http://bendyworks.com">bendyworks</a>' amazing growth days (which will be described in a future post), I converted my blog entries to <a href="https://github.com/mojombo/jekyll">jekyll</a>-formatted YAML and markdown. This was actually the hardest part of the process. I won't go into details, but it involved piping my WordPress-exported posts through a Rube-Goldbergesque series of Python libraries.</p>

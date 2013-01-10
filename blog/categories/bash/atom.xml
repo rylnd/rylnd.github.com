@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: bash | RyLand]]></title>
-  <link href="http://ryalnd.github.com/blog/categories/bash/atom.xml" rel="self"/>
-  <link href="http://ryalnd.github.com/"/>
-  <updated>2012-09-27T16:47:18-05:00</updated>
-  <id>http://ryalnd.github.com/</id>
+  <link href="http://rylnd.github.com/blog/categories/bash/atom.xml" rel="self"/>
+  <link href="http://rylnd.github.com/"/>
+  <updated>2013-01-10T17:21:20-06:00</updated>
+  <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Turnip Helpers]]></title>
-    <link href="http://ryalnd.github.com/blog/2012/09/14/turnip-helpers/"/>
+    <link href="http://rylnd.github.com/blog/2012/09/14/turnip-helpers/"/>
     <updated>2012-09-14T18:26:00-05:00</updated>
-    <id>http://ryalnd.github.com/blog/2012/09/14/turnip-helpers</id>
+    <id>http://rylnd.github.com/blog/2012/09/14/turnip-helpers</id>
     <content type="html"><![CDATA[<p>So today was a growth day for me at bendyworks. I started the day working on <a href="https://github.com/ryalnd/bendylunch">bendylunch</a>.</p>
 
 <p>Bendylunch uses <a href="https://github.com/jnicklas/turnip">turnip</a>, which we've been using (and enjoying) as an alternative to cucumber. We also tried poltergeist/cucumber briefly, but it seems a bit immature to be a replacement right now.</p>
