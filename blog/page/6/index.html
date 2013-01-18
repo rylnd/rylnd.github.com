@@ -7,8 +7,7 @@
     <meta name="author" content="Ryland Herrick">
 
     
-    <meta name="description" content="I&#8217;m Bored Project Euler Update: I&#8217;ve still been plugging away at various PE problems.
-I finally finished my first 25(26 now) problems, &hellip;">
+    <meta name="description" content="Lots of Snow Woke up to the promise of a blizzard. I was supposed to head down to Kenosha for a dentist&#8217;s appointment this morning, but that &hellip;">
     
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 
@@ -84,6 +83,149 @@ I finally finished my first 25(26 now) problems, &hellip;">
 </script>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+    <h1 class="title"><a href="/blog/2011/01/31/lots-of-snow/">Lots of Snow</a></h1>
+    <div class="entry">
+        <p>Woke up to the promise of a blizzard.</p>
+
+<p>I was supposed to head down to Kenosha for a dentist&#8217;s appointment this morning, but that was canceled due to weather; it wasn&#8217;t a crucial appointment, and I really didn&#8217;t want to be stuck there until Wednesday/Thursday.</p>
+
+<p>Today also marked the first Mad Railers meeting I was (supposed to be) attending, but weather and lack of suitable transportation left me home coding instead.  I tried to make myself feel better with some Ruby/Rails research/education and rationalizing that my lack of knowledge in that framework would prevent me from learning/contributing much at such a meeting, but I&#8217;m still bummed that I missed it and have yet to attend.  Next month&#8217;s meeting is marked in red on the calendar.</p>
+
+<p>PE update:  Did problems <a href="http://projecteuler.net/index.php?section=problems&amp;id=24">24</a>, <a href="http://projecteuler.net/index.php?section=problems&amp;id=36">36</a>, and <a href="http://projecteuler.net/index.php?section=problems&amp;id=34">34</a> today, in that order.  24 was the most interesting; I had started on a solution to it a few days ago.  I knew from my Combinatorics class how to represent permutations as a list of inversions:</p>
+
+<blockquote><p>Given a set of n digits, each permutation of that set can be written as a list of n-1 numbers, say i(0)-i(n-1), where i(n) represents the number of inversions with respect to n. You only need n-1 numbers in the list/vector, as the last is implied(same idea as degrees of freedom in stats).</p></blockquote>
+
+<p>If the original set is in lexicographic order, i.e. 12345, the easiest way to explain, say,  i(3) is as the count of numbers out of order with respect to 3.  If the permutation is 23145, the inversion vector(list) would be [1100].</p>
+
+<p>This means that 2 has one number out of order (1), as does 3 (also 1).  Remember though, that inversions in general are just a pair(x,y), and a permutation can be defined as the list of pairwise-flips (inversions) it takes to get from the original number/set/whatever.</p>
+
+<p>So, knowing that, I basically jumped into writing a solution as follows:</p>
+
+<ul>
+<li>The starting, 0th permutation is 0123456789</li>
+<li>I would manually write out the next x permutations, in lexicographic order, along with the corresponding inversion vectors, in the hopes of seeing a pattern regarding the list of inversion vectors.
+
+<ul>
+<li>I did this under the idea that calculating 1,000,000 10-digit numbers in a certain way would be much faster than actually doing the permuting manually, one million times.</li>
+</ul>
+</li>
+</ul>
+
+
+<p>I did this for what ended up being the first 24 permutations, which corresponded to permutations of only the last 4 digits, and ended up with something like the table on the far left:</p>
+
+<table class='small left'>
+<tr><th> number </th><th> permutation </th></tr>
+<tr><td> 6987 </td><td> 012 </td></tr>
+<tr><td> 7689 </td><td> 100 </td></tr>
+<tr><td> 7698 </td><td> 101 </td></tr>
+<tr><td> 7869 </td><td> 110 </td></tr>
+<tr><td> 7896 </td><td> 111 </td></tr>
+<tr><td> 7968 </td><td> 102 </td></tr>
+<tr><td> 7986 </td><td> 112 </td></tr>
+<tr><td> 8679 </td><td> 020 </td></tr>
+<tr><td> 8697 </td><td> 021 </td></tr>
+<tr><td> 8769 </td><td> 120 </td></tr>
+<tr><td> 8796 </td><td> 121 </td></tr>
+<tr><td> 8967 </td><td> 022 </td></tr>
+<tr><td> 8976 </td><td> 122 </td></tr>
+<tr><td> 9678 </td><td> 003 </td></tr>
+<tr><td> 9687 </td><td> 013 </td></tr>
+<tr><td> 9768 </td><td> 103 </td></tr>
+<tr><td> 9786 </td><td> 113 </td></tr>
+<tr><td> 9867 </td><td> 023 </td></tr>
+<tr><td> 9876 </td><td> 123 </td></tr>
+</table>
+
+
+
+
+<table class='small left'>
+<tr><th> decimal   </th><th> factorial   </th></tr>
+<tr><td> 0         </td><td> 0!          </td></tr>
+<tr><td> 1         </td><td> 10!         </td></tr>
+<tr><td> 2         </td><td> 100!        </td></tr>
+<tr><td> 3         </td><td> 110!        </td></tr>
+<tr><td> 4         </td><td> 200!        </td></tr>
+<tr><td> 5         </td><td> 210!        </td></tr>
+<tr><td> 6         </td><td> 1000!       </td></tr>
+<tr><td> 7         </td><td> 1010!       </td></tr>
+<tr><td> 8         </td><td> 1100!       </td></tr>
+<tr><td> 9         </td><td> 1110!       </td></tr>
+<tr><td> 10        </td><td> 1200!       </td></tr>
+<tr><td> 11        </td><td> 1210!       </td></tr>
+<tr><td> 12        </td><td> 2000!       </td></tr>
+<tr><td> 13        </td><td> 2010!       </td></tr>
+<tr><td> 14        </td><td> 2100!       </td></tr>
+<tr><td> 15        </td><td> 2110!       </td></tr>
+<tr><td> 16        </td><td> 2200!       </td></tr>
+<tr><td> 17        </td><td> 2210!       </td></tr>
+<tr><td> 18        </td><td> 3000!       </td></tr>
+<tr><td> 19        </td><td> 3010!       </td></tr>
+<tr><td> 20        </td><td> 3100!       </td></tr>
+<tr><td> 21        </td><td> 3110!       </td></tr>
+<tr><td> 22        </td><td> 3200!       </td></tr>
+<tr><td> 23        </td><td> 3210!       </td></tr>
+</table>
+
+
+<p>Not seeing a pattern?  Neither did I.  It starts out looking like it&#8217;s just counting up in binary, but then a 2 pops up, and there aren&#8217;t any nice rules like, say, &#8216;they increase in value from L to R&#8217; because of cases like 8679.</p>
+
+<p>I tried in vain to see/reverse-engineer a pattern from this list of vectors, and eventually gave up for the night.   I knew that I was on the right track, that somehow the order in which these items were inverted to preserve lexicographic order wasn&#8217;t just random.  As with some of my past PE solutions, the key came from a little bit of research: I was browsing Wikipedia&#8217;s entry on permutations, when I came to <a href="http://en.wikipedia.org/wiki/Permutation#Numbering_permutations">this</a>.</p>
+
+<p>Well, that definitely looked promising.  After a bit more reading and clicking links, I came upon the table you see on the immediate left(found <a href="http://en.wikipedia.org/wiki/Factorial_number_system#Examples">here</a>):</p>
+
+<p>Ok, so they&#8217;re not exactly the same.  I think the irregularities come from my non-standard, on-the-fly way of representing permutations, but you can imagine my excitement when I found that table.  It meant my hunch was right, and the main point was this:  <strong>Listing permutations in lexicographic order yields a pattern of inversion vectors, and this pattern corresponds directly to the factoradic representation of that permutation&#8217;s order in that list.  </strong>Or, to quote Wikipedia a few lines down:</p>
+
+<p><em>There is a natural mapping between the integers 0, &#8230;, n! − 1 (or equivalently the numbers with n digits in factorial representation) and permutations of n elements in lexicographical order, when the integers are expressed in factoradic form. This mapping has been termed the Lehmer code (or inversion table).</em></p>
+
+<p>Well, there you have it.  The trick comes from writing a decimal in factoradic form, i.e.</p>
+
+<pre><code>15 = 2110! = 2*3! + 1*2! + 1*1! + 0*0!
+</code></pre>
+
+<p>and 2110 as an inversion vector corresponds to the permutation 2130, which is:</p>
+
+<blockquote><p>The 15th permutation of 0123. Yay!</p></blockquote>
+
+<p>So I had my answer.  To find the millionth lexicographic permutation of 0123456789, all I had to do was find the factoradic representation of 999999 (off by one), which would map to an inversion vector, from which I could find the permutation.  And find it I did.</p>
+
+<p>After that, 36 and 34 were easy.  For 36 I just wrote a function <code>is_pal()</code> that takes a string and returns whether or not it&#8217;s palindromic (and now I know how to get the binary representation of an int!).  34 was even easier: I reused the factorial function I had just written for 24 (I know there are built-in ones now; I wanted to write my own).</p>
+
+<p>Hopefully tomorrow won&#8217;t get snowed out.</p>
+
+        
+        
+    </div>
+    <div class="meta">
+        <div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-01-31T19:11:48-06:00" pubdate data-updated="true">Jan 31<span>st</span>, 2011</time></div>
+        <div class="tags">
+
+<div class="cat">
+  
+    <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/math/'>math</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/python/'>python</a>, <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
+  
+</div>
+
+</div>
+        
+    </div>
+</article>
 
 
     <article class="post">
@@ -244,48 +386,6 @@ So &#8230; while I was writing that post, I was realizing that my brute-force so
 <div class="cat">
   
     <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/math/'>math</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/python/'>python</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
-  
-</div>
-
-</div>
-        
-    </div>
-</article>
-
-
-    <article class="post">
-    <h1 class="title"><a href="/blog/2011/01/13/an-intimate-look/">An Intimate Look</a></h1>
-    <div class="entry">
-        <p>I know I just wrote that last post about the Ruby scraper, but I wanted to take a quick second to talk quickly about what else I&#8217;ve been doing with my time.</p>
-
-<p>Mostly, I&#8217;ve been reading.  This summer I discovered/fell in love with David Foster Wallace, and have read 5 of his books since then.  I&#8217;d been checking them out from the library, but asked for &#8216;A Supposedly Fun Thing &#8230;&#8217; for Christmas and will probably finish that tonight.</p>
-
-<p>Since I returned from Kenosha I&#8217;ve been riding my bike anywhere within reason when I need transportation.  I had gotten lazy in December and started driving everywhere, but I&#8217;m back on the saddle and feel much better doing so.</p>
-
-<p>I&#8217;ve got several things on my Kindle that I&#8217;ve been slowly getting through.  The details aren&#8217;t important, but topics include Ruby, Lisp, regex, Clojure, and a bunch of other things I&#8217;m really interested (but severely lacking) in.</p>
-
-        
-        
-    </div>
-    <div class="meta">
-        <div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-01-13T17:13:34-06:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time></div>
-        <div class="tags">
-
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/bikes/'>bikes</a>, <a class='category' href='/blog/categories/kindle/'>kindle</a>
   
 </div>
 
