@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: work | RyLand]]></title>
+  <title><![CDATA[Category: work | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/work/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-01-17T19:57:59-06:00</updated>
+  <updated>2013-06-15T22:05:06-05:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -18,17 +18,17 @@
     <link href="http://rylnd.github.com/blog/2011/08/05/life-upgraded/"/>
     <updated>2011-08-05T19:18:59-05:00</updated>
     <id>http://rylnd.github.com/blog/2011/08/05/life-upgraded</id>
-    <content type="html"><![CDATA[<p>Hoo boy.  A lot has changed in the past few weeks.  After spending about a month looking for jobs and apartments in Milwaukee, we finally found both.  We found the perfect apartment, and I accepted a job offer for an awesome Django startup in Spreenkler's Accelerator program.  The day after I said yes to the job, I was approached with an offer here in Madison.  While both were amazing jobs, I ended up taking the job here in Madison as I felt it had more to offer, experientially.  Starting at the end of August, I'll be an official <a href="http://bendyworks.com/">Bendyworker</a>.</p>
+    <content type="html"><![CDATA[<p>Hoo boy.  A lot has changed in the past few weeks.  After spending about a month looking for jobs and apartments in Milwaukee, we finally found both.  We found the perfect apartment, and I accepted a job offer for an awesome Django startup in Spreenkler&rsquo;s Accelerator program.  The day after I said yes to the job, I was approached with an offer here in Madison.  While both were amazing jobs, I ended up taking the job here in Madison as I felt it had more to offer, experientially.  Starting at the end of August, I&rsquo;ll be an official <a href="http://bendyworks.com/">Bendyworker</a>.</p>
 
-<p>Of course, this means that the time Amanda and I spent planning for Milwaukee was basically for naught.  I've got an amazing job, but we're back to square one apartment-wise.  I've moved every year since 2005; I'm ready to buy a house out of sheer laziness.</p>
+<p>Of course, this means that the time Amanda and I spent planning for Milwaukee was basically for naught.  I&rsquo;ve got an amazing job, but we&rsquo;re back to square one apartment-wise.  I&rsquo;ve moved every year since 2005; I&rsquo;m ready to buy a house out of sheer laziness.</p>
 
-<p>Speaking of laziness, I've been working day and night on our startup, <a href="http://jungolhq.com">Jungol</a>.  We just launched our alpha tonight, after much internal tinkering.  I've read time and again that the best thing you can do is just put your project out there, so it's something of a relief to finally have done so.  Check it out at <a href="http://jng.li/qJ338J">http://jng.li/qJ338J</a>.</p>
+<p>Speaking of laziness, I&rsquo;ve been working day and night on our startup, <a href="http://jungolhq.com">Jungol</a>.  We just launched our alpha tonight, after much internal tinkering.  I&rsquo;ve read time and again that the best thing you can do is just put your project out there, so it&rsquo;s something of a relief to finally have done so.  Check it out at <a href="http://jng.li/qJ338J">http://jng.li/qJ338J</a>.</p>
 
-<p>There's a lot of smaller things that still need to be done, but most everything's there right now.  We've got our proof of concept; the rest is up to the public (who told us they wanted this, we swear).  It's an exciting time and I'm proud to be a part of the whole thing.  Having written the entire site save for design, it's becoming like a child to me, but I'm trying my best not to become too emotionally attached.</p>
+<p>There&rsquo;s a lot of smaller things that still need to be done, but most everything&rsquo;s there right now.  We&rsquo;ve got our proof of concept; the rest is up to the public (who told us they wanted this, we swear).  It&rsquo;s an exciting time and I&rsquo;m proud to be a part of the whole thing.  Having written the entire site save for design, it&rsquo;s becoming like a child to me, but I&rsquo;m trying my best not to become too emotionally attached.</p>
 
-<p>Our final frisbee game is next Tuesday.   Our <em>championship</em> frisbee game, that is.  This last week was playoffs, and we won both games.  I'm pretty proud of the team; we had a lot of beginners, some who'd never even played a team sport before, but we've come together and are playing amazingly well.  Playing with the same team every year is comforting, I'm sure, but there's something to be said for this amazing transition from 'group of people' to 'team' over the course of a season.  Remind me to let you know if we won or not.</p>
+<p>Our final frisbee game is next Tuesday.   Our <em>championship</em> frisbee game, that is.  This last week was playoffs, and we won both games.  I&rsquo;m pretty proud of the team; we had a lot of beginners, some who&rsquo;d never even played a team sport before, but we&rsquo;ve come together and are playing amazingly well.  Playing with the same team every year is comforting, I&rsquo;m sure, but there&rsquo;s something to be said for this amazing transition from &lsquo;group of people&rsquo; to &lsquo;team&rsquo; over the course of a season.  Remind me to let you know if we won or not.</p>
 
-<p>So I've got a great job and a great girlfriend.  Let me know if you see any great apartments for rent around town.</p>
+<p>So I&rsquo;ve got a great job and a great girlfriend.  Let me know if you see any great apartments for rent around town.</p>
 ]]></content>
   </entry>
   
@@ -37,15 +37,15 @@
     <link href="http://rylnd.github.com/blog/2011/05/25/much-more-excitinger/"/>
     <updated>2011-05-25T17:49:12-05:00</updated>
     <id>http://rylnd.github.com/blog/2011/05/25/much-more-excitinger</id>
-    <content type="html"><![CDATA[<p>Oh snap.  Lots of exciting stuff happening lately.  Most publicly, I finally got some old code up on <a href="https://github.com/ryalnd">GitHub</a> a week or so ago.  'Social Coding' is such an amazingly cool concept, I deeply regret not participating sooner.  I literally get giddy when I load my dashboard.  It's probably love.  Follow me or just lurk; I'll be posting some more projects in the near future, and probably talking about it here.</p>
+    <content type="html"><![CDATA[<p>Oh snap.  Lots of exciting stuff happening lately.  Most publicly, I finally got some old code up on <a href="https://github.com/ryalnd">GitHub</a> a week or so ago.  &lsquo;Social Coding&rsquo; is such an amazingly cool concept, I deeply regret not participating sooner.  I literally get giddy when I load my dashboard.  It&rsquo;s probably love.  Follow me or just lurk; I&rsquo;ll be posting some more projects in the near future, and probably talking about it here.</p>
 
-<p>In an exciting new development, Spreenkler has apparently changed their minds about the whole Zappos Gift Certificate thing (thanks to a rogue email by Devin, of which I swear I had no knowledge).  We've yet to receive the goods, but Steve @ <a href="http://www.spreenkler.com/">Spreenkler</a> apparently talked to the guys at Blurbs and they agreed that we could have the award.  I was dumbfounded by the kindness exhibited in that gesture; if Steve and co. are representative of the Milwaukee community, I cannot wait.</p>
+<p>In an exciting new development, Spreenkler has apparently changed their minds about the whole Zappos Gift Certificate thing (thanks to a rogue email by Devin, of which I swear I had no knowledge).  We&rsquo;ve yet to receive the goods, but Steve @ <a href="http://www.spreenkler.com/">Spreenkler</a> apparently talked to the guys at Blurbs and they agreed that we could have the award.  I was dumbfounded by the kindness exhibited in that gesture; if Steve and co. are representative of the Milwaukee community, I cannot wait.</p>
 
-<p>Going along with that, I may have been offered an amazing opportunity for the summer that could really help kick-start things for me.  I'll give more details when things are more definite, but in the meantime I hope you're as excited as I am.</p>
+<p>Going along with that, I may have been offered an amazing opportunity for the summer that could really help kick-start things for me.  I&rsquo;ll give more details when things are more definite, but in the meantime I hope you&rsquo;re as excited as I am.</p>
 
-<p>In other news, I finally checked my site out in IE today and it was HORRIBLE.  I'm more generally of the stance 'F*** IE users' but the overwhelming numbers and my inability to ignore a problem once it's noticed led me to fix things up.</p>
+<p>In other news, I finally checked my site out in IE today and it was HORRIBLE.  I&rsquo;m more generally of the stance &lsquo;F*** IE users&rsquo; but the overwhelming numbers and my inability to ignore a problem once it&rsquo;s noticed led me to fix things up.</p>
 
-<p>I have so much stuff I want to read, code, and watch.  There aren't enough hours in the day. 'night for now.</p>
+<p>I have so much stuff I want to read, code, and watch.  There aren&rsquo;t enough hours in the day. &lsquo;night for now.</p>
 ]]></content>
   </entry>
   
@@ -56,13 +56,13 @@
     <id>http://rylnd.github.com/blog/2011/05/25/quick-post</id>
     <content type="html"><![CDATA[<p>First: I started this post on Monday, but never got around to finishing it.</p>
 
-<p>Went to the Mad Railers meetup Monday, despite my body requesting otherwise.  I figure if I don't have the time to sit down and learn Ruby right myself right now, I should at least take advantage of these local groups.</p>
+<p>Went to the Mad Railers meetup Monday, despite my body requesting otherwise.  I figure if I don&rsquo;t have the time to sit down and learn Ruby right myself right now, I should at least take advantage of these local groups.</p>
 
-<p>The topic was testing, and while that might not be where most people would start when learning a new language (myself included), I have no doubts that it will help me in the long run.  There were a few great talks and I learned quite a bit.  I'm slowly putting the framework together in my mind, piece by piece.</p>
+<p>The topic was testing, and while that might not be where most people would start when learning a new language (myself included), I have no doubts that it will help me in the long run.  There were a few great talks and I learned quite a bit.  I&rsquo;m slowly putting the framework together in my mind, piece by piece.</p>
 
-<p>My general approach to learning practical programming has been 'abstraction is a treat that must be deserved.'  While higher-level languages are amazing and I absolutely cannot wait to use them professionally, at the same time I feel like I need to program a little 'lower' for a while to appreciate and understand things to a reasonable degree.  Subsequently a good deal of what I do has holes and certainly isn't as comprehensive as if I'd put the same amount of work on top of a template.  But finding and plugging those holes is a great learning experience.</p>
+<p>My general approach to learning practical programming has been &lsquo;abstraction is a treat that must be deserved.&rsquo;  While higher-level languages are amazing and I absolutely cannot wait to use them professionally, at the same time I feel like I need to program a little &lsquo;lower&rsquo; for a while to appreciate and understand things to a reasonable degree.  Subsequently a good deal of what I do has holes and certainly isn&rsquo;t as comprehensive as if I&rsquo;d put the same amount of work on top of a template.  But finding and plugging those holes is a great learning experience.</p>
 
-<p>Running my own VPS and web server has probably been the best project, education-wise.  There are certainly plenty of holes and configurations that go into system administration stuff, along with being great practice with bash.  I didn't really get that when I was a student, but I'm sure glad I'm doing it now.</p>
+<p>Running my own VPS and web server has probably been the best project, education-wise.  There are certainly plenty of holes and configurations that go into system administration stuff, along with being great practice with bash.  I didn&rsquo;t really get that when I was a student, but I&rsquo;m sure glad I&rsquo;m doing it now.</p>
 
 <p>Knowledge is power.</p>
 ]]></content>
@@ -73,15 +73,15 @@
     <link href="http://rylnd.github.com/blog/2011/04/27/instant-morale-boost/"/>
     <updated>2011-04-27T02:26:26-05:00</updated>
     <id>http://rylnd.github.com/blog/2011/04/27/instant-morale-boost</id>
-    <content type="html"><![CDATA[<p>I know I've mentioned the frustration I've been feeling with my work, and maybe I've even hinted that, in the back of my mind, I knew I just had to persevere.   But to hear someone as well-known and respected as Ira Glass say that these feelings, this 'gap' (see below) is commonplace and almost expected in one's career, was exactly what this post's title suggests.</p>
+    <content type="html"><![CDATA[<p>I know I&rsquo;ve mentioned the frustration I&rsquo;ve been feeling with my work, and maybe I&rsquo;ve even hinted that, in the back of my mind, I knew I just had to persevere.   But to hear someone as well-known and respected as Ira Glass say that these feelings, this &lsquo;gap&rsquo; (see below) is commonplace and almost expected in one&rsquo;s career, was exactly what this post&rsquo;s title suggests.</p>
 
-<p>Am I still frustrated with the quality of my work?  Absolutely.  But whereas before I only had my own intuition to keep me going, I now have Ira Glass telling me it's alright:</p>
+<p>Am I still frustrated with the quality of my work?  Absolutely.  But whereas before I only had my own intuition to keep me going, I now have Ira Glass telling me it&rsquo;s alright:</p>
 
-<blockquote><p>Nobody tells this to people who are beginners, I wish someone told me. All of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it's just not that good. It's trying to be good, it has potential, but it's not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you. A lot of people never get past this phase, they quit.</p></blockquote>
+<blockquote><p>Nobody tells this to people who are beginners, I wish someone told me. All of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it&rsquo;s just not that good. It&rsquo;s trying to be good, it has potential, but it&rsquo;s not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you. A lot of people never get past this phase, they quit.</p></blockquote>
 
-<p><a href="http://kottke.org/11/04/your-taste-is-why-your-own-work-disappoints-you">Here's the page</a> where I found the interview, and the <a href="http://www.youtube.com/watch?v=BI23U7U2aUY">embedded video</a> of part of it.</p>
+<p><a href="http://kottke.org/11/04/your-taste-is-why-your-own-work-disappoints-you">Here&rsquo;s the page</a> where I found the interview, and the <a href="http://www.youtube.com/watch?v=BI23U7U2aUY">embedded video</a> of part of it.</p>
 
-<p>It's 8:23am, and the future is bright.</p>
+<p>It&rsquo;s 8:23am, and the future is bright.</p>
 ]]></content>
   </entry>
   
@@ -90,13 +90,13 @@
     <link href="http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
     <updated>2011-04-11T06:29:26-05:00</updated>
     <id>http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
-    <content type="html"><![CDATA[<p>So it's been a bit since I've posted anything.  I've been pretty busy.</p>
+    <content type="html"><![CDATA[<p>So it&rsquo;s been a bit since I&rsquo;ve posted anything.  I&rsquo;ve been pretty busy.</p>
 
-<p>Between my new 9-5, an amazing girlfriend, the weather improving, several web projects and a few novels, my plate's been plenty full.</p>
+<p>Between my new 9-5, an amazing girlfriend, the weather improving, several web projects and a few novels, my plate&rsquo;s been plenty full.</p>
 
-<p>I've not gotten any new projects lately, but I've been doing a lot of small(ish) changes/fixes to those I've already got going.  I've been considering having some kind of changelog for all my stuff in general, mostly to keep track of what I'm doing on a day-to-day basis.  I've started documenting such work but have yet to figure out a good place to share that with the rest of the world (or if that's even necessary).  I mean,<em> I</em> know I'm doing the work, I just think it would be nice to let others know as well.</p>
+<p>I&rsquo;ve not gotten any new projects lately, but I&rsquo;ve been doing a lot of small(ish) changes/fixes to those I&rsquo;ve already got going.  I&rsquo;ve been considering having some kind of changelog for all my stuff in general, mostly to keep track of what I&rsquo;m doing on a day-to-day basis.  I&rsquo;ve started documenting such work but have yet to figure out a good place to share that with the rest of the world (or if that&rsquo;s even necessary).  I mean,<em> I</em> know I&rsquo;m doing the work, I just think it would be nice to let others know as well.</p>
 
-<p>On that note, here's some general stuff I've been working on since we last talked:</p>
+<p>On that note, here&rsquo;s some general stuff I&rsquo;ve been working on since we last talked:</p>
 
 <ul>
 <li>Added some stuff to lucy-dog.com, mostly aesthetic:
@@ -104,7 +104,7 @@
 <ul>
 <li>Changed title(s), metadata</li>
 <li>Added a few new pictures</li>
-<li>Fixed some formatting, paging issues with 'show all'</li>
+<li>Fixed some formatting, paging issues with &lsquo;show all&rsquo;</li>
 </ul>
 </li>
 <li>Broken Spoke Updates:
@@ -118,19 +118,19 @@
 </ul>
 
 
-<p>That's all I can think of off the top of my head. I'll let you know when I get an actual changelog documented.</p>
+<p>That&rsquo;s all I can think of off the top of my head. I&rsquo;ll let you know when I get an actual changelog documented.</p>
 
-<p>I've been reminded this last week that GoDaddy is a real pain if you don't want to use their GUIs for everything.  Allowing SSH access took around 2 days to finally get implemented, after the DNS settings were populated.  I have yet to figure out how to use mysql from a shell; no combination of usernames and passwords allows me access, although those same credentials work everywhere else.  I'm sure PHPMyAdmin is a fine tool if you like that sort of thing, but I really just want access to a mysql prompt.  Is that so much to ask, GoDaddy?</p>
+<p>I&rsquo;ve been reminded this last week that GoDaddy is a real pain if you don&rsquo;t want to use their GUIs for everything.  Allowing SSH access took around 2 days to finally get implemented, after the DNS settings were populated.  I have yet to figure out how to use mysql from a shell; no combination of usernames and passwords allows me access, although those same credentials work everywhere else.  I&rsquo;m sure PHPMyAdmin is a fine tool if you like that sort of thing, but I really just want access to a mysql prompt.  Is that so much to ask, GoDaddy?</p>
 
-<p>On a related rant I have yet to find a good emacs script for multi-mode editing (PHP, javascript, html, css in this example). I tried a few but they weren't really what I was looking for.  From what I remember (this was a few weeks back) one was very close, but its PHP-mode was all kinds of broken, to the point of unusability.  If anyone has a suggestion let me know.</p>
+<p>On a related rant I have yet to find a good emacs script for multi-mode editing (PHP, javascript, html, css in this example). I tried a few but they weren&rsquo;t really what I was looking for.  From what I remember (this was a few weeks back) one was very close, but its PHP-mode was all kinds of broken, to the point of unusability.  If anyone has a suggestion let me know.</p>
 
-<p>Almost done with the bike site, with the notable exception of graphics.  I am <em>absolutely</em> not a graphic designer, much as it pains me to admit.  I've taken on a few projects now where they've handed me a logo designed by someone for use as a sticker or on a t-shirt.  That's great, but my Adobe fu isn't such that I can easily make that into a pretty, well-laid-out header graphic.  Consequently graphics are what need the most improvement on these sites.  I'm getting better with Photoshop and Illustrator every day, but at this point I'd never take on a 'design' project.  I truly appreciate nice graphics, and know what does and does not work or look good.</p>
+<p>Almost done with the bike site, with the notable exception of graphics.  I am <em>absolutely</em> not a graphic designer, much as it pains me to admit.  I&rsquo;ve taken on a few projects now where they&rsquo;ve handed me a logo designed by someone for use as a sticker or on a t-shirt.  That&rsquo;s great, but my Adobe fu isn&rsquo;t such that I can easily make that into a pretty, well-laid-out header graphic.  Consequently graphics are what need the most improvement on these sites.  I&rsquo;m getting better with Photoshop and Illustrator every day, but at this point I&rsquo;d never take on a &lsquo;design&rsquo; project.  I truly appreciate nice graphics, and know what does and does not work or look good.</p>
 
-<p>At the end of the day, though, I'm not a graphic designer.  I write code.  It's one of those things where I think, 'With some experience you can make some awesome logos!' and keep that in the back of my mind as I fumble with these design tools to produce graphics that don't quite cut it.  Maybe I'll eventually get there.  Maybe I'll just hire a graphic designer.</p>
+<p>At the end of the day, though, I&rsquo;m not a graphic designer.  I write code.  It&rsquo;s one of those things where I think, &lsquo;With some experience you can make some awesome logos!&rsquo; and keep that in the back of my mind as I fumble with these design tools to produce graphics that don&rsquo;t quite cut it.  Maybe I&rsquo;ll eventually get there.  Maybe I&rsquo;ll just hire a graphic designer.</p>
 
-<p>On a less technical note, I finished Infinite Jest a few weeks ago.  Initially I was upset by the ending (if one wants to call it that), but after a day or two of subconscious processing I came to the opposite conclusion: that while certain elements of the story were not explicitly explained, there were plenty of clues and allusions to allow the reader to work things out for himself.  I liked that.  Apparently DFW's last unfinished novel is out now, so I'm going to have to pick that up soon.</p>
+<p>On a less technical note, I finished Infinite Jest a few weeks ago.  Initially I was upset by the ending (if one wants to call it that), but after a day or two of subconscious processing I came to the opposite conclusion: that while certain elements of the story were not explicitly explained, there were plenty of clues and allusions to allow the reader to work things out for himself.  I liked that.  Apparently DFW&rsquo;s last unfinished novel is out now, so I&rsquo;m going to have to pick that up soon.</p>
 
-<p>At Devin's Mad Clojure Meetup last week I was referred to Logicomix, which I shortly thereafter bought and consumed.  The idea and format were what drew me immediately in:  a story about famous logicians/mathematicians/philosophers, in graphic novel format?  What's not to like about that?  While the illustrations were amazing, I found the writing a little boring and sometimes awkwardly/ambiguously phrased.  While I understand that including in-depth details of the fields would have made the book inaccessible to a good majority of readers, that's honestly what I was expecting and was a bit disappointed in that regard.  I felt that the book was too vague to be useful as anything more than a character-driven story and general history lesson.  Maybe that's what they were going for; I just imagined that they would cater to the 'nerd' audience a bit more.</p>
+<p>At Devin&rsquo;s Mad Clojure Meetup last week I was referred to Logicomix, which I shortly thereafter bought and consumed.  The idea and format were what drew me immediately in:  a story about famous logicians/mathematicians/philosophers, in graphic novel format?  What&rsquo;s not to like about that?  While the illustrations were amazing, I found the writing a little boring and sometimes awkwardly/ambiguously phrased.  While I understand that including in-depth details of the fields would have made the book inaccessible to a good majority of readers, that&rsquo;s honestly what I was expecting and was a bit disappointed in that regard.  I felt that the book was too vague to be useful as anything more than a character-driven story and general history lesson.  Maybe that&rsquo;s what they were going for; I just imagined that they would cater to the &lsquo;nerd&rsquo; audience a bit more.</p>
 
 <p>Still looking for a job in Milwaukee.  Further updates as events warrant.</p>
 ]]></content>

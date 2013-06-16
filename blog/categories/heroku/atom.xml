@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: heroku | RyLand]]></title>
+  <title><![CDATA[Category: heroku | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/heroku/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-01-17T19:57:59-06:00</updated>
+  <updated>2013-06-15T22:05:06-05:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -18,7 +18,7 @@
     <link href="http://rylnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
     <updated>2012-04-27T16:49:00-05:00</updated>
     <id>http://rylnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
-    <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn't done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
+    <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn&rsquo;t done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
 
 <p>While I had successfully done a <code>$ gem install heroku &amp;&amp; heroku create --stack cedar</code>, I got the following error when trying to do a <code>$ git push heroku master</code> to get things up and running:</p>
 
@@ -28,9 +28,9 @@ is not authorized to access evening-snow-7878.
 fatal: The remote end hung up unexpectedly
 </code></pre>
 
-<p>Hmm.  That looked like an ssh issue to me. A quick <code>$ ssh-keygen -l</code> of a few of my keys told me that it was using the 'wrong one,' which was my default ssh key.</p>
+<p>Hmm.  That looked like an ssh issue to me. A quick <code>$ ssh-keygen -l</code> of a few of my keys told me that it was using the &lsquo;wrong one,&rsquo; which was my default ssh key.</p>
 
-<p>Looking at <code>$ heroku keys</code> didn't help; it was using the correct key. So the issue was with my ssh config, not the heroku gem or its configuration.</p>
+<p>Looking at <code>$ heroku keys</code> didn&rsquo;t help; it was using the correct key. So the issue was with my ssh config, not the heroku gem or its configuration.</p>
 
 <p>I quickly tried to add an entry to my <code>~/.ssh/config</code> file, along the lines of</p>
 
@@ -38,9 +38,9 @@ fatal: The remote end hung up unexpectedly
   IdentityFile ~/.ssh/the_key_you_want
 </code></pre>
 
-<p>But I still got the same error: it was still using the wrong key. I did some quick googling and couldn't find a good answer.  I eventually stumbled on this <a href="https://github.com/ddollar/heroku-accounts">excellent heroku plugin</a> that does exactly what I was looking for.</p>
+<p>But I still got the same error: it was still using the wrong key. I did some quick googling and couldn&rsquo;t find a good answer.  I eventually stumbled on this <a href="https://github.com/ddollar/heroku-accounts">excellent heroku plugin</a> that does exactly what I was looking for.</p>
 
-<p>However, if you aren't using many accounts, and don't want to type a command in each terminal session, here's what it's doing under the covers (and what I ended up doing):</p>
+<p>However, if you aren&rsquo;t using many accounts, and don&rsquo;t want to type a command in each terminal session, here&rsquo;s what it&rsquo;s doing under the covers (and what I ended up doing):</p>
 
 <ol>
 <li><p>Add something like the following to your <code>~/.ssh/config</code> file:</p>

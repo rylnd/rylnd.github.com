@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: wordpress | RyLand]]></title>
+  <title><![CDATA[Category: wordpress | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/wordpress/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-01-17T19:57:59-06:00</updated>
+  <updated>2013-06-15T22:05:06-05:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -18,11 +18,11 @@
     <link href="http://rylnd.github.com/blog/2011/05/28/quickie/"/>
     <updated>2011-05-28T18:59:57-05:00</updated>
     <id>http://rylnd.github.com/blog/2011/05/28/quickie</id>
-    <content type="html"><![CDATA[<p>Okay, I'm really tired but I wanted to make note of a few updates.  While I'm not naive enough to think that the built-in comment system is the reason the blog doesn't have any comments, I realize that that could conceivably be an issue if the site actually had readers.  With that in mind, I present the new comment system, powered by <a href="http://disqus.com">Disqus</a>!</p>
+    <content type="html"><![CDATA[<p>Okay, I&rsquo;m really tired but I wanted to make note of a few updates.  While I&rsquo;m not naive enough to think that the built-in comment system is the reason the blog doesn&rsquo;t have any comments, I realize that that could conceivably be an issue if the site actually had readers.  With that in mind, I present the new comment system, powered by <a href="http://disqus.com">Disqus</a>!</p>
 
-<p>I finally got around to updating Wordpress this week as well.  I don't have FTP on my server for several reasons (mainly security), so Wordpress' handy dandy auto-install isn't an option for me (I suppose I could temporarily use it, but that's almost as much work as just doing it manually).  It's pretty painless since most of the files they update aren't ones I've customized, but I always delay it because I fear change (and they update so damn often).</p>
+<p>I finally got around to updating Wordpress this week as well.  I don&rsquo;t have FTP on my server for several reasons (mainly security), so Wordpress' handy dandy auto-install isn&rsquo;t an option for me (I suppose I could temporarily use it, but that&rsquo;s almost as much work as just doing it manually).  It&rsquo;s pretty painless since most of the files they update aren&rsquo;t ones I&rsquo;ve customized, but I always delay it because I fear change (and they update so damn often).</p>
 
-<p>Made some minor style tweaks as well, probably nothing you'll notice.  $1 to anyone that does.</p>
+<p>Made some minor style tweaks as well, probably nothing you&rsquo;ll notice.  $1 to anyone that does.</p>
 
 <p>Next week should be pretty exciting (or at least blogworthy), so stay tuned for that.</p>
 ]]></content>

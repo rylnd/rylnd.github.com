@@ -1,109 +1,55 @@
 
 <!DOCTYPE HTML>
-<html>
+<html lang="en-GB">
 <head>
-    <meta charset="utf-8">
-    <title>Something Useful - RyLand</title>
-    <meta name="author" content="Ryland Herrick">
+	<meta charset="utf-8">
+	<title>Something Useful | Ryland Herrick</title>
 
-    
-    <meta name="description" content="Something Useful Well. I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out &hellip;">
-    
-    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+	<meta name="author" content="Ryland Herrick">
 
-    <link href="/atom.xml" rel="alternate" title="RyLand" type="application/atom+xml">
-    <link rel="canonical" href="">
-    <link href="/favicon.ico" rel="shortcut icon">
-    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    
-    
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-20884325-1']);
-    _gaq.push(['_trackPageview']);
+<meta name="description" content="Well. I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out HERE.  A few notes &hellip;"> <meta name="keywords" content="">
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
+	<link href="/atom.xml" rel="alternate" title="Ryland Herrick" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.ico" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
 </head>
 
 
+
 <body>
-	<header class="inner"><h1 class="left"><a href="/">RyLand</a></h1>
-<nav class="menu left"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
+	<header id="header" class="inner"><h1><a href="/">Ryland Herrick</a></h1>
+<span class="tagline">is a developer.</span>
+<nav id="main-nav"><ul>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archives</a></li>
+	<li><a href="mailto:ryalnd@gmail.com">Contact</a></li>
 </ul>
 </nav>
-<div class="right">
-	<form class="search right" action="http://google.com/search" method="get">
-		<input class="left" type="text" name="q" results="0">
-		<input type="hidden" name="q" value="site:rylnd.github.com">
-	</form>
-	<div class="social right">
-		
-		
-		
-		<a class="twitter" href="http://twitter.com/rylnd" title="Twitter">Twitter</a>
-		
-		
-		<a class="github" href="https://github.com/rylnd" title="GitHub">GitHub</a>
-		
-		
-    <a class="coderwall" href="https://coderwall.com/rylnd" title="Coderwall">Coderwall</a>
-    
-		
-		
-		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
-		
-	</div>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archives</a></li>
+	<li><a href="mailto:ryalnd@gmail.com">Contact</a></li>
+</ul>
 </div>
+	</div>
+</nav>
+
 
 </header>
-	
-<div id="banner" class="inner">
-	<div class="container">
-		<ul class="feed"></ul>
-	</div>
-	<small><a href="http://twitter.com/rylnd">rylnd</a> @ <a href="http://twitter.com">Twitter</a></small>
-	<div class="loading">Loading...</div>
-</div>
-<script src="/javascripts/twitter.js"></script>
-<script type="text/javascript">
-	(function($){
-		$('#banner').getTwitterFeed('rylnd', 4, false);
-	})(jQuery);
-</script>
 
 	<div id="content" class="inner"><article class="post">
-    <h1 class="title">Something Useful</h1>
-    <div class="entry"><p>Well.</p>
-
-<p>I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out <a href="http://ry-land.com/dev/cl.html">HERE</a>.  A few notes about it:</p>
-
-<ul>
-<li>I did not go and learn the correct way to program in Ruby, as I claimed I would before finishing this.  Although I did learn some basic Ruby syntax in the work I&#8217;ve done on this so far, I mostly grew impatient and decided to hack out a solution tonight.</li>
-<li>No really, this is a hack.  I decided I wanted sorting so I quickly found a javascript table sorter and based my output around that code (which is most noticeable with the * before January postings [yay alphabetic sorting!]).
-
-<ul>
-<li>The date was particularly problematic, considering that the page I was parsing gave dates in a <code>%a %b %d</code> format (i.e. &#8216;Thu Jan 10&#8217;).  This meant I could either write my own code to figure out the year (which would still be a hack, and vary depending on the current date) or just hack it like I did (albeit temporarily)</li>
-</ul>
-</li>
-<li>Relating to that last point, I was considering storing this data in a database. This would make sorting a simple matter of changing the query, but that kind of stuff is easy and wouldn&#8217;t really help me or the page in any significant way; that&#8217;s probably not going to happen.</li>
-<li>The script as it stands is just writing an HTML file from its data.  While I could have had it do this in-place, I&#8217;m actually storing the jobs individually as objects in an array, and then later writing them out.  This is obviously wasteful but again, at this scale who cares (as long as I&#8217;m aware of it, right?).</li>
-<li>I set up the script to run every half-hour during normal business hours.  I thought that was cool.</li>
-</ul>
-
-</div>
-    <div class="meta">
-        <div class="date">
+	<header>
+		<h2 class="title">Something Useful</h2>
+		<div class="meta date">
 
 
 
@@ -116,33 +62,84 @@
 
 
 <time datetime="2011-01-13T17:01:23-06:00" pubdate data-updated="true">Jan 13<span>th</span>, 2011</time></div>
-        <div class="tags">
+	</header>
+	<div class="entry-content"><p>Well.</p>
 
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/rails/'>rails</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
-  
-</div>
+<p>I worked on that scraper for a bit tonight, and finally have something that I will actually use now.  You can check it out <a href="http://ry-land.com/dev/cl.html">HERE</a>.  A few notes about it:</p>
+
+<ul>
+<li>I did not go and learn the correct way to program in Ruby, as I claimed I would before finishing this.  Although I did learn some basic Ruby syntax in the work I&rsquo;ve done on this so far, I mostly grew impatient and decided to hack out a solution tonight.</li>
+<li>No really, this is a hack.  I decided I wanted sorting so I quickly found a javascript table sorter and based my output around that code (which is most noticeable with the * before January postings [yay alphabetic sorting!]).
+
+<ul>
+<li>The date was particularly problematic, considering that the page I was parsing gave dates in a <code>%a %b %d</code> format (i.e. &lsquo;Thu Jan 10&rsquo;).  This meant I could either write my own code to figure out the year (which would still be a hack, and vary depending on the current date) or just hack it like I did (albeit temporarily)</li>
+</ul>
+</li>
+<li>Relating to that last point, I was considering storing this data in a database. This would make sorting a simple matter of changing the query, but that kind of stuff is easy and wouldn&rsquo;t really help me or the page in any significant way; that&rsquo;s probably not going to happen.</li>
+<li>The script as it stands is just writing an HTML file from its data.  While I could have had it do this in-place, I&rsquo;m actually storing the jobs individually as objects in an array, and then later writing them out.  This is obviously wasteful but again, at this scale who cares (as long as I&rsquo;m aware of it, right?).</li>
+<li>I set up the script to run every half-hour during normal business hours.  I thought that was cool.</li>
+</ul>
 
 </div>
-        
-    </div>
+	
+
 </article>
-<div class="share">
-	<div class="addthis_toolbox addthis_default_style ">
+
 	
-	
-	<a class="addthis_button_tweet"></a>
-	
-	
-	<a class="addthis_counter addthis_pill_style"></a>
+	<div class="share">
+		<ul>
+			<li>
+  <a href="https://twitter.com/intent/tweet?text=Something Useful by @rylnd&url=http://rylnd.github.com/blog/2011/01/13/something-useful/" title="Share Something Useful on Twitter">
+    <img src="/images/social/twitter.png" />
+  </a>
+</li>
+
+			<li>
+  <a href="https://www.facebook.com/sharer.php?u=http://rylnd.github.com/blog/2011/01/13/something-useful/" title="Share Something Useful on Facebook">
+    <img src="/images/social/facebook.png" />
+  </a>
+</li>
+
+			<li>
+  <a href="https://plus.google.com/share?url=http://rylnd.github.com/blog/2011/01/13/something-useful/" title="Share Something Useful on Google Plus">
+    <img src="/images/social/google.png" />
+  </a>
+</li>
+
+		</ul>
 	</div>
-	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4eb4a0c47196e907"></script>
+
+
+
 </div>
+	<footer id="footer" class="inner"><div class='social'>
+  
+
+  
+
+  
+  <a class="twitter" href="http://twitter.com/rylnd" t
+    tle="Twitter">Twitter</a>
+  
+
+  
+  <a class="github" href="https://github.com/rylnd" title="GitHub">GitHub</a>
+  
+
+  
+  <a class="coderwall" href="https://coderwall.com/rylnd" title="Coderwall">Coderwall</a>
+  
+
+  
+
+  
+  <a class="rss" href="/atom.xml" title="RSS">RSS</a>
+  
 </div>
-	<footer class="inner">Copyright &copy; 2013 RyLand</footer>
-	<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script src="/javascripts/slash.js"></script>
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/hyphenator.js"></script>
 
 
 <script type="text/javascript">
@@ -157,6 +154,21 @@
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-20884325-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
 
 
 

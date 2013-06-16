@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: bendyworks | RyLand]]></title>
+  <title><![CDATA[Category: bendyworks | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/bendyworks/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-01-17T19:57:59-06:00</updated>
+  <updated>2013-06-15T22:05:06-05:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -20,7 +20,7 @@
     <id>http://rylnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
     <content type="html"><![CDATA[<p>Hey, I wrote about some things I recently learned about Devise and Rails 3.</p>
 
-<p>It's posted on the <a href="http://bendyworks.com/geekville">bendyworks blog</a>. You should <a href="http://bendyworks.com/geekville/tutorials/2012/6/respond-with-an-explanation">check it out</a>.</p>
+<p>It&rsquo;s posted on the <a href="http://bendyworks.com/geekville">bendyworks blog</a>. You should <a href="http://bendyworks.com/geekville/tutorials/2012/6/respond-with-an-explanation">check it out</a>.</p>
 ]]></content>
   </entry>
   
@@ -29,13 +29,13 @@
     <link href="http://rylnd.github.com/blog/2012/04/08/github-pages/"/>
     <updated>2012-04-08T19:59:00-05:00</updated>
     <id>http://rylnd.github.com/blog/2012/04/08/github-pages</id>
-    <content type="html"><![CDATA[<p>I haven't posted anything in a while. I won't make excuses, that's just the way it is.</p>
+    <content type="html"><![CDATA[<p>I haven&rsquo;t posted anything in a while. I won&rsquo;t make excuses, that&rsquo;s just the way it is.</p>
 
-<p>If you hadn't noticed, the blog is no longer WordPress, nor is it hosted on my Linode. A few weeks ago, during <a href="http://bendyworks.com">bendyworks</a>' amazing growth days (which will be described in a future post), I converted my blog entries to <a href="https://github.com/mojombo/jekyll">jekyll</a>-formatted YAML and markdown. This was actually the hardest part of the process. I won't go into details, but it involved piping my WordPress-exported posts through a Rube-Goldbergesque series of Python libraries.</p>
+<p>If you hadn&rsquo;t noticed, the blog is no longer WordPress, nor is it hosted on my Linode. A few weeks ago, during <a href="http://bendyworks.com">bendyworks</a>&lsquo; amazing growth days (which will be described in a future post), I converted my blog entries to <a href="https://github.com/mojombo/jekyll">jekyll</a>-formatted YAML and markdown. This was actually the hardest part of the process. I won&rsquo;t go into details, but it involved piping my WordPress-exported posts through a Rube-Goldbergesque series of Python libraries.</p>
 
 <p>With my old posts converted, I then got an <a href="http://octopress.org">octopress</a> repository set up on GitHub, using their super-cool <a href="http://pages.github.com">Pages</a> functionality for hosting and super-easy deployment. The whole process is very slick, and requires much, much less effort, maintenance, money, and disk space than my former methods.</p>
 
-<p>I'll be tweaking the look and content in the weeks to come; I just wanted to give an update (mostly so that my newest post wasn't a year old).</p>
+<p>I&rsquo;ll be tweaking the look and content in the weeks to come; I just wanted to give an update (mostly so that my newest post wasn&rsquo;t a year old).</p>
 ]]></content>
   </entry>
   

@@ -1,99 +1,55 @@
 
 <!DOCTYPE HTML>
-<html>
+<html lang="en-GB">
 <head>
-    <meta charset="utf-8">
-    <title>Github Pages - RyLand</title>
-    <meta name="author" content="Ryland Herrick">
+	<meta charset="utf-8">
+	<title>Github Pages | Ryland Herrick</title>
 
-    
-    <meta name="description" content="Github Pages I haven&#8217;t posted anything in a while. I won&#8217;t make excuses, that&#8217;s just the way it is. If you hadn&#8217;t noticed, &hellip;">
-    
-    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+	<meta name="author" content="Ryland Herrick">
 
-    <link href="/atom.xml" rel="alternate" title="RyLand" type="application/atom+xml">
-    <link rel="canonical" href="">
-    <link href="/favicon.ico" rel="shortcut icon">
-    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    
-    
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-20884325-1']);
-    _gaq.push(['_trackPageview']);
+<meta name="description" content="I haven&rsquo;t posted anything in a while. I won&rsquo;t make excuses, that&rsquo;s just the way it is. If you hadn&rsquo;t noticed, the blog is no &hellip;"> <meta name="keywords" content="">
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
+	<link href="/atom.xml" rel="alternate" title="Ryland Herrick" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.ico" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
 </head>
 
 
+
 <body>
-	<header class="inner"><h1 class="left"><a href="/">RyLand</a></h1>
-<nav class="menu left"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
+	<header id="header" class="inner"><h1><a href="/">Ryland Herrick</a></h1>
+<span class="tagline">is a developer.</span>
+<nav id="main-nav"><ul>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archives</a></li>
+	<li><a href="mailto:ryalnd@gmail.com">Contact</a></li>
 </ul>
 </nav>
-<div class="right">
-	<form class="search right" action="http://google.com/search" method="get">
-		<input class="left" type="text" name="q" results="0">
-		<input type="hidden" name="q" value="site:rylnd.github.com">
-	</form>
-	<div class="social right">
-		
-		
-		
-		<a class="twitter" href="http://twitter.com/rylnd" title="Twitter">Twitter</a>
-		
-		
-		<a class="github" href="https://github.com/rylnd" title="GitHub">GitHub</a>
-		
-		
-    <a class="coderwall" href="https://coderwall.com/rylnd" title="Coderwall">Coderwall</a>
-    
-		
-		
-		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
-		
-	</div>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archives</a></li>
+	<li><a href="mailto:ryalnd@gmail.com">Contact</a></li>
+</ul>
 </div>
+	</div>
+</nav>
+
 
 </header>
-	
-<div id="banner" class="inner">
-	<div class="container">
-		<ul class="feed"></ul>
-	</div>
-	<small><a href="http://twitter.com/rylnd">rylnd</a> @ <a href="http://twitter.com">Twitter</a></small>
-	<div class="loading">Loading...</div>
-</div>
-<script src="/javascripts/twitter.js"></script>
-<script type="text/javascript">
-	(function($){
-		$('#banner').getTwitterFeed('rylnd', 4, false);
-	})(jQuery);
-</script>
 
 	<div id="content" class="inner"><article class="post">
-    <h1 class="title">Github Pages</h1>
-    <div class="entry"><p>I haven&#8217;t posted anything in a while. I won&#8217;t make excuses, that&#8217;s just the way it is.</p>
-
-<p>If you hadn&#8217;t noticed, the blog is no longer WordPress, nor is it hosted on my Linode. A few weeks ago, during <a href="http://bendyworks.com">bendyworks</a>&#8217; amazing growth days (which will be described in a future post), I converted my blog entries to <a href="https://github.com/mojombo/jekyll">jekyll</a>-formatted YAML and markdown. This was actually the hardest part of the process. I won&#8217;t go into details, but it involved piping my WordPress-exported posts through a Rube-Goldbergesque series of Python libraries.</p>
-
-<p>With my old posts converted, I then got an <a href="http://octopress.org">octopress</a> repository set up on GitHub, using their super-cool <a href="http://pages.github.com">Pages</a> functionality for hosting and super-easy deployment. The whole process is very slick, and requires much, much less effort, maintenance, money, and disk space than my former methods.</p>
-
-<p>I&#8217;ll be tweaking the look and content in the weeks to come; I just wanted to give an update (mostly so that my newest post wasn&#8217;t a year old).</p>
-</div>
-    <div class="meta">
-        <div class="date">
+	<header>
+		<h2 class="title">Github Pages</h2>
+		<div class="meta date">
 
 
 
@@ -106,39 +62,80 @@
 
 
 <time datetime="2012-04-08T19:59:00-05:00" pubdate data-updated="true">Apr 8<span>th</span>, 2012</time></div>
-        <div class="tags">
+	</header>
+	<div class="entry-content"><p>I haven&rsquo;t posted anything in a while. I won&rsquo;t make excuses, that&rsquo;s just the way it is.</p>
 
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/bendyworks/'>bendyworks</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
-  
-</div>
+<p>If you hadn&rsquo;t noticed, the blog is no longer WordPress, nor is it hosted on my Linode. A few weeks ago, during <a href="http://bendyworks.com">bendyworks</a>&lsquo; amazing growth days (which will be described in a future post), I converted my blog entries to <a href="https://github.com/mojombo/jekyll">jekyll</a>-formatted YAML and markdown. This was actually the hardest part of the process. I won&rsquo;t go into details, but it involved piping my WordPress-exported posts through a Rube-Goldbergesque series of Python libraries.</p>
 
+<p>With my old posts converted, I then got an <a href="http://octopress.org">octopress</a> repository set up on GitHub, using their super-cool <a href="http://pages.github.com">Pages</a> functionality for hosting and super-easy deployment. The whole process is very slick, and requires much, much less effort, maintenance, money, and disk space than my former methods.</p>
+
+<p>I&rsquo;ll be tweaking the look and content in the weeks to come; I just wanted to give an update (mostly so that my newest post wasn&rsquo;t a year old).</p>
 </div>
-        
-    </div>
+	
+
 </article>
-<div class="share">
-	<div class="addthis_toolbox addthis_default_style ">
+
 	
-	
-	<a class="addthis_button_tweet"></a>
-	
-	
-	<a class="addthis_counter addthis_pill_style"></a>
+	<div class="share">
+		<ul>
+			<li>
+  <a href="https://twitter.com/intent/tweet?text=Github Pages by @rylnd&url=http://rylnd.github.com/blog/2012/04/08/github-pages/" title="Share Github Pages on Twitter">
+    <img src="/images/social/twitter.png" />
+  </a>
+</li>
+
+			<li>
+  <a href="https://www.facebook.com/sharer.php?u=http://rylnd.github.com/blog/2012/04/08/github-pages/" title="Share Github Pages on Facebook">
+    <img src="/images/social/facebook.png" />
+  </a>
+</li>
+
+			<li>
+  <a href="https://plus.google.com/share?url=http://rylnd.github.com/blog/2012/04/08/github-pages/" title="Share Github Pages on Google Plus">
+    <img src="/images/social/google.png" />
+  </a>
+</li>
+
+		</ul>
 	</div>
-	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4eb4a0c47196e907"></script>
-</div>
+
+
+
 
 <section id="comment">
-    <h1 class="title">Comments</h1>
+    <h2 class="title">Comments</h2>
     <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 </section>
 </div>
-	<footer class="inner">Copyright &copy; 2013 RyLand</footer>
-	<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script src="/javascripts/slash.js"></script>
+	<footer id="footer" class="inner"><div class='social'>
+  
+
+  
+
+  
+  <a class="twitter" href="http://twitter.com/rylnd" t
+    tle="Twitter">Twitter</a>
+  
+
+  
+  <a class="github" href="https://github.com/rylnd" title="GitHub">GitHub</a>
+  
+
+  
+  <a class="coderwall" href="https://coderwall.com/rylnd" title="Coderwall">Coderwall</a>
+  
+
+  
+
+  
+  <a class="rss" href="/atom.xml" title="RSS">RSS</a>
+  
+</div>
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/hyphenator.js"></script>
 
 
 <script type="text/javascript">
@@ -156,6 +153,21 @@
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-20884325-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
 
 
 

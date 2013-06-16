@@ -1,115 +1,56 @@
 
 <!DOCTYPE HTML>
-<html>
+<html lang="en-GB">
 <head>
-    <meta charset="utf-8">
-    <title>I'm Bored - RyLand</title>
-    <meta name="author" content="Ryland Herrick">
+	<meta charset="utf-8">
+	<title>I'm Bored | Ryland Herrick</title>
 
-    
-    <meta name="description" content="I'm Bored Project Euler Update: I&#8217;ve still been plugging away at various PE problems.
-I finally finished my first 25(26 now) problems, earning &hellip;">
-    
-    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+	<meta name="author" content="Ryland Herrick">
 
-    <link href="/atom.xml" rel="alternate" title="RyLand" type="application/atom+xml">
-    <link rel="canonical" href="">
-    <link href="/favicon.ico" rel="shortcut icon">
-    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    
-    
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-20884325-1']);
-    _gaq.push(['_trackPageview']);
+<meta name="description" content="Project Euler Update: I&rsquo;ve still been plugging away at various PE problems.
+I finally finished my first 25(26 now) problems, earning me a & &hellip;"> <meta name="keywords" content="">
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
+	<link href="/atom.xml" rel="alternate" title="Ryland Herrick" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.ico" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
 </head>
 
 
+
 <body>
-	<header class="inner"><h1 class="left"><a href="/">RyLand</a></h1>
-<nav class="menu left"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
+	<header id="header" class="inner"><h1><a href="/">Ryland Herrick</a></h1>
+<span class="tagline">is a developer.</span>
+<nav id="main-nav"><ul>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archives</a></li>
+	<li><a href="mailto:ryalnd@gmail.com">Contact</a></li>
 </ul>
 </nav>
-<div class="right">
-	<form class="search right" action="http://google.com/search" method="get">
-		<input class="left" type="text" name="q" results="0">
-		<input type="hidden" name="q" value="site:rylnd.github.com">
-	</form>
-	<div class="social right">
-		
-		
-		
-		<a class="twitter" href="http://twitter.com/rylnd" title="Twitter">Twitter</a>
-		
-		
-		<a class="github" href="https://github.com/rylnd" title="GitHub">GitHub</a>
-		
-		
-    <a class="coderwall" href="https://coderwall.com/rylnd" title="Coderwall">Coderwall</a>
-    
-		
-		
-		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
-		
-	</div>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archives</a></li>
+	<li><a href="mailto:ryalnd@gmail.com">Contact</a></li>
+</ul>
 </div>
+	</div>
+</nav>
+
 
 </header>
-	
-<div id="banner" class="inner">
-	<div class="container">
-		<ul class="feed"></ul>
-	</div>
-	<small><a href="http://twitter.com/rylnd">rylnd</a> @ <a href="http://twitter.com">Twitter</a></small>
-	<div class="loading">Loading...</div>
-</div>
-<script src="/javascripts/twitter.js"></script>
-<script type="text/javascript">
-	(function($){
-		$('#banner').getTwitterFeed('rylnd', 4, false);
-	})(jQuery);
-</script>
 
 	<div id="content" class="inner"><article class="post">
-    <h1 class="title">I'm Bored</h1>
-    <div class="entry"><p>Project Euler Update: I&#8217;ve still been plugging away at various PE problems.
-I finally finished my first 25(26 now) problems, earning me a &#8216;Level 1&#8217; status which from what I can tell is just a title.  But it&#8217;s <em>my</em> title!
-So, I know I talked about showing some code, and I still plan to post all the solutions I&#8217;ve written, but to whet your appetites here&#8217;s a quick, straightforward solution to problem 30:</p>
-
-<div><script src='https://gist.github.com/2019448.js?file=p30.py'></script>
-<noscript><pre><code>def split(str): return sum(int(x)**5 for x in str)
-print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscript></div>
-
-
-<p>Nothing too special going on here (though I&#8217;m finally getting the hang of list comprehensions).  It&#8217;s basically brute force, which from what I&#8217;ve seen on the forums is really the only way it&#8217;s been done. The <code>split()</code> function gets the value for a given number(passed as a string, not an int), and the next line finds all numbers fitting the criteria of the problem. The solution space of 2-999,999 comes from the fact that since the maximum value for a digit is 9<sup>5</sup> = 59049, no number with 7 or more digits could possibly be part of the solution since 7 x 9<sup>5</sup> = 413,343 &lt;&lt;&lt; 9,999,999.</p>
-
-<p>Tonight&#8217;s the first week of the Stand-Up Competition at the Comedy Club.  I was there for part of last year&#8217;s, and since a cheap comedy show is the pastime of choice for poor, unemployed, narcissistic college graduates around the world, I plan on being a regular attendee for the next few weeks.</p>
-
-<p>I&#8217;ve decided I don&#8217;t like the look of the site, anymore.  I&#8217;ll be changing things around soon, or maybe just tweaking, so check back.</p>
-
-<p>EDIT(7:02pm):  I felt like a bum for not doing any PE today, so I just did problem 29 with:</p>
-
-<div><script src='https://gist.github.com/2019448.js?file=p29.py'></script>
-<noscript><pre><code>print len(set(a**b for a in range(2,101) for b in range(2,101)))</code></pre></noscript></div>
-
-
-<p>using python&#8217;s <code>set</code> structure to avoid having to remove duplicates myself.</p>
-</div>
-    <div class="meta">
-        <div class="date">
+	<header>
+		<h2 class="title">I'm Bored</h2>
+		<div class="meta date">
 
 
 
@@ -122,33 +63,89 @@ print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscr
 
 
 <time datetime="2011-01-26T12:40:20-06:00" pubdate data-updated="true">Jan 26<span>th</span>, 2011</time></div>
-        <div class="tags">
+	</header>
+	<div class="entry-content"><p>Project Euler Update: I&rsquo;ve still been plugging away at various PE problems.
+I finally finished my first 25(26 now) problems, earning me a &lsquo;Level 1&rsquo; status which from what I can tell is just a title.  But it&rsquo;s <em>my</em> title!
+So, I know I talked about showing some code, and I still plan to post all the solutions I&rsquo;ve written, but to whet your appetites here&rsquo;s a quick, straightforward solution to problem 30:</p>
 
-<div class="cat">
-  
-    <a class='category' href='/blog/categories/euler/'>euler</a>, <a class='category' href='/blog/categories/math/'>math</a>, <a class='category' href='/blog/categories/python/'>python</a>
-  
-</div>
+<div><script src='https://gist.github.com/2019448.js?file=p30.py'></script>
+<noscript><pre><code>def split(str): return sum(int(x)**5 for x in str)
+print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscript></div>
 
+
+<p>Nothing too special going on here (though I&rsquo;m finally getting the hang of list comprehensions).  It&rsquo;s basically brute force, which from what I&rsquo;ve seen on the forums is really the only way it&rsquo;s been done. The <code>split()</code> function gets the value for a given number(passed as a string, not an int), and the next line finds all numbers fitting the criteria of the problem. The solution space of 2-999,999 comes from the fact that since the maximum value for a digit is 9<sup>5</sup> = 59049, no number with 7 or more digits could possibly be part of the solution since 7 x 9<sup>5</sup> = 413,343 &lt;&lt;&lt; 9,999,999.</p>
+
+<p>Tonight&rsquo;s the first week of the Stand-Up Competition at the Comedy Club.  I was there for part of last year&rsquo;s, and since a cheap comedy show is the pastime of choice for poor, unemployed, narcissistic college graduates around the world, I plan on being a regular attendee for the next few weeks.</p>
+
+<p>I&rsquo;ve decided I don&rsquo;t like the look of the site, anymore.  I&rsquo;ll be changing things around soon, or maybe just tweaking, so check back.</p>
+
+<p>EDIT(7:02pm):  I felt like a bum for not doing any PE today, so I just did problem 29 with:</p>
+
+<div><script src='https://gist.github.com/2019448.js?file=p29.py'></script>
+<noscript><pre><code>print len(set(a**b for a in range(2,101) for b in range(2,101)))</code></pre></noscript></div>
+
+
+<p>using python&rsquo;s <code>set</code> structure to avoid having to remove duplicates myself.</p>
 </div>
-        
-    </div>
+	
+
 </article>
-<div class="share">
-	<div class="addthis_toolbox addthis_default_style ">
+
 	
-	
-	<a class="addthis_button_tweet"></a>
-	
-	
-	<a class="addthis_counter addthis_pill_style"></a>
+	<div class="share">
+		<ul>
+			<li>
+  <a href="https://twitter.com/intent/tweet?text=I'm Bored by @rylnd&url=http://rylnd.github.com/blog/2011/01/26/im-bored/" title="Share I'm Bored on Twitter">
+    <img src="/images/social/twitter.png" />
+  </a>
+</li>
+
+			<li>
+  <a href="https://www.facebook.com/sharer.php?u=http://rylnd.github.com/blog/2011/01/26/im-bored/" title="Share I'm Bored on Facebook">
+    <img src="/images/social/facebook.png" />
+  </a>
+</li>
+
+			<li>
+  <a href="https://plus.google.com/share?url=http://rylnd.github.com/blog/2011/01/26/im-bored/" title="Share I'm Bored on Google Plus">
+    <img src="/images/social/google.png" />
+  </a>
+</li>
+
+		</ul>
 	</div>
-	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4eb4a0c47196e907"></script>
+
+
+
 </div>
+	<footer id="footer" class="inner"><div class='social'>
+  
+
+  
+
+  
+  <a class="twitter" href="http://twitter.com/rylnd" t
+    tle="Twitter">Twitter</a>
+  
+
+  
+  <a class="github" href="https://github.com/rylnd" title="GitHub">GitHub</a>
+  
+
+  
+  <a class="coderwall" href="https://coderwall.com/rylnd" title="Coderwall">Coderwall</a>
+  
+
+  
+
+  
+  <a class="rss" href="/atom.xml" title="RSS">RSS</a>
+  
 </div>
-	<footer class="inner">Copyright &copy; 2013 RyLand</footer>
-	<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script src="/javascripts/slash.js"></script>
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/hyphenator.js"></script>
 
 
 <script type="text/javascript">
@@ -163,6 +160,21 @@ print sum(i for i in range(2, 999999) if i == split(str(i)))</code></pre></noscr
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-20884325-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
 
 
 

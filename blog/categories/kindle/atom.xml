@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: kindle | RyLand]]></title>
+  <title><![CDATA[Category: kindle | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/kindle/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-01-17T19:57:59-06:00</updated>
+  <updated>2013-06-15T22:05:06-05:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -18,13 +18,13 @@
     <link href="http://rylnd.github.com/blog/2011/01/13/an-intimate-look/"/>
     <updated>2011-01-13T17:13:34-06:00</updated>
     <id>http://rylnd.github.com/blog/2011/01/13/an-intimate-look</id>
-    <content type="html"><![CDATA[<p>I know I just wrote that last post about the Ruby scraper, but I wanted to take a quick second to talk quickly about what else I've been doing with my time.</p>
+    <content type="html"><![CDATA[<p>I know I just wrote that last post about the Ruby scraper, but I wanted to take a quick second to talk quickly about what else I&rsquo;ve been doing with my time.</p>
 
-<p>Mostly, I've been reading.  This summer I discovered/fell in love with David Foster Wallace, and have read 5 of his books since then.  I'd been checking them out from the library, but asked for 'A Supposedly Fun Thing . . .' for Christmas and will probably finish that tonight.</p>
+<p>Mostly, I&rsquo;ve been reading.  This summer I discovered/fell in love with David Foster Wallace, and have read 5 of his books since then.  I&rsquo;d been checking them out from the library, but asked for &lsquo;A Supposedly Fun Thing &hellip;&rsquo; for Christmas and will probably finish that tonight.</p>
 
-<p>Since I returned from Kenosha I've been riding my bike anywhere within reason when I need transportation.  I had gotten lazy in December and started driving everywhere, but I'm back on the saddle and feel much better doing so.</p>
+<p>Since I returned from Kenosha I&rsquo;ve been riding my bike anywhere within reason when I need transportation.  I had gotten lazy in December and started driving everywhere, but I&rsquo;m back on the saddle and feel much better doing so.</p>
 
-<p>I've got several things on my Kindle that I've been slowly getting through.  The details aren't important, but topics include Ruby, Lisp, regex, Clojure, and a bunch of other things I'm really interested (but severely lacking) in.</p>
+<p>I&rsquo;ve got several things on my Kindle that I&rsquo;ve been slowly getting through.  The details aren&rsquo;t important, but topics include Ruby, Lisp, regex, Clojure, and a bunch of other things I&rsquo;m really interested (but severely lacking) in.</p>
 ]]></content>
   </entry>
   
@@ -33,17 +33,17 @@
     <link href="http://rylnd.github.com/blog/2011/01/08/oh-right-2011/"/>
     <updated>2011-01-08T16:08:24-06:00</updated>
     <id>http://rylnd.github.com/blog/2011/01/08/oh-right-2011</id>
-    <content type="html"><![CDATA[<p>Second Saturday of the new year and I'm feeling just as lazy as 2010.  The difference?  Uhh . . . I'm writing this post!</p>
+    <content type="html"><![CDATA[<p>Second Saturday of the new year and I&rsquo;m feeling just as lazy as 2010.  The difference?  Uhh &hellip; I&rsquo;m writing this post!</p>
 
-<p>Haven't written in a couple weeks.  I went home for the holidays, which was nice.  Got to see lots of friends and family that I've not in a long time.  I also got a bike stand for easier home repairs, and most excitingly a Kindle.  I've had a lot of technical/educational documents on my computer for a while now, mostly in pdf, and I'm excited to finally have more opportunities to read them.</p>
+<p>Haven&rsquo;t written in a couple weeks.  I went home for the holidays, which was nice.  Got to see lots of friends and family that I&rsquo;ve not in a long time.  I also got a bike stand for easier home repairs, and most excitingly a Kindle.  I&rsquo;ve had a lot of technical/educational documents on my computer for a while now, mostly in pdf, and I&rsquo;m excited to finally have more opportunities to read them.</p>
 
-<p>Made a little progress on Euler since we last talked, but I certainly haven't hit my previous 'one a day' goal.  Did a few easy ones (16, 20) before I even went home for the holidays, and not much since.</p>
+<p>Made a little progress on Euler since we last talked, but I certainly haven&rsquo;t hit my previous &lsquo;one a day&rsquo; goal.  Did a few easy ones (16, 20) before I even went home for the holidays, and not much since.</p>
 
-<p>It's definitely fun to write these in an unfamiliar language (Python) and I might try a few other languages as well.</p>
+<p>It&rsquo;s definitely fun to write these in an unfamiliar language (Python) and I might try a few other languages as well.</p>
 
-<p>I've had a few ideas for little projects I want to work on.  One's writing my own WP theme.  I think it'd be good practice, and would definitely help the feel of the blog vs. the main site, and I could add/remove functionality and links depending on what I am/am not using.  I mentioned before also wanting bypass any blog software completely and just write my own, but both of those are things I'm not in any rush to do.</p>
+<p>I&rsquo;ve had a few ideas for little projects I want to work on.  One&rsquo;s writing my own WP theme.  I think it&rsquo;d be good practice, and would definitely help the feel of the blog vs. the main site, and I could add/remove functionality and links depending on what I am/am not using.  I mentioned before also wanting bypass any blog software completely and just write my own, but both of those are things I&rsquo;m not in any rush to do.</p>
 
-<p>The other and more pertinent idea is writing a craigslist scraper to do my daily craigslist perusals for me.  It certainly won't be hard or really something I haven't done before, so I was thinking about writing it in another language (I was thinking Ruby).</p>
+<p>The other and more pertinent idea is writing a craigslist scraper to do my daily craigslist perusals for me.  It certainly won&rsquo;t be hard or really something I haven&rsquo;t done before, so I was thinking about writing it in another language (I was thinking Ruby).</p>
 
 <p>Thinking about that a little further, though, I failed to come up with any solid reason to do so, and found the same was true for any short-term project in a new language, for someone in my position.</p>
 
@@ -56,23 +56,23 @@
 </ul>
 
 
-<p>Then I asked myself: would any employer <em>really</em> care that I took a day to write a web scraper in Ruby?  Sure, it shows motivation and enthusiasm, but couldn't one say that about a college degree as well (at least, one in a hard science)?</p>
+<p>Then I asked myself: would any employer <em>really</em> care that I took a day to write a web scraper in Ruby?  Sure, it shows motivation and enthusiasm, but couldn&rsquo;t one say that about a college degree as well (at least, one in a hard science)?</p>
 
 <p>Another point I was trying to prove, my ability to learn new languages, upon closer inspection also seems something that should be self-evident.  My college career was spent solving problems in languages A, B, and C.  My student job had me solving problems in languages D and E.  Should I really have to prove that I can solve problems in your language X, before being hired to do so?</p>
 
-<p>I feel like that last point is the most frustrating part of my whole job search, and a serious shortcoming in regards to hiring practices for programmers.  The problem comes from these listings for 'Junior/Entry-Level' positions requiring anywhere from 2 to 7 years' experience with a language.</p>
+<p>I feel like that last point is the most frustrating part of my whole job search, and a serious shortcoming in regards to hiring practices for programmers.  The problem comes from these listings for &lsquo;Junior/Entry-Level&rsquo; positions requiring anywhere from 2 to 7 years' experience with a language.</p>
 
 <p>Now, I know that I do not have 7 years' experience with any language.   I feel uncomfortable saying I have 2 years' experience with the languages I used in college (over 4 years' time).  In reality, I have no professional experience with <em>any</em> language.</p>
 
-<p>My problem has become: If I need this experience for an entry-level position . . . where do I enter?</p>
+<p>My problem has become: If I need this experience for an entry-level position &hellip; where do I enter?</p>
 
-<p>Getting back to the original discussion, one day-long project in a new language is not going to qualify me for any job that I wasn't already qualified for.</p>
+<p>Getting back to the original discussion, one day-long project in a new language is not going to qualify me for any job that I wasn&rsquo;t already qualified for.</p>
 
-<p>In fact, I don't believe that any amount of programming would make me more qualified for a job than I am now.  That's not to say that it wouldn't make me a more productive worker at the beginning of hire, during what would be that training/learning period.  But how long would that period <em>really</em> be if you're hiring the intelligent, competent worker you expect?</p>
+<p>In fact, I don&rsquo;t believe that any amount of programming would make me more qualified for a job than I am now.  That&rsquo;s not to say that it wouldn&rsquo;t make me a more productive worker at the beginning of hire, during what would be that training/learning period.  But how long would that period <em>really</em> be if you&rsquo;re hiring the intelligent, competent worker you expect?</p>
 
-<p>I guess it all comes down to those concepts of intelligence and competence.  Employers need indications of such, and look for it mainly in documented experience.  My problem lies with the fact that the college degree is no longer seen as such, for reasons I won't get into here.</p>
+<p>I guess it all comes down to those concepts of intelligence and competence.  Employers need indications of such, and look for it mainly in documented experience.  My problem lies with the fact that the college degree is no longer seen as such, for reasons I won&rsquo;t get into here.</p>
 
-<p>Don't get me wrong, I'm still doing these projects.  I just no longer believe they'll help me get a job.</p>
+<p>Don&rsquo;t get me wrong, I&rsquo;m still doing these projects.  I just no longer believe they&rsquo;ll help me get a job.</p>
 
 <p>Anyone have any ideas to help me get my foot in the door?</p>
 ]]></content>
