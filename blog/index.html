@@ -7,7 +7,8 @@
 
 	<meta name="author" content="Ryland Herrick">
 
-<meta name="description" content="I was doing some style work on the blog recently, and I remembered that no one will care how good the site looks if there&rsquo;s no content. I know &hellip;"> <meta name="keywords" content="">
+<meta name="description" content="I was having a conversation with a couple of friends last week.
+While neither would label himself as a professional developer, both worked with &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -47,6 +48,90 @@
 </header>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/06/23/on-source-control/">
+			
+				On Source Control</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-23T20:10:00-05:00" pubdate data-updated="true">Jun 23<span>rd</span>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>I was having a conversation with a couple of friends last week.
+While neither would label himself as a professional developer, both worked with computers enough that we eventually landed on the topic of source control.</p>
+
+<p>We all agreed that source control great and that <a href="http://git-scm.com/">git</a> is king.
+One friend, after working IT at a university and seeing months of work lost when a professor accidentally overwrote his research, felt a great need for &ldquo;versioning for the masses.&rdquo;
+And git certainly isn&rsquo;t for everyone.
+But why <em>can&rsquo;t</em> there be a simple source control solution that everyone can use? What are the main features that are needed?</p>
+
+<p>I want to say first that I think Google Docs is definitely a solution.
+It does versioning of your documents, well and automatically.
+But &ldquo;documents&rdquo; is only a subset of the things we may want to version, and so it&rsquo;s not a complete solution.</p>
+
+<p>Obviously, the solution needs to be simple in order for everyone to be able to use it.
+So what is version control, when simplified? It&rsquo;s the manipulation of time.</p>
+
+<p>When we talk about &ldquo;versioning&rdquo;, we&rsquo;re talking about tracking the passage of time, and, implicitly, about the ability to move freely, in both directions, through it.
+To bend time to our will.
+The professor who overwrote his research file made a mistake, and wishes to revert to a time before he made that mistake.</p>
+
+<p>If you&rsquo;re paying attention, you&rsquo;ve probably realized that you&rsquo;ve seen this ability before, within many applications.
+But instead of calling it &ldquo;move backward through time&rdquo;, they usually shorten that to &ldquo;undo&rdquo;.</p>
+
+<p>So, no, this isn&rsquo;t a novel idea. It&rsquo;s been in your word processor for decades.
+But your filesystem is another story.
+There&rsquo;s never been an &ldquo;undo&rdquo; command for filesystems, at least not until recently, and not for unix systems.</p>
+
+<p>But why not? As we&rsquo;ve seen, the principle is simple enough.
+We want to be able to move through time, but to do that we have to remember the past.
+The tricky part, then, is choosing the heuristic for when to remember.
+In a perfect world, where storage and performance were not concerns, remembering would be a continuous activity.
+However, we do not live in that world, and so we must choose something more clever.
+This could be at marked intervals, or when certain actions are performed.
+At its simplest, though, the heuristic can be &ldquo;When I say so.&rdquo;</p>
+
+<p>To further address the issue of storage, we can do a bit better than &ldquo;When I say so, store the whole world.&rdquo;
+Couldn&rsquo;t we also say &ldquo;When I say so, store what&rsquo;s changed since the last time&rdquo;?
+Most things are more or less static, and it certainly makes more sense to focus on the things that are changing.</p>
+
+<p>Well, as it turns out (and maybe you saw this coming), git does an excellent job at all of this.
+So can we leverage Linus&#8217; hard work and build a simple wrapper on top of git? Certainly.</p>
+
+<p>Below are a few git aliases to reproduce <code>save</code>, <code>load</code>, <code>undo</code> and <code>redo</code>.
+They mostly takes advantage of git&rsquo;s <a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html">reflog</a>, and they&rsquo;re only a rough draft, but they get the job done.</p>
+
+<div><script src='https://gist.github.com/5931500.js?file=.gitconfig'></script>
+<noscript><pre><code>[alias]
+  save = !sh -c 'git add -A . &amp;&amp; git commit -m $1' -
+  load = !sh -c 'git reset --hard $(git log -g -1 --grep &quot;$1&quot; --format=%H)' -
+  undo = reset --hard HEAD@{1}
+  redo = !sh -c 'git reflog | head -1 | grep -q &quot;reset&quot; &amp;&amp; git undo || echo &quot;cannot redo&quot;' -</code></pre></noscript></div>
+
+
+<p>Can you do better? I don&rsquo;t doubt it. Let me know!</p>
+
+		
+		
+	</div>
+
+</article>
 
 
     <article class="post">
@@ -192,40 +277,6 @@ ENV['NO_PERL_MAKEMAKER'] = '1' if MacOS.version &gt;= :lion
 <p>It ended with a few coderwall <a href="http://coderwall.com/p/u/ryalnd">protips</a>, outlining what I ended up with. I&rsquo;m particularly happy with the <a href="http://coderwall.com/p/buxyuw">first</a>. The <a href="http://coderwall.com/p/senquw">second</a>, not so much (it works, but it&rsquo;s not very clean).</p>
 
 <p>I really need to get more of my dotfiles out on the <a href="https://github.com/ryalnd/dotfiles">repo</a>. I realize that no one <em>really</em> cares, but I feel bad for withholding information regardless.</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<header>
-		<h2 class="title">
-			
-			<a href="/blog/2012/06/24/respond-with-an-explanation/">
-			
-				Respond With an Explanation</a>
-		</h2>
-		<div class="meta date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-06-24T16:52:00-05:00" pubdate data-updated="true">Jun 24<span>th</span>, 2012</time></div>
-	</header>
-	<div class="entry-content">
-		<p>Hey, I wrote about some things I recently learned about Devise and Rails 3.</p>
-
-<p>It&rsquo;s posted on the <a href="http://bendyworks.com/geekville">bendyworks blog</a>. You should <a href="http://bendyworks.com/geekville/tutorials/2012/6/respond-with-an-explanation">check it out</a>.</p>
 
 		
 		

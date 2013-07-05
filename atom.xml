@@ -4,13 +4,74 @@
   <title><![CDATA[Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-06-20T01:01:03-05:00</updated>
+  <updated>2013-07-04T22:56:14-05:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
     
   </author>
 
+  
+  <entry>
+    <title type="html"><![CDATA[On Source Control]]></title>
+    <link href="http://rylnd.github.com/blog/2013/06/23/on-source-control/"/>
+    <updated>2013-06-23T20:10:00-05:00</updated>
+    <id>http://rylnd.github.com/blog/2013/06/23/on-source-control</id>
+    <content type="html"><![CDATA[<p>I was having a conversation with a couple of friends last week.
+While neither would label himself as a professional developer, both worked with computers enough that we eventually landed on the topic of source control.</p>
+
+<p>We all agreed that source control great and that <a href="http://git-scm.com/">git</a> is king.
+One friend, after working IT at a university and seeing months of work lost when a professor accidentally overwrote his research, felt a great need for &ldquo;versioning for the masses.&rdquo;
+And git certainly isn&rsquo;t for everyone.
+But why <em>can&rsquo;t</em> there be a simple source control solution that everyone can use? What are the main features that are needed?</p>
+
+<p>I want to say first that I think Google Docs is definitely a solution.
+It does versioning of your documents, well and automatically.
+But &ldquo;documents&rdquo; is only a subset of the things we may want to version, and so it&rsquo;s not a complete solution.</p>
+
+<p>Obviously, the solution needs to be simple in order for everyone to be able to use it.
+So what is version control, when simplified? It&rsquo;s the manipulation of time.</p>
+
+<p>When we talk about &ldquo;versioning&rdquo;, we&rsquo;re talking about tracking the passage of time, and, implicitly, about the ability to move freely, in both directions, through it.
+To bend time to our will.
+The professor who overwrote his research file made a mistake, and wishes to revert to a time before he made that mistake.</p>
+
+<p>If you&rsquo;re paying attention, you&rsquo;ve probably realized that you&rsquo;ve seen this ability before, within many applications.
+But instead of calling it &ldquo;move backward through time&rdquo;, they usually shorten that to &ldquo;undo&rdquo;.</p>
+
+<p>So, no, this isn&rsquo;t a novel idea. It&rsquo;s been in your word processor for decades.
+But your filesystem is another story.
+There&rsquo;s never been an &ldquo;undo&rdquo; command for filesystems, at least not until recently, and not for unix systems.</p>
+
+<p>But why not? As we&rsquo;ve seen, the principle is simple enough.
+We want to be able to move through time, but to do that we have to remember the past.
+The tricky part, then, is choosing the heuristic for when to remember.
+In a perfect world, where storage and performance were not concerns, remembering would be a continuous activity.
+However, we do not live in that world, and so we must choose something more clever.
+This could be at marked intervals, or when certain actions are performed.
+At its simplest, though, the heuristic can be &ldquo;When I say so.&rdquo;</p>
+
+<p>To further address the issue of storage, we can do a bit better than &ldquo;When I say so, store the whole world.&rdquo;
+Couldn&rsquo;t we also say &ldquo;When I say so, store what&rsquo;s changed since the last time&rdquo;?
+Most things are more or less static, and it certainly makes more sense to focus on the things that are changing.</p>
+
+<p>Well, as it turns out (and maybe you saw this coming), git does an excellent job at all of this.
+So can we leverage Linus&#8217; hard work and build a simple wrapper on top of git? Certainly.</p>
+
+<p>Below are a few git aliases to reproduce <code>save</code>, <code>load</code>, <code>undo</code> and <code>redo</code>.
+They mostly takes advantage of git&rsquo;s <a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html">reflog</a>, and they&rsquo;re only a rough draft, but they get the job done.</p>
+
+<div><script src='https://gist.github.com/5931500.js?file=.gitconfig'></script>
+<noscript><pre><code>[alias]
+  save = !sh -c 'git add -A . &amp;&amp; git commit -m $1' -
+  load = !sh -c 'git reset --hard $(git log -g -1 --grep &quot;$1&quot; --format=%H)' -
+  undo = reset --hard HEAD@{1}
+  redo = !sh -c 'git reflog | head -1 | grep -q &quot;reset&quot; &amp;&amp; git undo || echo &quot;cannot redo&quot;' -</code></pre></noscript></div>
+
+
+<p>Can you do better? I don&rsquo;t doubt it. Let me know!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Still Alive!]]></title>
@@ -634,40 +695,6 @@ print max(totals, key = lambda x: x[1] )
 
 
 <p>Check back soon for more discussion of math, code, and existential crises.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Math in the Cold]]></title>
-    <link href="http://rylnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
-    <updated>2011-02-10T18:07:51-06:00</updated>
-    <id>http://rylnd.github.com/blog/2011/02/10/math-in-the-cold</id>
-    <content type="html"><![CDATA[<p>I wasn&rsquo;t feeling very well today, and it was super cold out, so I decided to be as productive as I possibly could at home.  This involved:</p>
-
-<ul>
-<li>Updating profiles/resumes on various job sites</li>
-<li>Searching and applying for jobs on same</li>
-<li>Doing some stalking of Milwaukee-area businesses</li>
-<li>Finally setting up, lurking IRC</li>
-<li>Several PE problems as a reward</li>
-</ul>
-
-
-<p>Most of those are self-explanatory.  I finally updated the pdf version of my resume to reflect the changes made to my html version, and then updated any references to the old one.  I can&rsquo;t believe that Monster only accepts resumes in .rtf, .doc, and .txt.  I&rsquo;ve mostly ignored Monster for the simple fact that I have a horribly-formatted .rtf on there and refuse to change it out of principle.  If an employer isn&rsquo;t going to hire me because I only provide html and pdf versions of my resume, so be it.</p>
-
-<p>I&rsquo;m starting to compile a list of possible Milwaukee-area businesses I would like to work for, so that I can start spamming them my resume :).  I finally got irssi set up on this box, as I haven&rsquo;t been on IRC in a looooong while.  I&rsquo;ve been lurking #python while doing Project Euler, and actually gave my first piece of help to someone on the channel as well.  It had almost nothing to do with python, as it was a pretty basic regex question about character classes, but I helped nonetheless.</p>
-
-<p>Did problems <a href="http://projecteuler.net/index.php?section=problems&amp;id=26">26</a>, <a href="http://projecteuler.net/index.php?section=problems&amp;id=40">40</a>, <a href="http://projecteuler.net/index.php?section=problems&amp;id=42">42</a>, <a href="http://projecteuler.net/index.php?section=problems&amp;id=45">45</a>, and <a href="http://projecteuler.net/index.php?section=problems&amp;id=52">52</a> tonight. Not bad progress for a few hours.  I also wrote a solution to problem <a href="http://projecteuler.net/index.php?section=problems&amp;id=27">27</a>, but it&rsquo;s still running as I write this.  I think I&rsquo;m going to let it run overnight and see if it actually finishes (totally against the rules, I know).  It deals with quadratics though and I couldn&rsquo;t immediately see any way to narrow down the list of possible coefficients, so I just tried brute-force.  I&rsquo;ll let it stew in my head for a while and see if I come up with anything.</p>
-
-<p>Not much of note for these, they were pretty straightforward.  I did write a function that performed long-division for problem 26, which I thought was pretty hilarious.  It was the easiest way to determine whether the decimal had a repeating sequence, the length of said sequence.  I got the idea from <a href="http://en.wikipedia.org/wiki/Repeating_decimal#Decimal_expansion_and_recurrence_sequence">Wikipedia</a>, if you care to see.  There was some more I/O, which was nice to have as practice, and I&rsquo;m using dicts and sets, maps and lambdas all over the place now.  Slow and steady, right?</p>
-
-<p>I know I keep promising to post my code, and as I&rsquo;ve been saving it the only real thing keeping me from doing so is my shyness at others seeing that code.  I might select the simplest, most elegant examples, but if you&rsquo;d like to see how I came to a particular solution I&rsquo;d be more than willing to share.  I&rsquo;m going to try to use IRC for help with refactoring some code.  My biggest concern is that I&rsquo;m not doing everything in true &lsquo;pythonic&rsquo; manner, so I think getting help there will reduce the shyness.</p>
-
-<p>On the income front, I have two potential web-design contracts coming in, from friends of friends.  It&rsquo;ll be good practice and that&rsquo;s really what I need right now, more than income (although more of that would be nice, too).  All temp/contract web/IT work I&rsquo;ve tried to attain has fallen through the cracks.  It&rsquo;s frustrating but what can you do.  I&rsquo;m trying to stay positive and not starve to death.  So far so good.</p>
-
-<p>It&rsquo;s still real cold here (0°), but it&rsquo;s looking to get in the 40s by Sunday, which is awesome.  I think we&rsquo;re going to try and go sledding tomorrow!  Fun and exercise; I could use both.</p>
-
-<p>I also wanted to mention that I hilariously added a &lsquo;Like&rsquo; button to each post on the blog.  I don&rsquo;t think anyone is even reading these, let alone considering &lsquo;liking&rsquo; them, but I figure if and when they do that&rsquo;ll definitely help to get some traffic.  At this point the only traffic I could really hope for are those doing Project Euler, which is minimal at best, but we&rsquo;ll see.</p>
 ]]></content>
   </entry>
   

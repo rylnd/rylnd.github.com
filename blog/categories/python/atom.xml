@@ -4,7 +4,7 @@
   <title><![CDATA[Category: python | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-06-20T01:01:03-05:00</updated>
+  <updated>2013-07-04T22:56:49-05:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -63,19 +63,7 @@
 
 <p>55: Easier to just show this one.  Used a recursive function and the limits the explicitly stated.</p>
 
-<p><div><script src='https://gist.github.com/2019414.js?file=euler_55.py'></script>
-<noscript><pre><code>def lychrel(n, it):
-    if it&lt;50:
-        rev = n[::-1]
-        _sum = str(int(n) + int(rev))
-        if _sum==_sum[::-1]:
-            return int(_sum)
-        else: return lychrel(_sum, it+1)
-    else: return 0
-
-l = [x for x in range(1,10000) if not lychrel(str(x),0)]
-print len(l)</code></pre></noscript></div>
-</p>
+<p>{% gist 2019414 euler_55.py %}</p>
 
 <p>Problem 79 was the most interesting.  I just finished.  I made two related assumptions, without which my answer probably wouldn&rsquo;t work. I also cheated a bit and ended up explicitly telling the program which numbers were used in the password, although I could&rsquo;ve easily made that list from the input as well.</p>
 
@@ -83,49 +71,7 @@ print len(l)</code></pre></noscript></div>
 
 <p>I ran my program and took a look at the lists, and saw that in this case my assumptions were correct.  Then I simply ordered those digits based on the lengths of their &lsquo;left&rsquo; sets (So the digit with nothing to the left of it would be first, and the digit with everything else to the left of it would be last.  Get it?).  Voila.  Code:</p>
 
-<p><div><script src='https://gist.github.com/2019414.js?file=euler_79.py'></script>
-<noscript><pre><code>class digit:
-    def __init__(self,x):
-        self.dig = x
-        self.left = set()
-        self.right = set()
-
-#split the input into a list of 3-digit login attempts
-logins = list(set([l.strip('\n\r') for l in open('keylog.txt')]))
-
-#compile key's left and right sets
-def place(key):
-    num = str(key.dig)
-    check = [line for line in logins if num in line]
-    for line in check: #for each line that contains this digit
-        place = line.index(num)
-        for i in line:
-            if line.index(i) &lt; place:
-                key.left.add(i)
-            elif line.index(i) &gt;place:
-                key.right.add(i)
-
-#create an instance for each digit present
-obs = [digit(l) for l in ['0','1','2','3','6','7','8','9']]
-#create those instances' associated sets
-[place(dig) for dig in obs]
-
-#place in logical order
-obs.sort(key=lambda x: x.left)
-
-
-'''
-SORT V0
-for i in range(9):
-    for dig in obs:
-        if len(dig.left)==i:
-            print dig.dig
-SORT V1
-print [dig.dig for i in range(9) for dig in obs if len(dig.left)==i]
-'''
-print ''.join([d.dig for d in obs])
-print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
-</p>
+<p>{% gist 2019414 euler_79.py %}</p>
 
 <p>Commented out near the bottom you&rsquo;ll see two previous methods I had used to do the final sorting mentioned above.  V0 had nested loops, which wasn&rsquo;t awful but not good; V1 was essentially just a list comprehension of same.  I tried to be a bit more &lsquo;pythonic&rsquo; with my final method, using lambda function within the list.sort() method to order the list of &lsquo;digit&rsquo; instances on their left set.</p>
 
@@ -178,30 +124,7 @@ print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
 
 <p>After that it was just a matter of putting it all together:</p>
 
-<p><div><script src='https://gist.github.com/2019433.js'></script>
-<noscript><pre><code>from fractions import gcd
-
-#Euclid's Formula
-def getabc(m,n):
-    a = m**2 - n**2
-    b = 2*m*n
-    c = m**2 + n**2
-    return a,b,c
-
-#calculate all PPTs for which p &lt; 1000
-prim_trips = [getabc(m,n) for m in range(1,100) for n in range(1,100) if m &gt; n and gcd(m,n) == 1 and 2*m*m + 2*m*n &lt;= 1000 and (m%2 == 0 or n % 2 == 0)]
-
-#find all possible triples for a given p
-def total(p):
-    return sum([1 for (a,b,c) in prim_trips if p % (a + b + c) == 0])
-
-#collect all possible solutions for each perimeter p
-totals = [(p,total(p)) for p in range(1,1001)]
-
-#get max
-print max(totals, key = lambda x: x[1] )
-</code></pre></noscript></div>
-</p>
+<p>{% gist 2019433 %}</p>
 
 <p>Check back soon for more discussion of math, code, and existential crises.</p>
 ]]></content>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-06-20T01:01:03-05:00</updated>
+  <updated>2013-07-04T22:56:49-05:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[On Source Control]]></title>
+    <link href="http://rylnd.github.com/blog/2013/06/23/on-source-control/"/>
+    <updated>2013-06-23T20:10:00-05:00</updated>
+    <id>http://rylnd.github.com/blog/2013/06/23/on-source-control</id>
+    <content type="html"><![CDATA[<p>I was having a conversation with a couple of friends last week.
+While neither would label himself as a professional developer, both worked with computers enough that we eventually landed on the topic of source control.</p>
+
+<p>We all agreed that source control great and that <a href="http://git-scm.com/">git</a> is king.
+One friend, after working IT at a university and seeing months of work lost when a professor accidentally overwrote his research, felt a great need for &ldquo;versioning for the masses.&rdquo;
+And git certainly isn&rsquo;t for everyone.
+But why <em>can&rsquo;t</em> there be a simple source control solution that everyone can use? What are the main features that are needed?</p>
+
+<p>I want to say first that I think Google Docs is definitely a solution.
+It does versioning of your documents, well and automatically.
+But &ldquo;documents&rdquo; is only a subset of the things we may want to version, and so it&rsquo;s not a complete solution.</p>
+
+<p>Obviously, the solution needs to be simple in order for everyone to be able to use it.
+So what is version control, when simplified? It&rsquo;s the manipulation of time.</p>
+
+<p>When we talk about &ldquo;versioning&rdquo;, we&rsquo;re talking about tracking the passage of time, and, implicitly, about the ability to move freely, in both directions, through it.
+To bend time to our will.
+The professor who overwrote his research file made a mistake, and wishes to revert to a time before he made that mistake.</p>
+
+<p>If you&rsquo;re paying attention, you&rsquo;ve probably realized that you&rsquo;ve seen this ability before, within many applications.
+But instead of calling it &ldquo;move backward through time&rdquo;, they usually shorten that to &ldquo;undo&rdquo;.</p>
+
+<p>So, no, this isn&rsquo;t a novel idea. It&rsquo;s been in your word processor for decades.
+But your filesystem is another story.
+There&rsquo;s never been an &ldquo;undo&rdquo; command for filesystems, at least not until recently, and not for unix systems.</p>
+
+<p>But why not? As we&rsquo;ve seen, the principle is simple enough.
+We want to be able to move through time, but to do that we have to remember the past.
+The tricky part, then, is choosing the heuristic for when to remember.
+In a perfect world, where storage and performance were not concerns, remembering would be a continuous activity.
+However, we do not live in that world, and so we must choose something more clever.
+This could be at marked intervals, or when certain actions are performed.
+At its simplest, though, the heuristic can be &ldquo;When I say so.&rdquo;</p>
+
+<p>To further address the issue of storage, we can do a bit better than &ldquo;When I say so, store the whole world.&rdquo;
+Couldn&rsquo;t we also say &ldquo;When I say so, store what&rsquo;s changed since the last time&rdquo;?
+Most things are more or less static, and it certainly makes more sense to focus on the things that are changing.</p>
+
+<p>Well, as it turns out (and maybe you saw this coming), git does an excellent job at all of this.
+So can we leverage Linus' hard work and build a simple wrapper on top of git? Certainly.</p>
+
+<p>Below are a few git aliases to reproduce <code>save</code>, <code>load</code>, <code>undo</code> and <code>redo</code>.
+They mostly takes advantage of git&rsquo;s <a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html">reflog</a>, and they&rsquo;re only a rough draft, but they get the job done.</p>
+
+<p>{% gist 5931500 .gitconfig %}</p>
+
+<p>Can you do better? I don&rsquo;t doubt it. Let me know!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Still Alive!]]></title>
