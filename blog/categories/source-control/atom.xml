@@ -4,7 +4,7 @@
   <title><![CDATA[Category: source control | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/source-control/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-07-04T22:56:49-05:00</updated>
+  <updated>2013-07-06T16:13:38-05:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -62,7 +62,13 @@ So can we leverage Linus' hard work and build a simple wrapper on top of git? Ce
 <p>Below are a few git aliases to reproduce <code>save</code>, <code>load</code>, <code>undo</code> and <code>redo</code>.
 They mostly takes advantage of git&rsquo;s <a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html">reflog</a>, and they&rsquo;re only a rough draft, but they get the job done.</p>
 
-<p>{% gist 5931500 .gitconfig %}</p>
+<p><div><script src='https://gist.github.com/5931500.js?file=.gitconfig'></script>
+<noscript><pre><code>[alias]
+  save = !sh -c 'git add -A . &amp;&amp; git commit -m $1' -
+  load = !sh -c 'git reset --hard $(git log -g -1 --grep &quot;$1&quot; --format=%H)' -
+  undo = reset --hard HEAD@{1}
+  redo = !sh -c 'git reflog | head -1 | grep -q &quot;reset&quot; &amp;&amp; git undo || echo &quot;cannot redo&quot;' -</code></pre></noscript></div>
+</p>
 
 <p>Can you do better? I don&rsquo;t doubt it. Let me know!</p>
 ]]></content>
