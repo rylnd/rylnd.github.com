@@ -4,7 +4,7 @@
   <title><![CDATA[Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-07-06T16:37:44-05:00</updated>
+  <updated>2013-08-11T22:24:55-07:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -15,7 +15,7 @@
   <entry>
     <title type="html"><![CDATA[On Source Control]]></title>
     <link href="http://rylnd.github.com/blog/2013/06/23/on-source-control/"/>
-    <updated>2013-06-23T20:10:00-05:00</updated>
+    <updated>2013-06-23T20:10:00-07:00</updated>
     <id>http://rylnd.github.com/blog/2013/06/23/on-source-control</id>
     <content type="html"><![CDATA[<p>I was having a conversation with a couple of friends last week.
 While neither would label himself as a professional developer, both worked with computers enough that we eventually landed on the topic of source control.</p>
@@ -76,7 +76,7 @@ They mostly takes advantage of git&rsquo;s <a href="http://gitready.com/intermed
   <entry>
     <title type="html"><![CDATA[Still Alive!]]></title>
     <link href="http://rylnd.github.com/blog/2013/06/20/still-alive/"/>
-    <updated>2013-06-20T00:02:00-05:00</updated>
+    <updated>2013-06-20T00:02:00-07:00</updated>
     <id>http://rylnd.github.com/blog/2013/06/20/still-alive</id>
     <content type="html"><![CDATA[<blockquote><p>I was doing some style work on the blog recently, and I remembered that no one will care how good the site looks if there&rsquo;s no content. I know I&rsquo;ve not posted in a while, as my main outlets have been either <a href="http://twitter.com/rylnd">twitter</a> or <a href="https://coderwall.com/rylnd">coderwall</a>, so please check those out if there&rsquo;s nothing new here. Links are at the bottom, as well.</p></blockquote>
 
@@ -95,7 +95,7 @@ They mostly takes advantage of git&rsquo;s <a href="http://gitready.com/intermed
   <entry>
     <title type="html"><![CDATA[Homebrew and Git]]></title>
     <link href="http://rylnd.github.com/blog/2013/01/17/homebrew-and-git/"/>
-    <updated>2013-01-17T19:20:00-06:00</updated>
+    <updated>2013-01-17T19:20:00-08:00</updated>
     <id>http://rylnd.github.com/blog/2013/01/17/homebrew-and-git</id>
     <content type="html"><![CDATA[<p>I recently had an issue installing git with homebrew, and want to share the solution.</p>
 
@@ -141,7 +141,7 @@ ENV['NO_PERL_MAKEMAKER'] = '1' if MacOS.version &gt;= :lion
   <entry>
     <title type="html"><![CDATA[Turnip Helpers]]></title>
     <link href="http://rylnd.github.com/blog/2012/09/14/turnip-helpers/"/>
-    <updated>2012-09-14T18:26:00-05:00</updated>
+    <updated>2012-09-14T18:26:00-07:00</updated>
     <id>http://rylnd.github.com/blog/2012/09/14/turnip-helpers</id>
     <content type="html"><![CDATA[<p>So today was a growth day for me at bendyworks. I started the day working on <a href="https://github.com/ryalnd/bendylunch">bendylunch</a>.</p>
 
@@ -158,7 +158,7 @@ ENV['NO_PERL_MAKEMAKER'] = '1' if MacOS.version &gt;= :lion
   <entry>
     <title type="html"><![CDATA[Respond With An Explanation]]></title>
     <link href="http://rylnd.github.com/blog/2012/06/24/respond-with-an-explanation/"/>
-    <updated>2012-06-24T16:52:00-05:00</updated>
+    <updated>2012-06-24T16:52:00-07:00</updated>
     <id>http://rylnd.github.com/blog/2012/06/24/respond-with-an-explanation</id>
     <content type="html"><![CDATA[<p>Hey, I wrote about some things I recently learned about Devise and Rails 3.</p>
 
@@ -169,7 +169,7 @@ ENV['NO_PERL_MAKEMAKER'] = '1' if MacOS.version &gt;= :lion
   <entry>
     <title type="html"><![CDATA[Multiple Heroku Accounts and git]]></title>
     <link href="http://rylnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
-    <updated>2012-04-27T16:49:00-05:00</updated>
+    <updated>2012-04-27T16:49:00-07:00</updated>
     <id>http://rylnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
     <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn&rsquo;t done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
 
@@ -217,7 +217,7 @@ fatal: The remote end hung up unexpectedly
   <entry>
     <title type="html"><![CDATA[Github Pages]]></title>
     <link href="http://rylnd.github.com/blog/2012/04/08/github-pages/"/>
-    <updated>2012-04-08T19:59:00-05:00</updated>
+    <updated>2012-04-08T19:59:00-07:00</updated>
     <id>http://rylnd.github.com/blog/2012/04/08/github-pages</id>
     <content type="html"><![CDATA[<p>I haven&rsquo;t posted anything in a while. I won&rsquo;t make excuses, that&rsquo;s just the way it is.</p>
 
@@ -232,7 +232,7 @@ fatal: The remote end hung up unexpectedly
   <entry>
     <title type="html"><![CDATA[Life: Upgraded.]]></title>
     <link href="http://rylnd.github.com/blog/2011/08/05/life-upgraded/"/>
-    <updated>2011-08-05T19:18:59-05:00</updated>
+    <updated>2011-08-05T17:18:59-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/08/05/life-upgraded</id>
     <content type="html"><![CDATA[<p>Hoo boy.  A lot has changed in the past few weeks.  After spending about a month looking for jobs and apartments in Milwaukee, we finally found both.  We found the perfect apartment, and I accepted a job offer for an awesome Django startup in Spreenkler&rsquo;s Accelerator program.  The day after I said yes to the job, I was approached with an offer here in Madison.  While both were amazing jobs, I ended up taking the job here in Madison as I felt it had more to offer, experientially.  Starting at the end of August, I&rsquo;ll be an official <a href="http://bendyworks.com/">Bendyworker</a>.</p>
 
@@ -251,7 +251,7 @@ fatal: The remote end hung up unexpectedly
   <entry>
     <title type="html"><![CDATA[Work vs. Not-Work]]></title>
     <link href="http://rylnd.github.com/blog/2011/07/01/work-vs-not-work/"/>
-    <updated>2011-07-01T18:58:40-05:00</updated>
+    <updated>2011-07-01T16:58:40-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/07/01/work-vs-not-work</id>
     <content type="html"><![CDATA[<p>Oh, hey there!  It&rsquo;s been so long I almost didn&rsquo;t recognize you!  Yeah, I&rsquo;ve been good.  Real busy with work, if you can call it &lsquo;work.&rsquo;  Busy regardless, though.</p>
 
@@ -277,7 +277,7 @@ fatal: The remote end hung up unexpectedly
   <entry>
     <title type="html"><![CDATA[Busyness, Business]]></title>
     <link href="http://rylnd.github.com/blog/2011/06/12/busyness-business/"/>
-    <updated>2011-06-12T14:57:23-05:00</updated>
+    <updated>2011-06-12T12:57:23-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/06/12/busyness-business</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been a while since I wrote anything, but I&rsquo;ve been really, really busy.  Most importantly:  I <strong>quit my job to work for a startup</strong>.</p>
 
@@ -316,7 +316,7 @@ It&rsquo;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Quickie]]></title>
     <link href="http://rylnd.github.com/blog/2011/05/28/quickie/"/>
-    <updated>2011-05-28T18:59:57-05:00</updated>
+    <updated>2011-05-28T16:59:57-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/05/28/quickie</id>
     <content type="html"><![CDATA[<p>Okay, I&rsquo;m really tired but I wanted to make note of a few updates.  While I&rsquo;m not naive enough to think that the built-in comment system is the reason the blog doesn&rsquo;t have any comments, I realize that that could conceivably be an issue if the site actually had readers.  With that in mind, I present the new comment system, powered by <a href="http://disqus.com">Disqus</a>!</p>
 
@@ -331,7 +331,7 @@ It&rsquo;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Much More Exciting(er)]]></title>
     <link href="http://rylnd.github.com/blog/2011/05/25/much-more-excitinger/"/>
-    <updated>2011-05-25T17:49:12-05:00</updated>
+    <updated>2011-05-25T15:49:12-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/05/25/much-more-excitinger</id>
     <content type="html"><![CDATA[<p>Oh snap.  Lots of exciting stuff happening lately.  Most publicly, I finally got some old code up on <a href="https://github.com/ryalnd">GitHub</a> a week or so ago.  &lsquo;Social Coding&rsquo; is such an amazingly cool concept, I deeply regret not participating sooner.  I literally get giddy when I load my dashboard.  It&rsquo;s probably love.  Follow me or just lurk; I&rsquo;ll be posting some more projects in the near future, and probably talking about it here.</p>
 
@@ -348,7 +348,7 @@ It&rsquo;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Quick Post]]></title>
     <link href="http://rylnd.github.com/blog/2011/05/25/quick-post/"/>
-    <updated>2011-05-25T17:23:36-05:00</updated>
+    <updated>2011-05-25T15:23:36-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/05/25/quick-post</id>
     <content type="html"><![CDATA[<p>First: I started this post on Monday, but never got around to finishing it.</p>
 
@@ -367,7 +367,7 @@ It&rsquo;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Quality Disclaimer]]></title>
     <link href="http://rylnd.github.com/blog/2011/05/09/quality-disclaimer/"/>
-    <updated>2011-05-09T16:36:29-05:00</updated>
+    <updated>2011-05-09T14:36:29-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/05/09/quality-disclaimer</id>
     <content type="html"><![CDATA[<p>In case this wasn&rsquo;t apparent, I wanted to make it explicit real quickly:  all the blog posts thus far have been written on the fly.  I&rsquo;ve not gone back and edited them in any major (or minor, for that matter) way;  I believe my stream-of-consciousness is coherent enough to follow without doing so, and I&rsquo;m not trying to win any Pulitzers here anyway.</p>
 
@@ -382,7 +382,7 @@ It&rsquo;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[My First Hackathon, Play by Play]]></title>
     <link href="http://rylnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play/"/>
-    <updated>2011-05-09T16:28:41-05:00</updated>
+    <updated>2011-05-09T14:28:41-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play</id>
     <content type="html"><![CDATA[<p>I ran into a former coworker at Noodles last week, and when I mentioned I was moving to Milwaukee and looking for a job, he suggested I take a look at <a href="http://www.spreenkler.com/">Spreenkler</a>, a startup incubator based in Milwaukee.  I did some research and found that they were putting on a 24-hour hackathon over the weekend!  Realizing that this event combined three things I desperately needed: hacking experience, job opportunities (or at least some MKE networking), and free food, I decided I simply couldn&rsquo;t pass it up.</p>
 
@@ -439,7 +439,7 @@ It&rsquo;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Instant Morale Boost]]></title>
     <link href="http://rylnd.github.com/blog/2011/04/27/instant-morale-boost/"/>
-    <updated>2011-04-27T02:26:26-05:00</updated>
+    <updated>2011-04-27T00:26:26-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/04/27/instant-morale-boost</id>
     <content type="html"><![CDATA[<p>I know I&rsquo;ve mentioned the frustration I&rsquo;ve been feeling with my work, and maybe I&rsquo;ve even hinted that, in the back of my mind, I knew I just had to persevere.   But to hear someone as well-known and respected as Ira Glass say that these feelings, this &lsquo;gap&rsquo; (see below) is commonplace and almost expected in one&rsquo;s career, was exactly what this post&rsquo;s title suggests.</p>
 
@@ -456,7 +456,7 @@ It&rsquo;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[I should probably write about something.]]></title>
     <link href="http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
-    <updated>2011-04-11T06:29:26-05:00</updated>
+    <updated>2011-04-11T04:29:26-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
     <content type="html"><![CDATA[<p>So it&rsquo;s been a bit since I&rsquo;ve posted anything.  I&rsquo;ve been pretty busy.</p>
 
@@ -507,7 +507,7 @@ It&rsquo;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[New Site, New Job]]></title>
     <link href="http://rylnd.github.com/blog/2011/03/15/new-site-new-job/"/>
-    <updated>2011-03-15T07:48:21-05:00</updated>
+    <updated>2011-03-15T05:48:21-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/03/15/new-site-new-job</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been a few weeks since I last posted.  Quite a bit&rsquo;s happened in that time.</p>
 
@@ -532,7 +532,7 @@ It&rsquo;s been quite an ordeal trying to find an organize a team (yes, even for
   <entry>
     <title type="html"><![CDATA[Project Euler: Level 2]]></title>
     <link href="http://rylnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
-    <updated>2011-02-25T20:51:27-06:00</updated>
+    <updated>2011-02-25T18:51:27-08:00</updated>
     <id>http://rylnd.github.com/blog/2011/02/25/project-euler-level-2</id>
     <content type="html"><![CDATA[<p>Spent the day attempting contact with people who didn&rsquo;t want to communicate with me.  Filed my state taxes (had done federal a week or so ago).</p>
 
@@ -633,7 +633,7 @@ print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
   <entry>
     <title type="html"><![CDATA[Feb 24, 2011]]></title>
     <link href="http://rylnd.github.com/blog/2011/02/24/feb-24-2011/"/>
-    <updated>2011-02-24T16:59:00-06:00</updated>
+    <updated>2011-02-24T14:59:00-08:00</updated>
     <id>http://rylnd.github.com/blog/2011/02/24/feb-24-2011</id>
     <content type="html"><![CDATA[<p>Haven&rsquo;t written in a while.  Things have been busy.  Not always productive, but always busy.  I just finished a few PE problems, and I&rsquo;ll talk about those in a bit, but first here&rsquo;s everything else:</p>
 

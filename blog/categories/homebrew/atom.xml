@@ -4,7 +4,7 @@
   <title><![CDATA[Category: homebrew | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/homebrew/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-07-06T16:37:44-05:00</updated>
+  <updated>2013-08-11T22:24:55-07:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Homebrew and Git]]></title>
     <link href="http://rylnd.github.com/blog/2013/01/17/homebrew-and-git/"/>
-    <updated>2013-01-17T19:20:00-06:00</updated>
+    <updated>2013-01-17T19:20:00-08:00</updated>
     <id>http://rylnd.github.com/blog/2013/01/17/homebrew-and-git</id>
     <content type="html"><![CDATA[<p>I recently had an issue installing git with homebrew, and want to share the solution.</p>
 

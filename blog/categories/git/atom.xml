@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-07-06T16:37:44-05:00</updated>
+  <updated>2013-08-11T22:24:55-07:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[On Source Control]]></title>
     <link href="http://rylnd.github.com/blog/2013/06/23/on-source-control/"/>
-    <updated>2013-06-23T20:10:00-05:00</updated>
+    <updated>2013-06-23T20:10:00-07:00</updated>
     <id>http://rylnd.github.com/blog/2013/06/23/on-source-control</id>
     <content type="html"><![CDATA[<p>I was having a conversation with a couple of friends last week.
 While neither would label himself as a professional developer, both worked with computers enough that we eventually landed on the topic of source control.</p>
@@ -77,7 +77,7 @@ They mostly takes advantage of git&rsquo;s <a href="http://gitready.com/intermed
   <entry>
     <title type="html"><![CDATA[Still Alive!]]></title>
     <link href="http://rylnd.github.com/blog/2013/06/20/still-alive/"/>
-    <updated>2013-06-20T00:02:00-05:00</updated>
+    <updated>2013-06-20T00:02:00-07:00</updated>
     <id>http://rylnd.github.com/blog/2013/06/20/still-alive</id>
     <content type="html"><![CDATA[<blockquote><p>I was doing some style work on the blog recently, and I remembered that no one will care how good the site looks if there&rsquo;s no content. I know I&rsquo;ve not posted in a while, as my main outlets have been either <a href="http://twitter.com/rylnd">twitter</a> or <a href="https://coderwall.com/rylnd">coderwall</a>, so please check those out if there&rsquo;s nothing new here. Links are at the bottom, as well.</p></blockquote>
 
@@ -96,7 +96,7 @@ They mostly takes advantage of git&rsquo;s <a href="http://gitready.com/intermed
   <entry>
     <title type="html"><![CDATA[Homebrew and Git]]></title>
     <link href="http://rylnd.github.com/blog/2013/01/17/homebrew-and-git/"/>
-    <updated>2013-01-17T19:20:00-06:00</updated>
+    <updated>2013-01-17T19:20:00-08:00</updated>
     <id>http://rylnd.github.com/blog/2013/01/17/homebrew-and-git</id>
     <content type="html"><![CDATA[<p>I recently had an issue installing git with homebrew, and want to share the solution.</p>
 
@@ -142,7 +142,7 @@ ENV['NO_PERL_MAKEMAKER'] = '1' if MacOS.version &gt;= :lion
   <entry>
     <title type="html"><![CDATA[Multiple Heroku Accounts and git]]></title>
     <link href="http://rylnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git/"/>
-    <updated>2012-04-27T16:49:00-05:00</updated>
+    <updated>2012-04-27T16:49:00-07:00</updated>
     <id>http://rylnd.github.com/blog/2012/04/27/multiple-heroku-accounts-and-git</id>
     <content type="html"><![CDATA[<p>I was recently trying to deploy a heroku instance for some testing. I hadn&rsquo;t done any work on heroku in a while, and ended up getting stuck on a credentials issue.</p>
 

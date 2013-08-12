@@ -4,7 +4,7 @@
   <title><![CDATA[Category: python | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/python/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-07-06T16:37:44-05:00</updated>
+  <updated>2013-08-11T22:24:55-07:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[New Site, New Job]]></title>
     <link href="http://rylnd.github.com/blog/2011/03/15/new-site-new-job/"/>
-    <updated>2011-03-15T07:48:21-05:00</updated>
+    <updated>2011-03-15T05:48:21-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/03/15/new-site-new-job</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been a few weeks since I last posted.  Quite a bit&rsquo;s happened in that time.</p>
 
@@ -41,7 +41,7 @@
   <entry>
     <title type="html"><![CDATA[Project Euler: Level 2]]></title>
     <link href="http://rylnd.github.com/blog/2011/02/25/project-euler-level-2/"/>
-    <updated>2011-02-25T20:51:27-06:00</updated>
+    <updated>2011-02-25T18:51:27-08:00</updated>
     <id>http://rylnd.github.com/blog/2011/02/25/project-euler-level-2</id>
     <content type="html"><![CDATA[<p>Spent the day attempting contact with people who didn&rsquo;t want to communicate with me.  Filed my state taxes (had done federal a week or so ago).</p>
 
@@ -142,7 +142,7 @@ print reduce(lambda x,y: x+y,[d.dig for d in obs])</code></pre></noscript></div>
   <entry>
     <title type="html"><![CDATA[Feb 24, 2011]]></title>
     <link href="http://rylnd.github.com/blog/2011/02/24/feb-24-2011/"/>
-    <updated>2011-02-24T16:59:00-06:00</updated>
+    <updated>2011-02-24T14:59:00-08:00</updated>
     <id>http://rylnd.github.com/blog/2011/02/24/feb-24-2011</id>
     <content type="html"><![CDATA[<p>Haven&rsquo;t written in a while.  Things have been busy.  Not always productive, but always busy.  I just finished a few PE problems, and I&rsquo;ll talk about those in a bit, but first here&rsquo;s everything else:</p>
 
@@ -210,7 +210,7 @@ print max(totals, key = lambda x: x[1] )
   <entry>
     <title type="html"><![CDATA[Math in the Cold]]></title>
     <link href="http://rylnd.github.com/blog/2011/02/10/math-in-the-cold/"/>
-    <updated>2011-02-10T18:07:51-06:00</updated>
+    <updated>2011-02-10T16:07:51-08:00</updated>
     <id>http://rylnd.github.com/blog/2011/02/10/math-in-the-cold</id>
     <content type="html"><![CDATA[<p>I wasn&rsquo;t feeling very well today, and it was super cold out, so I decided to be as productive as I possibly could at home.  This involved:</p>
 
@@ -244,7 +244,7 @@ print max(totals, key = lambda x: x[1] )
   <entry>
     <title type="html"><![CDATA[No Job, More Euler]]></title>
     <link href="http://rylnd.github.com/blog/2011/02/05/no-job-more-euler/"/>
-    <updated>2011-02-05T17:57:27-06:00</updated>
+    <updated>2011-02-05T15:57:27-08:00</updated>
     <id>http://rylnd.github.com/blog/2011/02/05/no-job-more-euler</id>
     <content type="html"><![CDATA[<p>Worked on problems <a href="http://projecteuler.net/index.php?section=problems&amp;id=23">23</a> and <a href="http://projecteuler.net/index.php?section=problems&amp;id=35">35</a> tonight.  Problem 23 was pretty straightforward, especially in Python:</p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: javascript | Ryland Herrick]]></title>
   <link href="http://rylnd.github.com/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://rylnd.github.com/"/>
-  <updated>2013-07-06T16:37:44-05:00</updated>
+  <updated>2013-08-11T22:24:55-07:00</updated>
   <id>http://rylnd.github.com/</id>
   <author>
     <name><![CDATA[Ryland Herrick]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Still Alive!]]></title>
     <link href="http://rylnd.github.com/blog/2013/06/20/still-alive/"/>
-    <updated>2013-06-20T00:02:00-05:00</updated>
+    <updated>2013-06-20T00:02:00-07:00</updated>
     <id>http://rylnd.github.com/blog/2013/06/20/still-alive</id>
     <content type="html"><![CDATA[<blockquote><p>I was doing some style work on the blog recently, and I remembered that no one will care how good the site looks if there&rsquo;s no content. I know I&rsquo;ve not posted in a while, as my main outlets have been either <a href="http://twitter.com/rylnd">twitter</a> or <a href="https://coderwall.com/rylnd">coderwall</a>, so please check those out if there&rsquo;s nothing new here. Links are at the bottom, as well.</p></blockquote>
 
@@ -35,7 +35,7 @@
   <entry>
     <title type="html"><![CDATA[My First Hackathon, Play by Play]]></title>
     <link href="http://rylnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play/"/>
-    <updated>2011-05-09T16:28:41-05:00</updated>
+    <updated>2011-05-09T14:28:41-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/05/09/my-first-hackathon-play-by-play</id>
     <content type="html"><![CDATA[<p>I ran into a former coworker at Noodles last week, and when I mentioned I was moving to Milwaukee and looking for a job, he suggested I take a look at <a href="http://www.spreenkler.com/">Spreenkler</a>, a startup incubator based in Milwaukee.  I did some research and found that they were putting on a 24-hour hackathon over the weekend!  Realizing that this event combined three things I desperately needed: hacking experience, job opportunities (or at least some MKE networking), and free food, I decided I simply couldn&rsquo;t pass it up.</p>
 
@@ -92,7 +92,7 @@
   <entry>
     <title type="html"><![CDATA[I should probably write about something.]]></title>
     <link href="http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something/"/>
-    <updated>2011-04-11T06:29:26-05:00</updated>
+    <updated>2011-04-11T04:29:26-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/04/11/i-should-probably-write-about-something</id>
     <content type="html"><![CDATA[<p>So it&rsquo;s been a bit since I&rsquo;ve posted anything.  I&rsquo;ve been pretty busy.</p>
 
@@ -143,7 +143,7 @@
   <entry>
     <title type="html"><![CDATA[New Site, New Job]]></title>
     <link href="http://rylnd.github.com/blog/2011/03/15/new-site-new-job/"/>
-    <updated>2011-03-15T07:48:21-05:00</updated>
+    <updated>2011-03-15T05:48:21-07:00</updated>
     <id>http://rylnd.github.com/blog/2011/03/15/new-site-new-job</id>
     <content type="html"><![CDATA[<p>It&rsquo;s been a few weeks since I last posted.  Quite a bit&rsquo;s happened in that time.</p>
 
@@ -168,7 +168,7 @@
   <entry>
     <title type="html"><![CDATA[No Job, More Euler]]></title>
     <link href="http://rylnd.github.com/blog/2011/02/05/no-job-more-euler/"/>
-    <updated>2011-02-05T17:57:27-06:00</updated>
+    <updated>2011-02-05T15:57:27-08:00</updated>
     <id>http://rylnd.github.com/blog/2011/02/05/no-job-more-euler</id>
     <content type="html"><![CDATA[<p>Worked on problems <a href="http://projecteuler.net/index.php?section=problems&amp;id=23">23</a> and <a href="http://projecteuler.net/index.php?section=problems&amp;id=35">35</a> tonight.  Problem 23 was pretty straightforward, especially in Python:</p>
 
